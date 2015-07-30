@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Basic Page for Math problems.
+This is a playground to render Math problems with the best look they deserve.
