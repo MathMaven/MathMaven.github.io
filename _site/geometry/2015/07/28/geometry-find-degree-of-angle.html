@@ -65,13 +65,25 @@
     </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
+    <script src="jquery-1.11.3.min.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $("solution").hide();
+        $("button").click(function(){
+          $("solution").toggle();
+        });
+      });
+</script>
 
   </header>
 
   <article class="post-content">
     <p>Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.</p>
 
-<svg width="400">
+<svg width="350">
   <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
   <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
   <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
@@ -81,11 +93,12 @@
   <text x="140" y="108" fill="red">2</text>
 </svg>
 
-<h3 id="solution">Solution</h3>
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
-<p>In the diagram, angle 2’=angle 2, and the green triangle is an isosceles right triangle, thus the desired sum of angles is 45 degrees.</p>
-
-<svg width="400" height="500">
+<solution>
+In the diagram, angle 2'=angle 2, and the green triangle is an isosceles right triangle, thus the desired sum of angles is 45 degrees.
+<br /><br />
+<svg width="350" height="300">
   <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
   <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
   <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
@@ -102,6 +115,7 @@
   <text x="140" y="108" fill="red">2</text>
   <text x="45" y="125" fill="green">2'</text>
 </svg>
+</solution>
 
 
   </article>
@@ -121,7 +135,7 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>Daily Math Questions</li>
-          <li><a href="mailto:ev3commander@gmail.com">ev3commander@gmail.com</a></li>
+          <li><a href="mailto:ev3commander@outlook.com">ev3commander@outlook.com</a></li>
         </ul>
       </div>
 

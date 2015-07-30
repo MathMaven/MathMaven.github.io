@@ -7,7 +7,7 @@ categories: Geometry
 
 Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.
 
-<svg width="400">
+<svg width="350">
   <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
   <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
   <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
@@ -18,11 +18,12 @@ Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.
 </svg>
 
 
-### Solution
+### Solution <button>Show / Hide</button>
 
+<solution>
 In the diagram, angle 2'=angle 2, and the green triangle is an isosceles right triangle, thus the desired sum of angles is 45 degrees.
-
-<svg width="400" height="500">
+<br><br>
+<svg width="350" height="300">
   <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
   <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
   <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
@@ -39,4 +40,5 @@ In the diagram, angle 2'=angle 2, and the green triangle is an isosceles right t
   <text x="140" y="108" fill="red">2</text>
   <text x="45" y="125" fill="green">2'</text>
 </svg>
+</solution>
 
