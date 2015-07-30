@@ -1,8 +1,8 @@
 # Site settings
 title: Daily Math Questions
-email: ev3commander@outlook.com
+# email: ev3commander@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the daily questions from Dr. Kevin Wang, <a href="http://www.areteem.org">Areteem Institute</a>. CopyRight 2015.
+  These are the daily questions from Dr. Kevin Wang, <a href="http://www.areteem.org">Areteem Institute</a>. CopyRight 2015.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mathmaven.github.io" # the base hostname & protocol for your site
 
