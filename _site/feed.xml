@@ -6,12 +6,79 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 17:49:37 -0700</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 17:49:37 -0700</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2015 19:17:27 -0700</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2015 19:17:27 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>20150728 - Geometry / Trigonometry</title>
+        <title>20150728 - Find angle in square</title>
+        <description>&lt;p&gt;In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of angle EAF in degress.&lt;/p&gt;
+
+&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
+  &lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
+
+  &lt;text x=&quot;4&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;214&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;text x=&quot;4&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
+  &lt;text x=&quot;214&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
+
+  &lt;text x=&quot;214&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
+  &lt;text x=&quot;70&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
+  &lt;text x=&quot;215&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
+  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
+  &lt;text x=&quot;130&quot; y=&quot;165&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
+
+
+  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;214&quot; y2=&quot;70&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;214&quot; y1=&quot;70&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+Extend line segment DC to point G, let CG = 1. 
+&lt;br /&gt;&lt;br /&gt;
+&lt;svg width=&quot;350&quot; height=&quot;250&quot;&gt;
+  &lt;rect x=&quot;65&quot; y=&quot;15&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
+
+  &lt;text x=&quot;64&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;274&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;text x=&quot;64&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
+  &lt;text x=&quot;274&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
+
+  &lt;text x=&quot;274&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
+  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
+  &lt;text x=&quot;271&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
+  &lt;text x=&quot;190&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
+  &lt;text x=&quot;185&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
+
+  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;264&quot; y2=&quot;70&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;264&quot; y1=&quot;70&quot; x2=&quot;130&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;130&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+
+  &lt;text x=&quot;1&quot; y=&quot;230&quot; fill=&quot;green&quot;&gt;G&lt;/text&gt;
+  &lt;line x1=&quot;10&quot; y1=&quot;214&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;10&quot; y1=&quot;214&quot; x2=&quot;65&quot; y2=&quot;15&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
+  
+&lt;/svg&gt;
+&lt;/solution&gt;
+
+</description>
+        <pubDate>Tue, 28 Jul 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/geometry/trigonometry/2015/07/28/find-angle.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/trigonometry/2015/07/28/find-angle.html</guid>
+        
+        
+        <category>geometry</category>
+        
+        <category>trigonometry</category>
+        
+      </item>
+    
+      <item>
+        <title>20150727 - Find sum of angles in squares</title>
         <description>&lt;p&gt;Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.&lt;/p&gt;
 
 &lt;svg width=&quot;350&quot;&gt;
@@ -49,12 +116,14 @@ In the diagram, angle 2'=angle 2, and the green triangle is an isosceles right t
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Tue, 28 Jul 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/geometry/2015/07/28/geometry-find-degree-of-angle.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/07/28/geometry-find-degree-of-angle.html</guid>
+        <pubDate>Mon, 27 Jul 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html</guid>
         
         
         <category>geometry</category>
+        
+        <category>trigonometry</category>
         
       </item>
     

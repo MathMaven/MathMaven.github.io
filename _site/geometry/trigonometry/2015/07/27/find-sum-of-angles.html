@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Daily Math Questions</title>
-  <meta name="description" content="This is the daily questions from Dr. Wang, Feng, Areteem.
-">
+  <title>20150727 - Find sum of angles in squares</title>
+  <meta name="description" content="Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Math Questions" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -55,31 +54,71 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">20150727 - Find sum of angles in squares</h1>
+    <p class="post-meta">Jul 27, 2015</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 28, 2015</span>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="jquery-1.11.3.min.js">
+    </script>
 
-        <h2>
-          <a class="post-link" href="/geometry/trigonometry/2015/07/28/find-angle.html">20150728 - Find angle in square</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 27, 2015</span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $("solution").hide();
+        $("button").click(function(){
+          $("solution").toggle();
+        });
+      });
+</script>
 
-        <h2>
-          <a class="post-link" href="/geometry/trigonometry/2015/07/27/find-sum-of-angles.html">20150727 - Find sum of angles in squares</a>
-        </h2>
-      </li>
-    
-  </ul>
+  </header>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  <article class="post-content">
+    <p>Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.</p>
+
+<svg width="350">
+  <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <line x1="10" y1="110" x2="310" y2="10" style="stroke:rgb(255,0,0);stroke-width:1" />
+  <line x1="110" y1="110" x2="310" y2="10" style="stroke:rgb(255,0,0);stroke-width:1" />
+  <text x="45" y="108" fill="red">1</text>
+  <text x="140" y="108" fill="red">2</text>
+</svg>
+
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
+
+<solution>
+In the diagram, angle 2'=angle 2, and the green triangle is an isosceles right triangle, thus the desired sum of angles is 45 degrees.
+<br /><br />
+<svg width="350" height="300">
+  <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="10" y="110" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="110" y="110" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+  <rect x="210" y="110" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1" />
+
+  <line x1="10" y1="110" x2="310" y2="10" style="stroke:rgb(255,0,0);stroke-width:1" />
+  <line x1="110" y1="110" x2="310" y2="10" style="stroke:rgb(255,0,0);stroke-width:1" />
+  <line x1="10" y1="110" x2="210" y2="210" style="stroke:rgb(0,255,0);stroke-width:1" />
+  <line x1="210" y1="210" x2="310" y2="10" style="stroke:rgb(0,255,0);stroke-width:1" />
+
+  <text x="45" y="108" fill="red">1</text>
+  <text x="140" y="108" fill="red">2</text>
+  <text x="45" y="125" fill="green">2'</text>
+</svg>
+</solution>
+
+
+  </article>
 
 </div>
 
