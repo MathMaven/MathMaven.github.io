@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Math Questions</title>
-    <description>This is the daily questions from Dr. Kevin Wang, &lt;a href=&quot;www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. CopyRight 2015.
+    <description>This is the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. CopyRight 2015.
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 21:28:29 -0700</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 21:28:29 -0700</lastBuildDate>
+    <pubDate>Thu, 30 Jul 2015 02:42:07 -0700</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2015 02:42:07 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,9 +23,9 @@
   &lt;text x=&quot;4&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
 
   &lt;text x=&quot;214&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
+  &lt;text x=&quot;120&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
   &lt;text x=&quot;215&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;90&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
+  &lt;text x=&quot;80&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
   &lt;text x=&quot;170&quot; y=&quot;165&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
 
 
@@ -47,8 +47,8 @@ Then we know $\angle$EAF = $\frac{1}{2}$*$\angle$EAG = 45&amp;deg;.
 
   &lt;text x=&quot;64&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
   &lt;text x=&quot;274&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;text x=&quot;64&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
-  &lt;text x=&quot;274&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
+  &lt;text x=&quot;274&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
+  &lt;text x=&quot;64&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
 
   &lt;text x=&quot;274&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
   &lt;text x=&quot;170&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;

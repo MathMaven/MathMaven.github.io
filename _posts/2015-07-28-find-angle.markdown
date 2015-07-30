@@ -16,9 +16,9 @@ In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4,
   <text x="4" y="222" fill="blue">D</text>
 
   <text x="214" y="70" fill="red">E</text>
-  <text x="130" y="230" fill="red">F</text>
+  <text x="120" y="230" fill="red">F</text>
   <text x="215" y="45" fill="blue">1</text>
-  <text x="90" y="230" fill="blue">3</text>
+  <text x="80" y="230" fill="blue">3</text>
   <text x="170" y="165" fill="blue">4</text>
 
 
@@ -41,8 +41,8 @@ Then we know $\angle$EAF = $\frac{1}{2}$*$\angle$EAG = 45&deg;.
 
   <text x="64" y="15" fill="blue">A</text>
   <text x="274" y="15" fill="blue">B</text>
-  <text x="64" y="230" fill="blue">C</text>
-  <text x="274" y="222" fill="blue">D</text>
+  <text x="274" y="222" fill="blue">C</text>
+  <text x="64" y="230" fill="blue">D</text>
 
   <text x="274" y="70" fill="red">E</text>
   <text x="170" y="230" fill="red">F</text>
