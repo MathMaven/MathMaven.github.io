@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Math Questions</title>
-    <description>This is the daily questions from Dr. Wang, Feng, Areteem Institute. CopyRight 2015.
+    <description>This is the daily questions from Dr. Kevin Wang, &lt;a href=&quot;www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. CopyRight 2015.
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 19:32:20 -0700</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 19:32:20 -0700</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2015 21:28:29 -0700</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2015 21:28:29 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>20150728 - Find angle in square</title>
+        <title>20150728 - Find degree of angle in square</title>
         <description>&lt;p&gt;In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of angle EAF in degress.&lt;/p&gt;
 
 &lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
@@ -19,26 +19,28 @@
 
   &lt;text x=&quot;4&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
   &lt;text x=&quot;214&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;text x=&quot;4&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
-  &lt;text x=&quot;214&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
+  &lt;text x=&quot;214&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
+  &lt;text x=&quot;4&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
 
   &lt;text x=&quot;214&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;70&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
+  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
   &lt;text x=&quot;215&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
-  &lt;text x=&quot;130&quot; y=&quot;165&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
+  &lt;text x=&quot;90&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
+  &lt;text x=&quot;170&quot; y=&quot;165&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
 
 
-  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;214&quot; y2=&quot;70&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;214&quot; y1=&quot;70&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;214&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;214&quot; y1=&quot;60&quot; x2=&quot;116&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;116&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
   
 &lt;/svg&gt;
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
 &lt;solution&gt;
-Extend line segment DC to point G, let CG = 1. 
+Extend line segment DC to point G, let CG = 1. By construction $\triangle$ABE $\equiv$ $\triangle$ACG, then line AG = AE, and EF = 4 = (GC + CF) = GF, so $\triangle$AGF $\equiv$ $\triangle$AEF. &lt;br /&gt;
+Also $\angle$BAE = $\angle$CAG, and $\angle$BAC = 90&amp;deg;, so $\angle$EAG = 90&amp;deg;. &lt;br /&gt;
+Then we know $\angle$EAF = $\frac{1}{2}$*$\angle$EAG = 45&amp;deg;.
 &lt;br /&gt;&lt;br /&gt;
 &lt;svg width=&quot;350&quot; height=&quot;250&quot;&gt;
   &lt;rect x=&quot;65&quot; y=&quot;15&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
@@ -49,14 +51,15 @@ Extend line segment DC to point G, let CG = 1.
   &lt;text x=&quot;274&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
 
   &lt;text x=&quot;274&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
+  &lt;text x=&quot;170&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
   &lt;text x=&quot;271&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;190&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
-  &lt;text x=&quot;185&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
+  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
+  &lt;text x=&quot;205&quot; y=&quot;150&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
+  &lt;text x=&quot;30&quot; y=&quot;230&quot; fill=&quot;green&quot;&gt;1&lt;/text&gt;
 
-  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;264&quot; y2=&quot;70&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;264&quot; y1=&quot;70&quot; x2=&quot;130&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;130&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;264&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;264&quot; y1=&quot;60&quot; x2=&quot;176&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;176&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
 
   &lt;text x=&quot;1&quot; y=&quot;230&quot; fill=&quot;green&quot;&gt;G&lt;/text&gt;
   &lt;line x1=&quot;10&quot; y1=&quot;214&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
@@ -81,7 +84,7 @@ Extend line segment DC to point G, let CG = 1.
         <title>20150727 - Find sum of angles in squares</title>
         <description>&lt;p&gt;Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.&lt;/p&gt;
 
-&lt;svg width=&quot;350&quot;&gt;
+&lt;svg width=&quot;350&quot; height=&quot;150&quot;&gt;
   &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
   &lt;rect x=&quot;110&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
   &lt;rect x=&quot;210&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
