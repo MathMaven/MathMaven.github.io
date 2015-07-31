@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150728 - Find degree of angle in square"
+title:  "20150728 - Find Degree of Angle in a Square"
 date:   2015-07-28 18:52:55
 categories: Geometry Trigonometry
 ---

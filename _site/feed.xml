@@ -4,10 +4,10 @@
     <title>Daily Math Challenges by Dr. Kevin Wang</title>
     <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015
 </description>
-    <link>http://mathmaven.github.io/blog//</link>
-    <atom:link href="http://mathmaven.github.io/blog//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jul 2015 20:47:20 -0700</pubDate>
-    <lastBuildDate>Thu, 30 Jul 2015 20:47:20 -0700</lastBuildDate>
+    <link>http://mathmaven.github.io/</link>
+    <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 30 Jul 2015 20:57:06 -0700</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2015 20:57:06 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -44,8 +44,8 @@ Coming soon
 
 </description>
         <pubDate>Thu, 30 Jul 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/blog//numbertheory/2015/07/30/fill-numbers-in-star.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/blog//numbertheory/2015/07/30/fill-numbers-in-star.html</guid>
+        <link>http://mathmaven.github.io/numbertheory/2015/07/30/fill-numbers-in-star.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/07/30/fill-numbers-in-star.html</guid>
         
         
         <category>numbertheory</category>
@@ -53,11 +53,11 @@ Coming soon
       </item>
     
       <item>
-        <title>20150729 - Move matches</title>
+        <title>20150729 - How Many Matches to Move</title>
         <description>&lt;p&gt;On the table, an equation is formed with matches in Roman numerals: &lt;br /&gt;&lt;br /&gt;
 XI + I = X
 &lt;br /&gt;&lt;br /&gt;
-meaning 11 + 1 = 10, which is wrong.At least how many matches should be moved to make the equation correct?&lt;/p&gt;
+meaning 11 + 1 = 10, which is wrong. At least how many matches should be moved to make the equation correct?&lt;/p&gt;
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
@@ -67,8 +67,8 @@ Zero. Go to the opposite side of the table, the equation becomes X = I + IX.
 
 </description>
         <pubDate>Wed, 29 Jul 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/blog//brainteaser/2015/07/29/move-n-match.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/blog//brainteaser/2015/07/29/move-n-match.html</guid>
+        <link>http://mathmaven.github.io/brainteaser/2015/07/29/move-n-match.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/brainteaser/2015/07/29/move-n-match.html</guid>
         
         
         <category>brainteaser</category>
@@ -76,7 +76,7 @@ Zero. Go to the opposite side of the table, the equation becomes X = I + IX.
       </item>
     
       <item>
-        <title>20150728 - Find degree of angle in square</title>
+        <title>20150728 - Find Degree of Angle in a Square</title>
         <description>&lt;p&gt;In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of angle EAF in degrees.&lt;/p&gt;
 
 &lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
@@ -135,8 +135,8 @@ Then we know $\angle$EAF = $\frac{1}{2}\angle$EAG = 45&amp;deg;.
 
 </description>
         <pubDate>Tue, 28 Jul 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/blog//geometry/trigonometry/2015/07/28/find-angle.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/blog//geometry/trigonometry/2015/07/28/find-angle.html</guid>
+        <link>http://mathmaven.github.io/geometry/trigonometry/2015/07/28/find-angle.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/trigonometry/2015/07/28/find-angle.html</guid>
         
         
         <category>geometry</category>
@@ -146,7 +146,7 @@ Then we know $\angle$EAF = $\frac{1}{2}\angle$EAG = 45&amp;deg;.
       </item>
     
       <item>
-        <title>20150727 - Find sum of angles in squares</title>
+        <title>20150727 - Find Sum of Angles in Squares</title>
         <description>&lt;p&gt;Three squares are drawn below. Find the sum of angle 1 and angle 2 in degrees.&lt;/p&gt;
 
 &lt;svg width=&quot;350&quot; height=&quot;150&quot;&gt;
@@ -185,8 +185,8 @@ In the diagram, angle 2'=angle 2, and the green triangle is an isosceles right t
 
 </description>
         <pubDate>Mon, 27 Jul 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/blog//geometry/trigonometry/2015/07/27/find-sum-of-angles.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/blog//geometry/trigonometry/2015/07/27/find-sum-of-angles.html</guid>
+        <link>http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html</guid>
         
         
         <category>geometry</category>

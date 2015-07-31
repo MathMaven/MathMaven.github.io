@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150727 - Find sum of angles in squares"
+title:  "20150727 - Find Sum of Angles in Squares"
 date:   2015-07-27 18:52:55
 categories: Geometry Trigonometry
 ---
