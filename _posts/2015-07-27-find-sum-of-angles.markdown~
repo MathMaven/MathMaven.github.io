@@ -7,7 +7,7 @@ categories: Geometry Trigonometry
 
 Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.
 
-<svg width="350">
+<svg width="350" height="150">
   <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
   <rect x="110" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
   <rect x="210" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>

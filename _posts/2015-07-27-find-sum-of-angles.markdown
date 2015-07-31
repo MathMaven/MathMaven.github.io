@@ -5,7 +5,7 @@ date:   2015-07-27 18:52:55
 categories: Geometry Trigonometry
 ---
 
-Three squares are drawn below. Find the sum of angle 1 and angle 2 in degress.
+Three squares are drawn below. Find the sum of angle 1 and angle 2 in degrees.
 
 <svg width="350" height="150">
   <rect x="10" y="10" width="100" height="100" style="fill:none;stroke:blue;stroke-width:1"/>
