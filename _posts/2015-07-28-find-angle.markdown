@@ -5,7 +5,7 @@ date:   2015-07-28 18:52:55
 categories: Geometry Trigonometry
 ---
 
-In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of angle EAF in degrees.
+In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of $\angle$EAF in degrees.
 
 <svg width="250" height="250">
   <rect x="15" y="15" width="200" height="200" style="fill:none;stroke:blue;stroke-width:1"/>

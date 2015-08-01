@@ -5,7 +5,7 @@ date:   2015-07-31 18:52:55
 categories: Geometry Circle
 ---
 
-In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45 degrees, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees.
+In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45&deg;, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees.
 
 <svg width="250" height="250" style="stroke:rgb(0,0,255);stroke-width:1">
 
