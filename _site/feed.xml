@@ -6,8 +6,8 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Aug 2015 07:20:31 -0700</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2015 07:20:31 -0700</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2015 15:28:01 -0700</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2015 15:28:01 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,7 +35,7 @@
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
 &lt;solution&gt;
-First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\simeq \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&amp;deg;, $\angle$ACO = 45&amp;deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&amp;deg;, and $\angle$ACD = 60&amp;deg; - 45&amp;deg; = 15&amp;deg;. &lt;br /&gt;&lt;br /&gt;
+First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\sim \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&amp;deg;, $\angle$ACO = 45&amp;deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&amp;deg;, and $\angle$ACD = 60&amp;deg; - 45&amp;deg; = 15&amp;deg;. &lt;br /&gt;&lt;br /&gt;
 
 &lt;svg width=&quot;250&quot; height=&quot;250&quot; style=&quot;stroke:blue;stroke-width:1&quot;&gt;
 

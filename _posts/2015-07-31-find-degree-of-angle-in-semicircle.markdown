@@ -29,7 +29,7 @@ In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45&de
 ### Solution <button>Show / Hide</button>
 
 <solution>
-First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\simeq \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&deg;, $\angle$ACO = 45&deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&deg;, and $\angle$ACD = 60&deg; - 45&deg; = 15&deg;. <br><br>
+First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\sim \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&deg;, $\angle$ACO = 45&deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&deg;, and $\angle$ACD = 60&deg; - 45&deg; = 15&deg;. <br><br>
 
 <svg width="250" height="250" style="stroke:blue;stroke-width:1">
 
