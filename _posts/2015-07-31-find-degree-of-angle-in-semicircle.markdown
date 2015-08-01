@@ -9,7 +9,7 @@ In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45&de
 
 <svg width="250" height="250" style="stroke:rgb(0,0,255);stroke-width:1">
 
-  <path d="M180,180 a90,90 0 1,0 -80,0" fill="none" />
+  <path d="M50,100 A90,90 0 1,1 230,100" fill="none" />
 
   <line x1="50" y1="100" x2="230" y2="100" style="stroke:rgb(0,0,255);stroke-width:1"/>
   <line x1="50" y1="100" x2="140" y2="10" style="stroke:rgb(0,0,255);stroke-width:1"/>
