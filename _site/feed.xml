@@ -6,8 +6,8 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Aug 2015 13:28:56 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Aug 2015 13:28:56 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Aug 2015 13:33:54 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2015 13:33:54 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -25,6 +25,7 @@
 &lt;text x=&quot;210&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;6&lt;/text&gt;
 
 &lt;/svg&gt;
+&lt;p&gt;A “magic square” is an arrangement of numbers in a square grid such that the sum of numbers in each row, each column, and each of the two main diagonals is the same. This sum is called the “magic sum”. According to ancient Chinese legend, the Scroll of River Luo contained an image of a 3x3 magic square (as shown), whose magic sum is 15. Is it possible to make a 3x3 magic square whose magic sum equals 2015?&lt;/p&gt;
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
@@ -67,7 +68,7 @@ Coming soon
       </item>
     
       <item>
-        <title>20150731- Find Degree of Angle in Semicircle</title>
+        <title>20150803 - 4 Dimensional Hypercube</title>
         <description>&lt;p&gt;A two dimensional square has 4 vertices and 4 sides, with a sum 8. A three dimensional cube has 8 vertices, 12 edges, and 6 faces, with a sum 26. Imagine a four dimensional hypercube: what is the sum of the numbers of its vertices, edges, 2d faces, and 3d hyperfaces? What is the pattern?&lt;/p&gt;
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
@@ -77,9 +78,9 @@ Coming soon!
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Fri, 31 Jul 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/numbertheory/2015/07/31/four-dimensional-hypercube.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/07/31/four-dimensional-hypercube.html</guid>
+        <pubDate>Mon, 03 Aug 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/numbertheory/2015/08/03/four-dimensional-hypercube.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/03/four-dimensional-hypercube.html</guid>
         
         
         <category>numbertheory</category>
