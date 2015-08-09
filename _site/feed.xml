@@ -6,8 +6,8 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Aug 2015 13:33:54 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Aug 2015 13:33:54 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Aug 2015 13:43:47 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2015 13:43:47 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -61,6 +61,30 @@ Coming soon
         <pubDate>Thu, 06 Aug 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150804- Find All Integer Solutions for Equations</title>
+        <description>&lt;p&gt;$36((xy+1)z+x) = 475(yz+1)$ 
+&lt;br /&gt;
+Find all integer solutions to the equation above.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon
+
+&lt;/solution&gt;
+
+</description>
+        <pubDate>Tue, 04 Aug 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/numbertheory/2015/08/04/find-integer-x-y-z.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/04/find-integer-x-y-z.html</guid>
         
         
         <category>numbertheory</category>
