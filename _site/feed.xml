@@ -6,9 +6,65 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Aug 2015 15:28:01 -0700</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2015 15:28:01 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Aug 2015 13:17:16 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2015 13:17:16 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>20150807- Magic Square With Sum equals 2015</title>
+        <description>&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
+  &lt;rect x=&quot;2&quot; y=&quot;2&quot; width=&quot;248&quot; height=&quot;248&quot; rx=&quot;20&quot; ry=&quot;20&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
+&lt;text x=&quot;10&quot; y=&quot;50&quot; style=&quot;font-size:50px;&quot;&gt;4&lt;/text&gt;
+&lt;text x=&quot;210&quot; y=&quot;50&quot; style=&quot;font-size:50px;&quot;&gt;2&lt;/text&gt;
+&lt;text x=&quot;110&quot; y=&quot;50&quot; style=&quot;font-size:50px;&quot;&gt;9&lt;/text&gt;
+&lt;text x=&quot;10&quot; y=&quot;140&quot; style=&quot;font-size:50px;&quot;&gt;3&lt;/text&gt;
+&lt;text x=&quot;110&quot; y=&quot;140&quot; style=&quot;font-size:50px;&quot;&gt;5&lt;/text&gt;
+&lt;text x=&quot;210&quot; y=&quot;140&quot; style=&quot;font-size:50px;&quot;&gt;7&lt;/text&gt;
+&lt;text x=&quot;10&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;8&lt;/text&gt;
+&lt;text x=&quot;110&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;1&lt;/text&gt;
+&lt;text x=&quot;210&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;6&lt;/text&gt;
+
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon
+
+&lt;/solution&gt;
+
+</description>
+        <pubDate>Fri, 07 Aug 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150806- Find all the possible last weights</title>
+        <description>&lt;p&gt;Given a standard balance and weights of 1g, 2g, ……Ng, one of each. Place the weights on the two pans of the balance, so that the right side is heavier than the left side. Take one weight away from the right side, then the left side becomes heavier. Then take another weight away from the left side and the right side is heavier again. Keep going such that at each step one weight is taken from the heavier side and the balance reverses, equality never occurring, until only one weight remains. Find all possible weights that can be the last one. If necessary, express in terms of N.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon
+
+&lt;/solution&gt;
+
+</description>
+        <pubDate>Thu, 06 Aug 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
     
       <item>
         <title>20150731- Find Degree of Angle in Semicircle</title>
