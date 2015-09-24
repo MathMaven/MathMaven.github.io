@@ -10,7 +10,7 @@ New members, please do the following:
 
 4. Look at Github's Guide for markdown: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
-5. Check the WeChat for "Daily Math Challenge" problems by Dr. Wang. Pick one day that has not been done yet.
+5. Check the WeChat for "Daily Math Challenge" problems by Dr. Wang. Pick one day that has not been done yet. Tell people the date you are working on Gitter / WeChat.
 
 6. Go to Codepen.io, fork off this pen: http://codepen.io/hq-z/pen/EVgwPG
 * Add your name to the top as the Author
