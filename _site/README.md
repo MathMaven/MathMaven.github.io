@@ -12,7 +12,7 @@ New members, please do the following:
 
 5. Check the WeChat for "Daily Math Challenge" problems by Dr. Wang. Pick one day that has not been done yet. Tell people the date you are working on Gitter / WeChat.
 
-6. Go to Codepen.io, fork off this pen: http://codepen.io/hq-z/pen/EVgwPG
+6. Go to Codepen.io, use your GitHub account to log in. Fork off this pen: http://codepen.io/hq-z/pen/EVgwPG
 * Add your name to the top as the Author
 * Leave CSS and JS as is
 * Modify the HTML (You may use Markdown or HTML) potion, to add the Question part and Solution part. Note: don't change the "Show" Button.
