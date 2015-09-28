@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150731- Find Degree of Angle in Semicircle</title>
-  <meta name="description" content="In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45°, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees. O is the ...">
+  <title>20150918 - Find how many apples</title>
+  <meta name="description" content="Ming went to the Farmer’s Market to sell apples. The first buyer bought half of Ming’s apples plus half an apple; the second buyer bought 1/3 of the remainin...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html">
+  <link rel="canonical" href="http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Math Challenges by Dr. Kevin Wang" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -57,8 +57,8 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">20150731- Find Degree of Angle in Semicircle</h1>
-    <p class="post-meta">Jul 31, 2015</p>
+    <h1 class="post-title">20150918 - Find how many apples</h1>
+    <p class="post-meta">Sep 18, 2015</p>
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -83,52 +83,18 @@
   </header>
 
   <article class="post-content">
-    <p>In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45°, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees. O is the center of the circle.</p>
+    <p>Ming went to the Farmer’s Market to sell apples. The first buyer bought half of Ming’s apples plus half an apple; the second buyer bought 1/3 of the remaining apples plus 1/3 of an apple; the third buyer bought 1/4 of the then remaining apples plus 1/4 of an apple. All apples were sold in whole without being cut. At the end Ming had 2 apples left. How many apples did Ming have at the beginning?</p>
 
-<svg width="250" height="250" style="stroke:blue;stroke-width:1">
-
-  <path d="M50,100 A90,90 0 1,1 230,100" fill="none" />
-
-  <line x1="50" y1="100" x2="230" y2="100" style="stroke:blue;stroke-width:1" />
-  <line x1="50" y1="100" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="100" y2="50" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-
-  <text x="35" y="110" fill="blue">A</text>
-  <text x="240" y="110" fill="blue">B</text>
-  <text x="140" y="12" fill="blue">C</text>
-  <text x="50" y="50" fill="blue">D</text>
-  <text x="120" y="50" fill="blue">E</text>
-  <text x="135" y="115" fill="blue">O</text>
-  <text x="120" y="28" fill="none" style="stroke:red; font-size: 12px;">?</text>
-</svg>
-
-<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
+<h3 id="solution-buttonshowhidebutton">Solution <button>Show/Hide</button></h3>
 
 <solution>
-First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\sim \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&deg;, $\angle$ACO = 45&deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&deg;, and $\angle$ACD = 60&deg; - 45&deg; = 15&deg;. <br /><br />
+$$ x-(x/2+1/2)=y $$
 
-<svg width="250" height="250" style="stroke:blue;stroke-width:1">
+$$  y-(y/3+1/3)=z $$ 
 
-  <path d="M50,100 A90,90 0 1,1 230,100" fill="none" />
+$$  z-(z/4+1/4)=2 $$ 
 
-  <line x1="50" y1="100" x2="230" y2="100" style="stroke:blue;stroke-width:1" />
-  <line x1="50" y1="100" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="100" y2="50" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-  <line x1="140" y1="100" x2="140" y2="10" style="stroke:green;stroke-width:1" />
-  <line x1="140" y1="100" x2="65" y2="50" style="stroke:green;stroke-width:1" />
-  <line x1="140" y1="50" x2="100" y2="50" style="stroke:green;stroke-width:1" />
-
-  <text x="35" y="110" fill="blue">A</text>
-  <text x="240" y="110" fill="blue">B</text>
-  <text x="140" y="12" fill="blue">C</text>
-  <text x="50" y="50" fill="blue">D</text>
-  <text x="120" y="50" fill="blue">E</text>
-  <text x="150" y="50" fill="blue">M</text>
-  <text x="135" y="115" fill="blue">O</text>
-</svg>
-
+$$  z=3, y=5, x=11 $$ 
 </solution>
 
 
