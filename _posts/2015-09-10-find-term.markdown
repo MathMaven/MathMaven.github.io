@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "20150910 - Find term"
+date:   2015-09-10 17:42:27
+categories: NumberTheory 
+---
+Find the 2015th term in the sequence 1,2,2,3,3,3,4,4,4,4,5,……
+
+### Solution <button>Show/Hide</button>
+
+<solution>
+We notice that the formula $n(n+1)/2$ can come in handy for this question because we are dealing with the sum of numbers. We see that the last 1, 2, 3, and 4 are at the 1, 3, 6, and 10 rescpectively. 1, 3, 6, 10 are also the numbers in which 1+2+... +n, in which n is the number, (1,2,3,4,...) We can see that 63*64/2=2016, meaning that the 2016th position is the last number in the sequence of 63. Therefore, the 2015th term is 63.
+</solution>
+
