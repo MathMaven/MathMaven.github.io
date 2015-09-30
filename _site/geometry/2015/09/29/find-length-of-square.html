@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>20150929 - Find the length of square</title>
+  <meta name="description" content="Areteem魔法学园每日一题2015年9月29日在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respective...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html">
+  <link rel="alternate" type="application/rss+xml" title="Daily Math Challenges by Dr. Kevin Wang" href="http://mathmaven.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Daily Math Challenges by Dr. Kevin Wang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">20150929 - Find the length of square</h1>
+    <p class="post-meta">Sep 29, 2015</p>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="jquery-1.11.3.min.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $("solution").hide();
+        $("button").click(function(){
+          $("solution").toggle();
+        });
+      });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+
+  </header>
+
+  <article class="post-content">
+    <p>Areteem魔法学园每日一题2015年9月29日<br />
+在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。<br />
+In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.</p>
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="100mm" height="100mm" viewbox="0 0 354.33071 354.33071" id="svg3522" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="20150929d.svg">
+  <defs id="defs3524" />
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1" inkscape:cx="-0.71428571" inkscape:cy="196.6255" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" showborder="true" inkscape:window-width="1600" inkscape:window-height="823" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" />
+  <metadata id="metadata3527">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-698.0315)">
+    <rect style="fill:#d38d5f" id="rect3552" width="299" height="295" x="29" y="727.36224" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 326,1018.3622 C 30,728.36222 30,728.36222 30,728.36222 l -3,-2 0,0 0,0" id="path3554" inkscape:connector-curvature="0" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 28,1019.3622 C 325,867.36222 325,867.36222 325,867.36222 l -1,1" id="path3556" inkscape:connector-curvature="0" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 186,936.36222 c -158,-209 -157,-209 -157,-209" id="path3558" inkscape:connector-curvature="0" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 326,1019.3622 C 113,840.36222 113,840.36222 113,840.36222" id="path3560" inkscape:connector-curvature="0" />
+    <path style="fill:#00ff00" d="M 164.07077,184.06872 114.95583,142.73383 77.747264,93.126353 C 57.282555,65.842246 40.713745,43.343842 40.927685,43.129902 c 0.213941,-0.213941 39.959518,38.341057 88.323505,85.677768 48.36398,47.33672 89.23591,87.33873 90.8265,88.89336 l 2.89198,2.8266 -4.89198,2.43799 -4.89198,2.43799 -49.11494,-41.33489 z" id="path3562" inkscape:connector-curvature="0" transform="translate(0,698.0315)" />
+    <path style="fill:#00ff00" d="" id="path3564" inkscape:connector-curvature="0" transform="translate(0,698.0315)" />
+    <path style="fill:#00ff00" d="m 258.71152,263.69705 c -23.36081,-19.71037 -42.60486,-36.22901 -42.76456,-36.7081 -0.15969,-0.47909 1.65054,-1.81403 4.02274,-2.96653 l 4.31309,-2.09546 39.45146,38.83798 c 21.69831,21.36089 39.00146,38.8225 38.45146,38.80356 -0.55,-0.0189 -20.11338,-16.16109 -43.47419,-35.87145 z" id="path3566" inkscape:connector-curvature="0" transform="translate(0,698.0315)" />
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="16" y="722.36224" id="text3568" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3570" x="16" y="722.36224">D</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="328" y="716.36224" id="text3572" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3574" x="328" y="716.36224" /></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="330" y="723.36224" id="text3576" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3578" x="330" y="723.36224">C</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="19" y="1035.3622" id="text3580" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3582" x="19" y="1035.3622">A</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="331" y="1022.3622" id="text3584" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3586" x="331" y="1022.3622" /></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="334" y="1032.3622" id="text3588" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3590" x="334" y="1032.3622">B</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="339" y="862.36224" id="text3592" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3594" x="339" y="862.36224">E</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="189" y="957.36224" id="text3596" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3598" x="189" y="957.36224">F</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="87" y="840.36224" id="text3600" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3602" x="87" y="840.36224">G</tspan></text>
+  </g>
+</svg>
+
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
+
+<solution>
+         AH=HD , so area:   $\triangle$AHB = $\triangle$HDB <br />
+         HF=FB , so area:   $\triangle$HDF = $\triangle$DFB <br />
+         DG=GF , so area:   $\triangle$DGB = $\triangle$GFB <br />
+        So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 <br />    
+
+         AB=4
+<br /><br />
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="100mm" height="100mm" viewbox="0 0 354.33071 354.33071" id="svg3522" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="20150929d_s.svg">
+  <defs id="defs3524" />
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1" inkscape:cx="-88.838583" inkscape:cy="196.6255" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" showborder="true" inkscape:window-width="1600" inkscape:window-height="823" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" />
+  <metadata id="metadata3527">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-698.0315)">
+    <rect style="fill:#d38d5f" id="rect3552" width="299" height="295" x="29" y="727.36224" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 326,1018.3622 C 30,728.36222 30,728.36222 30,728.36222 l -3,-2 0,0 0,0" id="path3554" inkscape:connector-curvature="0" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 28,1019.3622 C 325,867.36222 325,867.36222 325,867.36222 l -1,1" id="path3556" inkscape:connector-curvature="0" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 186,936.36222 c -158,-209 -157,-209 -157,-209" id="path3558" inkscape:connector-curvature="0" />
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 326,1019.3622 C 113,840.36222 113,840.36222 113,840.36222" id="path3560" inkscape:connector-curvature="0" />
+    <path style="fill:#00ff00" d="M 164.07077,184.06872 114.95583,142.73383 77.747264,93.126353 C 57.282555,65.842246 40.713745,43.343842 40.927685,43.129902 c 0.213941,-0.213941 39.959518,38.341057 88.323505,85.677768 48.36398,47.33672 89.23591,87.33873 90.8265,88.89336 l 2.89198,2.8266 -4.89198,2.43799 -4.89198,2.43799 -49.11494,-41.33489 z" id="path3562" inkscape:connector-curvature="0" transform="translate(0,698.0315)" />
+    <path style="fill:#00ff00" d="" id="path3564" inkscape:connector-curvature="0" transform="translate(0,698.0315)" />
+    <path style="fill:#00ff00" d="m 258.71152,263.69705 c -23.36081,-19.71037 -42.60486,-36.22901 -42.76456,-36.7081 -0.15969,-0.47909 1.65054,-1.81403 4.02274,-2.96653 l 4.31309,-2.09546 39.45146,38.83798 c 21.69831,21.36089 39.00146,38.8225 38.45146,38.80356 -0.55,-0.0189 -20.11338,-16.16109 -43.47419,-35.87145 z" id="path3566" inkscape:connector-curvature="0" transform="translate(0,698.0315)" />
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="16" y="722.36224" id="text3568" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3570" x="16" y="722.36224">D</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="328" y="716.36224" id="text3572" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3574" x="328" y="716.36224" /></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="330" y="723.36224" id="text3576" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3578" x="330" y="723.36224">C</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="19" y="1035.3622" id="text3580" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3582" x="19" y="1035.3622">A</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="331" y="1022.3622" id="text3584" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3586" x="331" y="1022.3622" /></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="334" y="1032.3622" id="text3588" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3590" x="334" y="1032.3622">B</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="339" y="862.36224" id="text3592" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3594" x="339" y="862.36224">E</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="189" y="957.36224" id="text3596" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3598" x="189" y="957.36224">F</tspan></text>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="87" y="840.36224" id="text3600" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3602" x="87" y="840.36224">G</tspan></text>
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 327,1020.3622 C 29,856.36221 29,856.36221 29,856.36221" id="path3647" inkscape:connector-curvature="0" />
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="9" y="856.36218" id="text3649" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan3651" x="9" y="856.36218">H</tspan></text>
+  </g>
+</svg>
+</solution>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Daily Math Challenges by Dr. Kevin Wang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Daily Math Challenges by Dr. Kevin Wang</li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ev3commander">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">ev3commander</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">These are the daily questions from Dr. Kevin Wang, <a href="http://www.areteem.org">Areteem Institute</a>. &copy; Copyright 2015
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

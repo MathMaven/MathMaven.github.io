@@ -6,9 +6,103 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Sep 2015 21:06:38 -0400</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2015 21:06:38 -0400</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2015 15:37:54 -0400</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2015 15:37:54 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>20150929 - Find the length of square</title>
+        <description>&lt;p&gt;Areteem魔法学园每日一题2015年9月29日&lt;br /&gt;
+在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。&lt;br /&gt;
+In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.&lt;/p&gt;
+
+&lt;svg xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; width=&quot;100mm&quot; height=&quot;100mm&quot; viewbox=&quot;0 0 354.33071 354.33071&quot; id=&quot;svg3522&quot; version=&quot;1.1&quot; inkscape:version=&quot;0.91 r13725&quot; sodipodi:docname=&quot;20150929d.svg&quot;&gt;
+  &lt;defs id=&quot;defs3524&quot; /&gt;
+  &lt;sodipodi:namedview id=&quot;base&quot; pagecolor=&quot;#ffffff&quot; bordercolor=&quot;#666666&quot; borderopacity=&quot;1.0&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:pageshadow=&quot;2&quot; inkscape:zoom=&quot;1&quot; inkscape:cx=&quot;-0.71428571&quot; inkscape:cy=&quot;196.6255&quot; inkscape:document-units=&quot;px&quot; inkscape:current-layer=&quot;layer1&quot; showgrid=&quot;false&quot; showborder=&quot;true&quot; inkscape:window-width=&quot;1600&quot; inkscape:window-height=&quot;823&quot; inkscape:window-x=&quot;-9&quot; inkscape:window-y=&quot;-9&quot; inkscape:window-maximized=&quot;1&quot; /&gt;
+  &lt;metadata id=&quot;metadata3527&quot;&gt;
+    &lt;rdf:rdf&gt;
+      &lt;cc:work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot; /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:work&gt;
+    &lt;/rdf:rdf&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:label=&quot;Layer 1&quot; inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(0,-698.0315)&quot;&gt;
+    &lt;rect style=&quot;fill:#d38d5f&quot; id=&quot;rect3552&quot; width=&quot;299&quot; height=&quot;295&quot; x=&quot;29&quot; y=&quot;727.36224&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 326,1018.3622 C 30,728.36222 30,728.36222 30,728.36222 l -3,-2 0,0 0,0&quot; id=&quot;path3554&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 28,1019.3622 C 325,867.36222 325,867.36222 325,867.36222 l -1,1&quot; id=&quot;path3556&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;m 186,936.36222 c -158,-209 -157,-209 -157,-209&quot; id=&quot;path3558&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 326,1019.3622 C 113,840.36222 113,840.36222 113,840.36222&quot; id=&quot;path3560&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:#00ff00&quot; d=&quot;M 164.07077,184.06872 114.95583,142.73383 77.747264,93.126353 C 57.282555,65.842246 40.713745,43.343842 40.927685,43.129902 c 0.213941,-0.213941 39.959518,38.341057 88.323505,85.677768 48.36398,47.33672 89.23591,87.33873 90.8265,88.89336 l 2.89198,2.8266 -4.89198,2.43799 -4.89198,2.43799 -49.11494,-41.33489 z&quot; id=&quot;path3562&quot; inkscape:connector-curvature=&quot;0&quot; transform=&quot;translate(0,698.0315)&quot; /&gt;
+    &lt;path style=&quot;fill:#00ff00&quot; d=&quot;&quot; id=&quot;path3564&quot; inkscape:connector-curvature=&quot;0&quot; transform=&quot;translate(0,698.0315)&quot; /&gt;
+    &lt;path style=&quot;fill:#00ff00&quot; d=&quot;m 258.71152,263.69705 c -23.36081,-19.71037 -42.60486,-36.22901 -42.76456,-36.7081 -0.15969,-0.47909 1.65054,-1.81403 4.02274,-2.96653 l 4.31309,-2.09546 39.45146,38.83798 c 21.69831,21.36089 39.00146,38.8225 38.45146,38.80356 -0.55,-0.0189 -20.11338,-16.16109 -43.47419,-35.87145 z&quot; id=&quot;path3566&quot; inkscape:connector-curvature=&quot;0&quot; transform=&quot;translate(0,698.0315)&quot; /&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;16&quot; y=&quot;722.36224&quot; id=&quot;text3568&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3570&quot; x=&quot;16&quot; y=&quot;722.36224&quot;&gt;D&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;328&quot; y=&quot;716.36224&quot; id=&quot;text3572&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3574&quot; x=&quot;328&quot; y=&quot;716.36224&quot; /&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;330&quot; y=&quot;723.36224&quot; id=&quot;text3576&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3578&quot; x=&quot;330&quot; y=&quot;723.36224&quot;&gt;C&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;19&quot; y=&quot;1035.3622&quot; id=&quot;text3580&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3582&quot; x=&quot;19&quot; y=&quot;1035.3622&quot;&gt;A&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;331&quot; y=&quot;1022.3622&quot; id=&quot;text3584&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3586&quot; x=&quot;331&quot; y=&quot;1022.3622&quot; /&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;334&quot; y=&quot;1032.3622&quot; id=&quot;text3588&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3590&quot; x=&quot;334&quot; y=&quot;1032.3622&quot;&gt;B&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;339&quot; y=&quot;862.36224&quot; id=&quot;text3592&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3594&quot; x=&quot;339&quot; y=&quot;862.36224&quot;&gt;E&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;189&quot; y=&quot;957.36224&quot; id=&quot;text3596&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3598&quot; x=&quot;189&quot; y=&quot;957.36224&quot;&gt;F&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;87&quot; y=&quot;840.36224&quot; id=&quot;text3600&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3602&quot; x=&quot;87&quot; y=&quot;840.36224&quot;&gt;G&lt;/tspan&gt;&lt;/text&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         AH=HD , so area:   $\triangle$AHB = $\triangle$HDB &lt;br /&gt;
+         HF=FB , so area:   $\triangle$HDF = $\triangle$DFB &lt;br /&gt;
+         DG=GF , so area:   $\triangle$DGB = $\triangle$GFB &lt;br /&gt;
+        So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 &lt;br /&gt;    
+
+         AB=4
+&lt;br /&gt;&lt;br /&gt;
+&lt;svg xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; width=&quot;100mm&quot; height=&quot;100mm&quot; viewbox=&quot;0 0 354.33071 354.33071&quot; id=&quot;svg3522&quot; version=&quot;1.1&quot; inkscape:version=&quot;0.91 r13725&quot; sodipodi:docname=&quot;20150929d_s.svg&quot;&gt;
+  &lt;defs id=&quot;defs3524&quot; /&gt;
+  &lt;sodipodi:namedview id=&quot;base&quot; pagecolor=&quot;#ffffff&quot; bordercolor=&quot;#666666&quot; borderopacity=&quot;1.0&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:pageshadow=&quot;2&quot; inkscape:zoom=&quot;1&quot; inkscape:cx=&quot;-88.838583&quot; inkscape:cy=&quot;196.6255&quot; inkscape:document-units=&quot;px&quot; inkscape:current-layer=&quot;layer1&quot; showgrid=&quot;false&quot; showborder=&quot;true&quot; inkscape:window-width=&quot;1600&quot; inkscape:window-height=&quot;823&quot; inkscape:window-x=&quot;-9&quot; inkscape:window-y=&quot;-9&quot; inkscape:window-maximized=&quot;1&quot; /&gt;
+  &lt;metadata id=&quot;metadata3527&quot;&gt;
+    &lt;rdf:rdf&gt;
+      &lt;cc:work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot; /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:work&gt;
+    &lt;/rdf:rdf&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:label=&quot;Layer 1&quot; inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(0,-698.0315)&quot;&gt;
+    &lt;rect style=&quot;fill:#d38d5f&quot; id=&quot;rect3552&quot; width=&quot;299&quot; height=&quot;295&quot; x=&quot;29&quot; y=&quot;727.36224&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 326,1018.3622 C 30,728.36222 30,728.36222 30,728.36222 l -3,-2 0,0 0,0&quot; id=&quot;path3554&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 28,1019.3622 C 325,867.36222 325,867.36222 325,867.36222 l -1,1&quot; id=&quot;path3556&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;m 186,936.36222 c -158,-209 -157,-209 -157,-209&quot; id=&quot;path3558&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 326,1019.3622 C 113,840.36222 113,840.36222 113,840.36222&quot; id=&quot;path3560&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;path style=&quot;fill:#00ff00&quot; d=&quot;M 164.07077,184.06872 114.95583,142.73383 77.747264,93.126353 C 57.282555,65.842246 40.713745,43.343842 40.927685,43.129902 c 0.213941,-0.213941 39.959518,38.341057 88.323505,85.677768 48.36398,47.33672 89.23591,87.33873 90.8265,88.89336 l 2.89198,2.8266 -4.89198,2.43799 -4.89198,2.43799 -49.11494,-41.33489 z&quot; id=&quot;path3562&quot; inkscape:connector-curvature=&quot;0&quot; transform=&quot;translate(0,698.0315)&quot; /&gt;
+    &lt;path style=&quot;fill:#00ff00&quot; d=&quot;&quot; id=&quot;path3564&quot; inkscape:connector-curvature=&quot;0&quot; transform=&quot;translate(0,698.0315)&quot; /&gt;
+    &lt;path style=&quot;fill:#00ff00&quot; d=&quot;m 258.71152,263.69705 c -23.36081,-19.71037 -42.60486,-36.22901 -42.76456,-36.7081 -0.15969,-0.47909 1.65054,-1.81403 4.02274,-2.96653 l 4.31309,-2.09546 39.45146,38.83798 c 21.69831,21.36089 39.00146,38.8225 38.45146,38.80356 -0.55,-0.0189 -20.11338,-16.16109 -43.47419,-35.87145 z&quot; id=&quot;path3566&quot; inkscape:connector-curvature=&quot;0&quot; transform=&quot;translate(0,698.0315)&quot; /&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;16&quot; y=&quot;722.36224&quot; id=&quot;text3568&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3570&quot; x=&quot;16&quot; y=&quot;722.36224&quot;&gt;D&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;328&quot; y=&quot;716.36224&quot; id=&quot;text3572&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3574&quot; x=&quot;328&quot; y=&quot;716.36224&quot; /&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;330&quot; y=&quot;723.36224&quot; id=&quot;text3576&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3578&quot; x=&quot;330&quot; y=&quot;723.36224&quot;&gt;C&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;19&quot; y=&quot;1035.3622&quot; id=&quot;text3580&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3582&quot; x=&quot;19&quot; y=&quot;1035.3622&quot;&gt;A&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;331&quot; y=&quot;1022.3622&quot; id=&quot;text3584&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3586&quot; x=&quot;331&quot; y=&quot;1022.3622&quot; /&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;334&quot; y=&quot;1032.3622&quot; id=&quot;text3588&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3590&quot; x=&quot;334&quot; y=&quot;1032.3622&quot;&gt;B&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;339&quot; y=&quot;862.36224&quot; id=&quot;text3592&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3594&quot; x=&quot;339&quot; y=&quot;862.36224&quot;&gt;E&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;189&quot; y=&quot;957.36224&quot; id=&quot;text3596&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3598&quot; x=&quot;189&quot; y=&quot;957.36224&quot;&gt;F&lt;/tspan&gt;&lt;/text&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;87&quot; y=&quot;840.36224&quot; id=&quot;text3600&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3602&quot; x=&quot;87&quot; y=&quot;840.36224&quot;&gt;G&lt;/tspan&gt;&lt;/text&gt;
+    &lt;path style=&quot;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; d=&quot;M 327,1020.3622 C 29,856.36221 29,856.36221 29,856.36221&quot; id=&quot;path3647&quot; inkscape:connector-curvature=&quot;0&quot; /&gt;
+    &lt;text xml:space=&quot;preserve&quot; style=&quot;font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; x=&quot;9&quot; y=&quot;856.36218&quot; id=&quot;text3649&quot; sodipodi:linespacing=&quot;125%&quot;&gt;&lt;tspan sodipodi:role=&quot;line&quot; id=&quot;tspan3651&quot; x=&quot;9&quot; y=&quot;856.36218&quot;&gt;H&lt;/tspan&gt;&lt;/text&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+&lt;/solution&gt;
+</description>
+        <pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
+        <link>http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</guid>
+        
+        
+        <category>geometry</category>
+        
+      </item>
     
       <item>
         <title>20150925 - ABC+DEF+GHI=NNN</title>
@@ -318,34 +412,6 @@ Coming soon
         <pubDate>Wed, 05 Aug 2015 14:52:55 -0400</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/08/05/count-9-digit-number-from-1-2-3.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/05/count-9-digit-number-from-1-2-3.html</guid>
-        
-        
-        <category>numbertheory</category>
-        
-      </item>
-    
-      <item>
-        <title>20150804- Find All Integer Solutions for Equations</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;36((xy+1)z+x) = 475(yz+1)&lt;/script&gt; 
-&lt;br /&gt;
-Find all integer solutions to the equation above.&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-$$36((xy+1)z+x) = 475(yz+1)$$ 
-$$36(xyz+x+z) = 475(yz+1)$$ 
-$$\frac{x(yz+1)+z}{yz+1} = \frac{475}{36} = 13+\frac{7}{36}$$
-$$x+\frac{z}{yz+1}=13+\frac{7}{36}$$ 
-$$x+\frac{1}{y+\frac{1}{z}} = 13+\frac{1}{5+\frac{1}{7}}$$ 
-$$x = 13, y = 5, z = 7$$
- 
-&lt;/solution&gt;
-
-</description>
-        <pubDate>Tue, 04 Aug 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/numbertheory/2015/08/04/find-integer-x-y-z.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/04/find-integer-x-y-z.html</guid>
         
         
         <category>numbertheory</category>
