@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "20150930 - Who is taller"
+date:   2015-09-30 18:52:55
+categories: Logic
+author: ev3commander
+---
+
+
+Areteem魔法学园每日一题2015年9月30日
+Areteem Institute of Witchcraft and Wizardry
+Daily Magic Spells September 30, 2015
+
+100名学生身高各不相同。他们排成了一个10x10的方阵。从每行中挑出最高的学生，再从这10个各行最高的学生中选最矮的，称其为甲。然后从每列中挑出最矮的学生，再从这10个每列最矮的学生中选最高的，称其为乙。甲和乙谁高？
+
+100 students, all with distinct heights, stand in a 10x10 array. From each row, choose the tallest student, and among these 10 tallest in their rows, assume student A is the shortest one. Next, from each column, choose the shortest student, and among these 10 shortest in their columns, assume student B is the tallest one. Between A and B, who is taller?
+
+### Solution <button>Show / Hide</button>
+
+<solution>
+
+Coming soon.
+
+</solution>
