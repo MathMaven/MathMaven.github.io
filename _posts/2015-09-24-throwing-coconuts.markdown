@@ -3,6 +3,7 @@ layout: post
 title:  "20150924 - Throwing Coconuts"
 date:   2015-09-24 18:52:55
 categories: NumberTheory
+author: ev3commander
 ---
  
 There is a huge pile of coconuts on the beach, totally 1000 coconuts. A monkey, who has nothing better to do, picks up one of the coconuts and throws it into the ocean, and divides the remaining coconuts into two piles. Then it chooses one of the piles, throws one coconut from the pile to the ocean, and divides the remaining ones in the pile into two piles. The monkey continues: at each step, it chooses one of the piles with at least 3 coconuts, throws one of the coconuts into the ocean, and divide the remaining ones in the pile into two smaller piles, not necessarily equal in size. Question: is it possible to reach a situation that each of the piles on the beach contains exactly 3 coconuts?

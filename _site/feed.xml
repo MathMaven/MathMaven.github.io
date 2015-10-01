@@ -6,8 +6,8 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2015 21:38:34 -0400</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2015 21:38:34 -0400</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2015 21:40:26 -0400</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2015 21:40:26 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -298,7 +298,7 @@ text-align: center;
 
 &lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
 &lt;solution&gt;
-1, 2, 3, 4, 5, 6 on one cube and 0, 1, 2, 7, 8, 9 on the other.
+0, 1, 2, 3, 4, 5 on one cube and 0, 1, 2, 7, 8, 9 on the other. 9 is used as 6 when necessary.
 &lt;/solution&gt;
 
 </description>
@@ -332,7 +332,7 @@ text-align: center;
 
 &lt;solution&gt;
 
-Coming soon
+No. In order for there to be a 3x3 magic square, the sum must be divisble by 3. Since 2015 is not, this is impossible.
 
 &lt;/solution&gt;
 
@@ -354,7 +354,7 @@ Coming soon
 
 &lt;solution&gt;
 
-Coming soon
+You can only use 1g.
 
 &lt;/solution&gt;
 
