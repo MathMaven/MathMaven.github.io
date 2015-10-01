@@ -3,6 +3,7 @@ layout: post
 title:  "20150810 - Wooden Block Calendar"
 date:   2015-08-10 18:52:55
 categories: NumberTheory
+author: Wyzdm
 ---
 <style>.cube-container {
   width: 200px;
