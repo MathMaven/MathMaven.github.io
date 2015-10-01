@@ -11,7 +11,7 @@ Given a standard balance and weights of 1g, 2g, ……Ng, one of each. Place the
 
 <solution>
 
-Coming soon
+You can only use 1g.
 
 </solution>
 
