@@ -6,8 +6,8 @@
 </description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2015 23:08:07 -0400</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2015 23:08:07 -0400</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2015 23:11:32 -0400</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2015 23:11:32 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -39,12 +39,14 @@ Coming soon.
     
       <item>
         <title>20150929 - Find the length of square</title>
-        <description>&lt;p&gt;Areteem魔法学园每日一题2015年9月29日&lt;br /&gt;
-在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。&lt;br /&gt;
-In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.&lt;/p&gt;
+        <description>&lt;p&gt;Areteem魔法学园每日一题2015年9月29日&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.&lt;/p&gt;
 
 &lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
-    &lt;g transform=&quot;translate(100, 100)&quot;&gt;
+   &lt;g transform=&quot;translate(40, 50)&quot;&gt;
       &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
       &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
       &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
@@ -67,12 +69,12 @@ In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectiv
          AH=HD , so area:   $\triangle$AHB = $\triangle$HDB &lt;br /&gt;
          HF=FB , so area:   $\triangle$HDF = $\triangle$DFB &lt;br /&gt;
          DG=GF , so area:   $\triangle$DGB = $\triangle$GFB &lt;br /&gt;
-        So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 &lt;br /&gt;    
+         So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 &lt;br /&gt;    
 
          AB=4
 &lt;br /&gt;&lt;br /&gt;
 &lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
-    &lt;g transform=&quot;translate(100, 100)&quot;&gt;
+    &lt;g transform=&quot;translate(40, 50)&quot;&gt;
       &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
       &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
       &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
@@ -91,8 +93,18 @@ In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectiv
       &lt;text x=&quot;-30&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;H&lt;/text&gt;
 
     &lt;/g&gt;
+    &lt;defs&gt;
+    &lt;style type=&quot;text/css&quot;&gt;&lt;![CDATA[
+      svg {
+        margin: 2em;
+        transform: scale(0.5);
+        transform-origin: 0% 0%;
+      }
+    ]]&gt;&lt;/style&gt;
+  &lt;/defs&gt;
   &lt;/svg&gt;
 &lt;/solution&gt;
+
 </description>
         <pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
         <link>http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</link>

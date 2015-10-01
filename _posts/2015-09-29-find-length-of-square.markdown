@@ -5,12 +5,15 @@ date:   2015-09-29 15:30:55
 categories: Geometry 
 author: richardwsong
 ---
+
 Areteem魔法学园每日一题2015年9月29日<br>
+
 在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。<br>
+
 In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.
 
-<svg width="600" height="600">
-    <g transform="translate(100, 100)">
+<svg width="600" height="600" >
+   <g transform="translate(40, 50)">
       <rect x="0" y="0" width="400" height="400" stroke="black" stroke-width="4" fill="none" />
       <polygon points="0,0 100, 150 400, 400" fill="cyan" />
       <line x1="0" y1="0" x2="400" y2="400" stroke="black" stroke-width="2" />
@@ -34,12 +37,12 @@ In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectiv
          AH=HD , so area:   $\triangle$AHB = $\triangle$HDB <BR>
          HF=FB , so area:   $\triangle$HDF = $\triangle$DFB <BR>
          DG=GF , so area:   $\triangle$DGB = $\triangle$GFB <BR>
-        So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 <BR>    
+         So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 <BR>    
 
          AB=4
 <br><br>
 <svg width="600" height="600">
-    <g transform="translate(100, 100)">
+    <g transform="translate(40, 50)">
       <rect x="0" y="0" width="400" height="400" stroke="black" stroke-width="4" fill="none" />
       <polygon points="0,0 100, 150 400, 400" fill="cyan" />
       <line x1="0" y1="0" x2="400" y2="400" stroke="black" stroke-width="2" />
@@ -58,5 +61,15 @@ In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectiv
       <text x="-30" y="210" font-size="24">H</text>
 
     </g>
+    <defs>
+    <style type="text/css"><![CDATA[
+      svg {
+        margin: 2em;
+        transform: scale(0.5);
+        transform-origin: 0% 0%;
+      }
+    ]]></style>
+  </defs>
   </svg>
 </solution>
+
