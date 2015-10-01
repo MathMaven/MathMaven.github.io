@@ -65,8 +65,10 @@ In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectiv
     <style type="text/css"><![CDATA[
       svg {
         margin: 2em;
+        margin-bottom:-300px;
         transform: scale(0.5);
         transform-origin: 0% 0%;
+
       }
     ]]></style>
   </defs>
