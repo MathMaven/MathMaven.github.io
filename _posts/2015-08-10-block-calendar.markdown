@@ -74,6 +74,6 @@ You are required to design a desk calendar using wooden blocks. Given two wooden
 
 ### Solution <button>Show/Hide</button>
 <solution>
-1, 2, 3, 4, 5, 6 on one cube and 0, 1, 2, 7, 8, 9 on the other.
+0, 1, 2, 3, 4, 5 on one cube and 0, 1, 2, 7, 8, 9 on the other. 9 is used as 6 when necessary.
 </solution>
 
