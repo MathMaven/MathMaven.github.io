@@ -3,6 +3,7 @@ layout: post
 title:  "20150804- Find All Integer Solutions for Equations"
 date:   2015-08-04 18:52:55
 categories: NumberTheory
+author: ev3commander
 ---
 $$36((xy+1)z+x) = 475(yz+1)$$ 
 <br>

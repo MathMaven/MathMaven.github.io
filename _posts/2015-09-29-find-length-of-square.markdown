@@ -3,6 +3,7 @@ layout: post
 title:  "20150929 - Find the length of square"
 date:   2015-09-29 15:30:55
 categories: Geometry 
+author: richardwsong
 ---
 Areteem魔法学园每日一题2015年9月29日<br>
 在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。<br>

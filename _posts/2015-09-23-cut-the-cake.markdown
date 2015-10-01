@@ -3,6 +3,7 @@ layout: post
 title:  "20150923 - Cut the Cake"
 date:   2015-09-23 18:52:55
 categories: Geometry
+author: richardwsong
 ---
 Harry invited 7 friends to his birthday party. The shape of the birthday cake is a regular hexagon. He wants to cut the cake into 8 congruent pieces, cutting 5 times along straight lines (no horizontal cutting). How does he cut it?
 
