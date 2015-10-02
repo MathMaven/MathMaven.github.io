@@ -19,7 +19,7 @@ Daily Magic Spells September 30, 2015
 
 <solution>
 
-There are 3 possibilities of A and B in the array.
+There are 4 possibilities of A and B in the array.
 <br><br>
 1. They are on the same row.
 <br>
@@ -113,5 +113,10 @@ In this case, C is on the same row as A, so A > C. C is on the same column as B,
   <text x="220" y="80" fill="green">C</text>
 </svg>
 <br/><br/>
-So A is the taller one.
+In the above cases A is the taller one.
+<br><br>
+3. A and B are actually the same person.
+<br>
+
+
 </solution>

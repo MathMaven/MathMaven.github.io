@@ -5,8 +5,8 @@
     <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 20:53:44 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 20:53:44 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 21:08:50 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 21:08:50 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -65,7 +65,7 @@ Daily Magic Spells September 30, 2015&lt;/p&gt;
 
 &lt;solution&gt;
 
-There are 3 possibilities of A and B in the array.
+There are 4 possibilities of A and B in the array.
 &lt;br /&gt;&lt;br /&gt;
 1. They are on the same row.
 &lt;br /&gt;
@@ -159,7 +159,12 @@ In this case, C is on the same row as A, so A &amp;gt; C. C is on the same colum
   &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;green&quot;&gt;C&lt;/text&gt;
 &lt;/svg&gt;
 &lt;br /&gt;&lt;br /&gt;
-So A is the taller one.
+In the above cases A is the taller one.
+&lt;br /&gt;&lt;br /&gt;
+3. A and B are actually the same person.
+&lt;br /&gt;
+
+
 &lt;/solution&gt;
 </description>
         <pubDate>Wed, 30 Sep 2015 11:52:55 -0700</pubDate>
