@@ -5,9 +5,51 @@
     <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 19:56:38 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 19:56:38 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 20:43:52 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 20:43:52 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>20151001 - How many squares with positive integer side lengths</title>
+        <description>&lt;p&gt;Areteem魔法学园每日一题2015年10月1日&lt;/p&gt;
+
+&lt;p&gt;Areteem Institute of Witchcraft and Wizardry
+Daily Magic Spells October 1, 2015&lt;/p&gt;
+
+&lt;p&gt;在8x8的均匀点阵中，相邻点的距离为1。问：以点阵中的点为顶点且边长为正整数的正方形共有多少个？&lt;/p&gt;
+
+&lt;p&gt;In an 8x8 array of evenly spaced points, the distance between adjacent points is 1. Find the number of squares with positive integer side lengths and all vertices belonging to the array.
+&lt;br /&gt;&lt;/p&gt;
+&lt;svg width=&quot;300&quot; height=&quot;250&quot;&gt; 
+  &lt;g fill=&quot;none&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot;&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 10 l215 0&quot; /&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 40 l215 0&quot; /&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 70 l215 0&quot; /&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 100 l215 0&quot; /&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 130 l215 0&quot; /&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 160 l215 0&quot; /&gt;
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 190 l215 0&quot; /&gt;  
+    &lt;path stroke-dasharray=&quot;5,30&quot; d=&quot;M5 220 l215 0&quot; /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+49+36+25+16+9+4+1+2 = 142
+&lt;br /&gt;
+The extra 2 are slant with side = 5.
+&lt;/solution&gt;
+</description>
+        <pubDate>Thu, 01 Oct 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/numbertheory/2015/10/01/count-squares-with-integer-sides.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/10/01/count-squares-with-integer-sides.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
     
       <item>
         <title>20150930 - Who is taller</title>
@@ -473,28 +515,6 @@ No. In order for there to be a 3x3 magic square, the sum must be divisble by 3. 
         <pubDate>Fri, 07 Aug 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</guid>
-        
-        
-        <category>numbertheory</category>
-        
-      </item>
-    
-      <item>
-        <title>20150806- Find all the possible last weights</title>
-        <description>&lt;p&gt;Given a standard balance and weights of 1g, 2g, ……Ng, one of each. Place the weights on the two pans of the balance, so that the right side is heavier than the left side. Take one weight away from the right side, then the left side becomes heavier. Then take another weight away from the left side and the right side is heavier again. Keep going such that at each step one weight is taken from the heavier side and the balance reverses, equality never occurring, until only one weight remains. Find all possible weights that can be the last one. If necessary, express in terms of N.&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-
-You can only use 1g.
-
-&lt;/solution&gt;
-
-</description>
-        <pubDate>Thu, 06 Aug 2015 11:52:55 -0700</pubDate>
-        <link>http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</guid>
         
         
         <category>numbertheory</category>
