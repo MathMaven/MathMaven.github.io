@@ -5,8 +5,8 @@
     <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 19:40:40 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 19:40:40 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 19:56:38 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 19:56:38 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -25,37 +25,7 @@ Daily Magic Spells September 30, 2015&lt;/p&gt;
 
 There are 3 possibilities of A and B in the array.
 &lt;br /&gt;&lt;br /&gt;
-1. They are on the same column.
-&lt;br /&gt;
-In this case, A &amp;gt; B because B is supposed to be the shortest in the same column.
-&lt;br /&gt;
-&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
-  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
-  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
-  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
-  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
-  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
-  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
-  &lt;text x=&quot;70&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;rect x=&quot;60&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
-&lt;/svg&gt;
-&lt;br /&gt;&lt;br /&gt;
-2. They are on the same row.
+1. They are on the same row.
 &lt;br /&gt;
 In this case, A &amp;gt; B because A is supposed to be the tallest in the same row.
 &lt;br /&gt;
@@ -83,6 +53,36 @@ In this case, A &amp;gt; B because A is supposed to be the tallest in the same r
   &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
   &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
   &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+2. They are on the same column.
+&lt;br /&gt;
+In this case, A &amp;gt; B because B is supposed to be the shortest in the same column.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;70&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;60&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
 &lt;/svg&gt;
 &lt;br /&gt;&lt;br /&gt;
 3. They are on different rows and different columns:
