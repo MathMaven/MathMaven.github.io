@@ -5,8 +5,8 @@
     <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 21:08:50 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 21:08:50 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 21:10:08 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 21:10:08 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -53,8 +53,9 @@ The extra 2 are slant with side = 5.
     
       <item>
         <title>20150930 - Who is taller</title>
-        <description>&lt;p&gt;Areteem魔法学园每日一题2015年9月30日
-Areteem Institute of Witchcraft and Wizardry
+        <description>&lt;p&gt;Areteem魔法学园每日一题2015年9月30日&lt;/p&gt;
+
+&lt;p&gt;Areteem Institute of Witchcraft and Wizardry
 Daily Magic Spells September 30, 2015&lt;/p&gt;
 
 &lt;p&gt;100名学生身高各不相同。他们排成了一个10x10的方阵。从每行中挑出最高的学生，再从这10个各行最高的学生中选最矮的，称其为甲。然后从每列中挑出最矮的学生，再从这10个每列最矮的学生中选最高的，称其为乙。甲和乙谁高？&lt;/p&gt;
