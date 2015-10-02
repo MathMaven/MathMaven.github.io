@@ -19,6 +19,96 @@ Daily Magic Spells September 30, 2015
 
 <solution>
 
-Coming soon.
+There are 3 possibilities of A and B in the array.
+
+1. They are on the same column.
+
+<svg width="500" height="500">
+  <rect width="300" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  <line x1="30" y1="0" x2="30" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="60" y1="0" x2="60" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="90" y1="0" x2="90" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="120" y1="0" x2="120" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="150" y1="0" x2="150" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="150" y1="0" x2="150" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="180" y1="0" x2="180" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="210" y1="0" x2="210" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="240" y1="0" x2="240" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="270" y1="0" x2="270" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="0" y1="30" x2="300" y2="30" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="60" x2="300" y2="60" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="90" x2="300" y2="90" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="120" x2="300" y2="120" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="150" x2="300" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="180" x2="300" y2="180" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="210" x2="300" y2="210" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="240" x2="300" y2="240" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="270" x2="300" y2="270" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <text x="70" y="80" fill="red">A</text>
+  <text x="70" y="170" fill="blue">B</text>
+</svg>
+
+In this case, A > B because B is supposed to be the tallest in the same column.
+
+2. They are on the same row.
+
+<svg width="500" height="500">
+  <rect width="300" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  <line x1="30" y1="0" x2="30" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="60" y1="0" x2="60" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="90" y1="0" x2="90" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="120" y1="0" x2="120" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="150" y1="0" x2="150" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="150" y1="0" x2="150" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="180" y1="0" x2="180" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="210" y1="0" x2="210" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="240" y1="0" x2="240" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="270" y1="0" x2="270" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="0" y1="30" x2="300" y2="30" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="60" x2="300" y2="60" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="90" x2="300" y2="90" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="120" x2="300" y2="120" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="150" x2="300" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="180" x2="300" y2="180" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="210" x2="300" y2="210" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="240" x2="300" y2="240" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="270" x2="300" y2="270" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <text x="70" y="80" fill="red">A</text>
+  <text x="220" y="80" fill="blue">B</text>
+</svg>
+
+In this case, A > B because A is supposed to be the tallest in the same column.
+
+3. They are on different rows and different columns:
+
+<svg width="500" height="500">
+  <rect width="300" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  <line x1="30" y1="0" x2="30" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="60" y1="0" x2="60" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="90" y1="0" x2="90" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="120" y1="0" x2="120" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="150" y1="0" x2="150" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="150" y1="0" x2="150" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="180" y1="0" x2="180" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="210" y1="0" x2="210" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="240" y1="0" x2="240" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="270" y1="0" x2="270" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" />  
+  <line x1="0" y1="30" x2="300" y2="30" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="60" x2="300" y2="60" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="90" x2="300" y2="90" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="120" x2="300" y2="120" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="150" x2="300" y2="150" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="180" x2="300" y2="180" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="210" x2="300" y2="210" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="240" x2="300" y2="240" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="0" y1="270" x2="300" y2="270" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <text x="70" y="80" fill="red">A</text>
+  <text x="220" y="170" fill="blue">B</text>
+  <rect x="0" y="60" width="300" height="30" style="fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)" fill-opacity="0.2" />
+  <rect x="210" y="0" width="30" height="300" style="fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)" fill-opacity="0.2" />
+  <text x="220" y="80" fill="green">C</text>
+</svg>
+
+In this case, C is on the same row as A, so A > C. C is on the same column as B, so C > B. Therefore A > C.
 
 </solution>
