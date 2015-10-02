@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Math Challenges by Dr. Kevin Wang</title>
-    <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015
-</description>
+    <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 19:46:47 -0400</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 19:46:47 -0400</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 19:35:02 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 19:35:02 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -24,11 +23,104 @@ Daily Magic Spells September 30, 2015&lt;/p&gt;
 
 &lt;solution&gt;
 
-Coming soon.
+There are 3 possibilities of A and B in the array.
+&lt;br /&gt;&lt;br /&gt;
+1. They are on the same column.
+&lt;br /&gt;
+In this case, A &amp;gt; B because B is supposed to be the tallest in the same column.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;70&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;60&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+2. They are on the same row.
+&lt;br /&gt;
+In this case, A &amp;gt; B because A is supposed to be the tallest in the same column.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+3. They are on different rows and different columns:
+&lt;br /&gt;
+In this case, C is on the same row as A, so A &amp;gt; C. C is on the same column as B, so C &amp;gt; B. Therefore A &amp;gt; C.&lt;br /&gt;
 
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;220&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+  &lt;rect x=&quot;210&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+  &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;green&quot;&gt;C&lt;/text&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+So A is the taller one.
 &lt;/solution&gt;
 </description>
-        <pubDate>Wed, 30 Sep 2015 14:52:55 -0400</pubDate>
+        <pubDate>Wed, 30 Sep 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/logic/2015/09/30/who-is-taller.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/logic/2015/09/30/who-is-taller.html</guid>
         
@@ -108,7 +200,7 @@ Coming soon.
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
+        <pubDate>Tue, 29 Sep 2015 08:30:55 -0700</pubDate>
         <link>http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</guid>
         
@@ -128,7 +220,7 @@ Coming soon.
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Fri, 25 Sep 2015 13:42:27 -0400</pubDate>
+        <pubDate>Fri, 25 Sep 2015 10:42:27 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</guid>
         
@@ -154,7 +246,7 @@ Solution Two: The Method of Invariant. We look for a quantity that does not chan
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Thu, 24 Sep 2015 14:52:55 -0400</pubDate>
+        <pubDate>Thu, 24 Sep 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</guid>
         
@@ -209,7 +301,7 @@ l-595 0 0 725 0 726 87 -3 87 -3 508 -718z m658 -2 l0 -725 -67 0 -68 1 -422
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Wed, 23 Sep 2015 14:52:55 -0400</pubDate>
+        <pubDate>Wed, 23 Sep 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</guid>
         
@@ -235,7 +327,7 @@ $$  z=3, y=5, x=11 $$
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Fri, 18 Sep 2015 13:42:27 -0400</pubDate>
+        <pubDate>Fri, 18 Sep 2015 10:42:27 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</guid>
         
@@ -257,7 +349,7 @@ We notice that the formula $n(n+1)/2$ can come in handy for this question becaus
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Thu, 10 Sep 2015 13:42:27 -0400</pubDate>
+        <pubDate>Thu, 10 Sep 2015 10:42:27 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/09/10/find-term.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/10/find-term.html</guid>
         
@@ -343,7 +435,7 @@ text-align: center;
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Mon, 10 Aug 2015 14:52:55 -0400</pubDate>
+        <pubDate>Mon, 10 Aug 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/08/10/block-calendar.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/10/block-calendar.html</guid>
         
@@ -378,7 +470,7 @@ No. In order for there to be a 3x3 magic square, the sum must be divisble by 3. 
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Fri, 07 Aug 2015 14:52:55 -0400</pubDate>
+        <pubDate>Fri, 07 Aug 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</guid>
         
@@ -400,7 +492,7 @@ You can only use 1g.
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Thu, 06 Aug 2015 14:52:55 -0400</pubDate>
+        <pubDate>Thu, 06 Aug 2015 11:52:55 -0700</pubDate>
         <link>http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</link>
         <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</guid>
         
