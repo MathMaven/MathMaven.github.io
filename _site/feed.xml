@@ -5,8 +5,8 @@
     <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 19:35:02 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 19:35:02 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 19:38:42 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 19:38:42 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,7 +27,7 @@ There are 3 possibilities of A and B in the array.
 &lt;br /&gt;&lt;br /&gt;
 1. They are on the same column.
 &lt;br /&gt;
-In this case, A &amp;gt; B because B is supposed to be the tallest in the same column.
+In this case, A &amp;gt; B because B is supposed to be the shortest in the same column.
 &lt;br /&gt;
 &lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
   &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
