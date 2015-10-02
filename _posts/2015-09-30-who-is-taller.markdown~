@@ -116,7 +116,7 @@ In this case, C is on the same row as A, so A > C. C is on the same column as B,
 <br/><br/>
 In the above cases A is the taller one.
 <br><br>
-3. A and B are actually the same person.
+4. A and B are actually the same person.
 <br>
 
 
