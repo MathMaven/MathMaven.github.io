@@ -15,16 +15,16 @@ Daily Magic Spells October 1, 2015
 
 In an 8x8 array of evenly spaced points, the distance between adjacent points is 1. Find the number of squares with positive integer side lengths and all vertices belonging to the array.
 <br>
-<svg width="300" height="250"> 
+<svg width="350" height="250"> 
   <g fill="none" stroke="black" stroke-width="4">
-    <path stroke-dasharray="5,30" d="M5 10 l245 0" />
-    <path stroke-dasharray="5,30" d="M5 40 l245 0" />
-    <path stroke-dasharray="5,30" d="M5 70 l245 0" />
-    <path stroke-dasharray="5,30" d="M5 100 l245 0" />
-    <path stroke-dasharray="5,30" d="M5 130 l245 0" />
-    <path stroke-dasharray="5,30" d="M5 160 l245 0" />
-    <path stroke-dasharray="5,30" d="M5 190 l245 0" />  
-    <path stroke-dasharray="5,30" d="M5 220 l245 0" />
+    <path stroke-dasharray="5,30" d="M5 10 l275 0" />
+    <path stroke-dasharray="5,30" d="M5 40 l275 0" />
+    <path stroke-dasharray="5,30" d="M5 70 l275 0" />
+    <path stroke-dasharray="5,30" d="M5 100 l275 0" />
+    <path stroke-dasharray="5,30" d="M5 130 l275 0" />
+    <path stroke-dasharray="5,30" d="M5 160 l275 0" />
+    <path stroke-dasharray="5,30" d="M5 190 l275 0" />  
+    <path stroke-dasharray="5,30" d="M5 220 l275 0" />
   </g>
 </svg>
 
