@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "20150807- Magic Square With Sum equals 2015"
+date:   2015-08-07 18:52:55
+categories: NumberTheory
+---
+
+<svg width="250" height="250">
+  <rect x="2" y="2" width="248" height="248" rx="20" ry="20" style="fill:none;stroke:blue;stroke-width:1"/>
+<text x="10" y="50" style="font-size:50px;">4</text>
+<text x="210" y="50" style="font-size:50px;">2</text>
+<text x="110" y="50" style="font-size:50px;">9</text>
+<text x="10" y="140" style="font-size:50px;">3</text>
+<text x="110" y="140" style="font-size:50px;">5</text>
+<text x="210" y="140" style="font-size:50px;">7</text>
+<text x="10" y="230" style="font-size:50px;">8</text>
+<text x="110" y="230" style="font-size:50px;">1</text>
+<text x="210" y="230" style="font-size:50px;">6</text>
+
+</svg>
+A "magic square" is an arrangement of numbers in a square grid such that the sum of numbers in each row, each column, and each of the two main diagonals is the same. This sum is called the "magic sum". According to ancient Chinese legend, the Scroll of River Luo contained an image of a 3x3 magic square (as shown), whose magic sum is 15. Is it possible to make a 3x3 magic square whose magic sum equals 2015?
+
+  
+### Solution <button>Show / Hide</button>
+
+<solution>
+
+Coming soon
+
+</solution>
+

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily Math Challenges by Dr. Kevin Wang</title>
+    <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015
+</description>
+    <link>http://mathmaven.github.io/</link>
+    <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
+    <pubDate>Mon, 28 Sep 2015 16:57:39 -0400</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2015 16:57:39 -0400</lastBuildDate>
+=======
+    <pubDate>Sun, 27 Sep 2015 16:29:49 -0700</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2015 16:29:49 -0700</lastBuildDate>
+>>>>>>> origin/master
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>20150925 - ABC+DEF+GHI=NNN</title>
+        <description>&lt;p&gt;Three 3-digit numbers add up to another 3-digit number: ABC+DEF+GHI=NNN.  Each letter represents one digit among 0-9, and different letters represent different digits. The first digit of each of the numbers is nonzero. What is N? If the answer is not unique, find all possible values.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+  134 + 207 + 658 = 999 
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Fri, 25 Sep 2015 13:42:27 -0400</pubDate>
+=======
+        <pubDate>Fri, 25 Sep 2015 10:42:27 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+        <category>algebra</category>
+        
+      </item>
+    
+      <item>
+        <title>20150924 - Throwing Coconuts</title>
+        <description>&lt;p&gt;There is a huge pile of coconuts on the beach, totally 1000 coconuts. A monkey, who has nothing better to do, picks up one of the coconuts and throws it into the ocean, and divides the remaining coconuts into two piles. Then it chooses one of the piles, throws one coconut from the pile to the ocean, and divides the remaining ones in the pile into two piles. The monkey continues: at each step, it chooses one of the piles with at least 3 coconuts, throws one of the coconuts into the ocean, and divide the remaining ones in the pile into two smaller piles, not necessarily equal in size. Question: is it possible to reach a situation that each of the piles on the beach contains exactly 3 coconuts?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Solution One: Backtracking.  Assume the scenario of 3 coconuts per pile is reached.  One step before that, two piles are combined and one coconut is taken out of the ocean to form a 7-coconut pile.  Backtrack another step, either combine two 3-coconut piles or combine one pile of 3 and one pile of 7, then take back one coconut from the ocean, and a 7-coconut pile or a 11-coconut pile is formed. We can find the following pattern: no matter how the piles are combined, the number of coconuts in each pile always has a remainder 3 when divided by 4. If we keep backtracking to the beginning, the original pile of 1000 should also have a remainder 3 when divided by 4.  But this is obviously false, therefore the conclusion is &quot;not possible&quot;.
+&lt;br /&gt; &lt;br /&gt;
+Solution Two: The Method of Invariant. We look for a quantity that does not change during the whole process. At each step, one coconut is thrown away, and one pile is split into 2, so the number of coconuts decreases by 1 but the number of piles is increased by 1.  Thus the sum of the number of coconuts and the number of piles is unchanged (invariant). At the beginning, there are 1000 coconuts, in 1 pile, so the sum is 1001, and this number will never change. Assume the situation where each pile have 3 coconuts is reached. Let there be N piles, then the total number of coconuts plus the number of piles equals 3N+N=4N, which is a multiple of 4. But this number is supposed to equal 1001, which is NOT a multiple of 4, contradiction. Therefore the final answer is &quot;not possible.&quot;
+
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Thu, 24 Sep 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Thu, 24 Sep 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150923 - Cut the Cake</title>
+        <description>&lt;p&gt;Harry invited 7 friends to his birthday party. The shape of the birthday cake is a regular hexagon. He wants to cut the cake into 8 congruent pieces, cutting 5 times along straight lines (no horizontal cutting). How does he cut it?&lt;/p&gt;
+
+&lt;svg width=&quot;400&quot; height=&quot;350&quot;&gt;
+&lt;g transform=&quot;translate(0.000000,312.000000) scale(0.100000,-0.100000)&quot; fill=&quot;#000000&quot; stroke=&quot;none&quot;&gt;
+&lt;path d=&quot;M952 3048 c-5 -7 -86 -146 -179 -308 -94 -162 -238 -412 -320 -555
+-312 -541 -343 -596 -343 -615 0 -10 114 -216 253 -457 139 -241 327 -566 417
+-723 90 -157 166 -289 170 -293 5 -6 591 -8 1717 -7 6 0 41 53 79 117 37 65
+113 197 169 293 409 705 605 1052 605 1071 0 12 -98 191 -217 398 -119 207
+-271 471 -338 586 -67 116 -156 271 -199 345 -43 74 -85 141 -94 148 -12 9
+-200 12 -863 12 -665 0 -849 -3 -857 -12z m1790 -165 c47 -82 236 -410 421
+-730 l336 -582 -310 -538 c-464 -803 -500 -866 -521 -896 l-20 -28 -834 1
+-834 1 -24 37 c-55 86 -816 1412 -816 1423 0 11 64 124 405 714 67 116 191
+330 275 478 l155 267 841 0 842 0 84 -147z&quot; /&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+&lt;svg width=&quot;400&quot; height=&quot;350&quot;&gt;
+&lt;g transform=&quot;translate(0.000000,312.000000) scale(0.100000,-0.100000)&quot; fill=&quot;#000000&quot; stroke=&quot;none&quot;&gt;
+&lt;path d=&quot;M947 3038 c-27 -43 -86 -144 -217 -373 -73 -126 -199 -345 -280 -485
+-310 -537 -340 -591 -340 -610 0 -17 172 -320 605 -1065 67 -116 147 -256 179
+-313 32 -56 63 -102 70 -102 8 0 1589 0 1703 0 6 0 26 26 44 58 17 31 44 77
+59 102 15 25 79 135 142 245 468 809 601 1043 609 1061 8 22 8 23 -556 999
+-73 127 -165 286 -205 355 -39 69 -79 131 -88 138 -12 9 -201 12 -864 12
+l-848 0 -13 -22z m173 -733 l0 -725 -491 0 -490 0 32 58 c18 31 47 82 65 112
+18 30 107 186 199 345 163 283 225 391 350 605 33 58 90 156 125 218 l64 112
+73 0 73 0 0 -725z m692 2 c279 -395 508 -720 508 -722 0 -3 -268 -5 -595 -5
+l-595 0 0 725 0 726 87 -3 87 -3 508 -718z m658 -2 l0 -725 -67 0 -68 1 -422
+597 c-232 328 -463 654 -512 725 l-91 127 580 0 580 0 0 -725z m278 568 c49
+-87 237 -412 416 -722 179 -310 326 -566 326 -568 0 -1 -227 -3 -505 -3 l-505
+0 0 725 0 725 89 0 89 0 90 -157z m-1628 -2034 l0 -731 -71 5 c-38 2 -74 8
+-79 13 -8 9 -116 195 -450 774 -81 140 -199 346 -263 457 -64 111 -117 205
+-117 208 0 3 221 5 490 5 l490 0 0 -731z m1178 722 c-1 -5 -217 -333 -478
+-730 l-475 -721 -107 0 -108 0 0 730 0 730 586 0 c342 0 584 -4 582 -9z m172
+-721 l0 -730 -556 0 c-324 0 -554 4 -552 9 2 5 217 333 478 730 l475 721 78 0
+77 0 0 -730z m1016 708 c-8 -13 -148 -255 -311 -538 -430 -746 -486 -842 -507
+-873 -19 -26 -23 -27 -104 -27 l-84 0 0 730 0 730 510 0 510 0 -14 -22z&quot; /&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Wed, 23 Sep 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Wed, 23 Sep 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</guid>
+        
+        
+        <category>geometry</category>
+        
+      </item>
+    
+      <item>
+<<<<<<< HEAD
+        <title>20150918 - Find how many apples</title>
+        <description>&lt;p&gt;Ming went to the Farmer’s Market to sell apples. The first buyer bought half of Ming’s apples plus half an apple; the second buyer bought 1/3 of the remaining apples plus 1/3 of an apple; the third buyer bought 1/4 of the then remaining apples plus 1/4 of an apple. All apples were sold in whole without being cut. At the end Ming had 2 apples left. How many apples did Ming have at the beginning?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+$$ x-(x/2+1/2)=y $$
+
+$$  y-(y/3+1/3)=z $$ 
+
+$$  z-(z/4+1/4)=2 $$ 
+
+$$  z=3, y=5, x=11 $$ 
+&lt;/solution&gt;
+
+</description>
+        <pubDate>Fri, 18 Sep 2015 13:42:27 -0400</pubDate>
+        <link>http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+        <category>algebra</category>
+        
+      </item>
+    
+      <item>
+=======
+>>>>>>> origin/master
+        <title>20150810 - Wooden Block Calendar</title>
+        <description>&lt;style&gt;.cube-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+  margin: 100px auto;
+}
+#cube {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: translateZ( -100px ) rotateZ(45deg) rotateX(45deg);
+  animation: spin 5s infinite linear;
+}
+@keyframes spin {
+  0% { transform: translateZ( -100px ) rotateY(360deg) rotateZ(0deg) rotateX(45deg) }
+  50% { transform: translateZ( -100px ) rotateY(180deg) rotateZ(180deg) rotateX(45deg) }
+  100% { transform: translateZ( -100px ) rotateY(0deg) rotateZ(360deg) rotateX(45deg) }
+}
+#cube figure {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  line-height: 200px;
+  background: rgba(56, 125, 25, 0.25);
+font-size: 120px;
+font-weight: bold;
+color: #fff;
+text-align: center;
+  border: 1px dotted blue;
+  backface-visibility: hidden;
+}
+#cube .front  { transform: rotateY(   0deg ) translateZ( 100px ); }
+#cube .back   { transform: rotateX( 180deg ) translateZ( 100px ); }
+#cube .right  { transform: rotateY(  90deg ) translateZ( 100px ); }
+#cube .left   { transform: rotateY( -90deg ) translateZ( 100px ); }
+#cube .top    { transform: rotateX(  90deg ) translateZ( 100px ); }
+#cube .bottom { transform: rotateX( -90deg ) translateZ( 100px ); }&lt;/style&gt;
+
+&lt;p&gt;You are required to design a desk calendar using wooden blocks. Given two wooden cubes as shown, write one digit on each of their faces, so that every date in a month, 01,02,03,……,30,31, can be displayed. Note that dates less than 10 have to be displayed with a leading 0.&lt;/p&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;
+&lt;div class=&quot;cube-container&quot;&gt;
+&lt;div id=&quot;cube&quot;&gt;
+  &lt;figure class=&quot;face front&quot;&gt;6&lt;/figure&gt;
+  &lt;figure class=&quot;face back&quot;&gt;2&lt;/figure&gt;
+  &lt;figure class=&quot;face left&quot;&gt;3&lt;/figure&gt;
+  &lt;figure class=&quot;face right&quot;&gt;4&lt;/figure&gt;
+  &lt;figure class=&quot;face top&quot;&gt;5&lt;/figure&gt;
+  &lt;figure class=&quot;face bottom&quot;&gt;1&lt;/figure&gt;
+&lt;/div&gt;
+      &lt;/div&gt;&lt;/th&gt;
+   &lt;th&gt;    
+&lt;div class=&quot;cube-container&quot;&gt;
+&lt;div id=&quot;cube&quot;&gt;
+  &lt;figure class=&quot;face front&quot;&gt;0&lt;/figure&gt;
+  &lt;figure class=&quot;face back&quot;&gt;1&lt;/figure&gt;
+  &lt;figure class=&quot;face left&quot;&gt;2&lt;/figure&gt;
+  &lt;figure class=&quot;face right&quot;&gt;7&lt;/figure&gt;
+  &lt;figure class=&quot;face top&quot;&gt;8&lt;/figure&gt;
+  &lt;figure class=&quot;face bottom&quot;&gt;9&lt;/figure&gt;
+&lt;/div&gt;
+  &lt;/div&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+&lt;solution&gt;
+1, 2, 3, 4, 5, 6 on one cube and 0, 1, 2, 7, 8, 9 on the other.
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Mon, 10 Aug 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Mon, 10 Aug 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/08/10/block-calendar.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/10/block-calendar.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150807- Magic Square With Sum equals 2015</title>
+        <description>&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
+  &lt;rect x=&quot;2&quot; y=&quot;2&quot; width=&quot;248&quot; height=&quot;248&quot; rx=&quot;20&quot; ry=&quot;20&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
+&lt;text x=&quot;10&quot; y=&quot;50&quot; style=&quot;font-size:50px;&quot;&gt;4&lt;/text&gt;
+&lt;text x=&quot;210&quot; y=&quot;50&quot; style=&quot;font-size:50px;&quot;&gt;2&lt;/text&gt;
+&lt;text x=&quot;110&quot; y=&quot;50&quot; style=&quot;font-size:50px;&quot;&gt;9&lt;/text&gt;
+&lt;text x=&quot;10&quot; y=&quot;140&quot; style=&quot;font-size:50px;&quot;&gt;3&lt;/text&gt;
+&lt;text x=&quot;110&quot; y=&quot;140&quot; style=&quot;font-size:50px;&quot;&gt;5&lt;/text&gt;
+&lt;text x=&quot;210&quot; y=&quot;140&quot; style=&quot;font-size:50px;&quot;&gt;7&lt;/text&gt;
+&lt;text x=&quot;10&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;8&lt;/text&gt;
+&lt;text x=&quot;110&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;1&lt;/text&gt;
+&lt;text x=&quot;210&quot; y=&quot;230&quot; style=&quot;font-size:50px;&quot;&gt;6&lt;/text&gt;
+
+&lt;/svg&gt;
+&lt;p&gt;A “magic square” is an arrangement of numbers in a square grid such that the sum of numbers in each row, each column, and each of the two main diagonals is the same. This sum is called the “magic sum”. According to ancient Chinese legend, the Scroll of River Luo contained an image of a 3x3 magic square (as shown), whose magic sum is 15. Is it possible to make a 3x3 magic square whose magic sum equals 2015?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon
+
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Fri, 07 Aug 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Fri, 07 Aug 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/07/magic-square-2015.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150806- Find all the possible last weights</title>
+        <description>&lt;p&gt;Given a standard balance and weights of 1g, 2g, ……Ng, one of each. Place the weights on the two pans of the balance, so that the right side is heavier than the left side. Take one weight away from the right side, then the left side becomes heavier. Then take another weight away from the left side and the right side is heavier again. Keep going such that at each step one weight is taken from the heavier side and the balance reverses, equality never occurring, until only one weight remains. Find all possible weights that can be the last one. If necessary, express in terms of N.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon
+
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Thu, 06 Aug 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Thu, 06 Aug 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/06/alternating-scale.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150805- Find How Many 9-digit Numbers</title>
+        <description>&lt;p&gt;Use the three digits 1,2,3 to construct 9-digit numbers, using each of 1,2,3 at least once. How many such 9-digit numbers are there?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon
+
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Wed, 05 Aug 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Wed, 05 Aug 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/08/05/count-9-digit-number-from-1-2-3.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/05/count-9-digit-number-from-1-2-3.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150804- Find All Integer Solutions for Equations</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;36((xy+1)z+x) = 475(yz+1)&lt;/script&gt; 
+&lt;br /&gt;
+Find all integer solutions to the equation above.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+$$36((xy+1)z+x) = 475(yz+1)$$ 
+$$36(xyz+x+z) = 475(yz+1)$$ 
+$$\frac{x(yz+1)+z}{yz+1} = \frac{475}{36} = 13+\frac{7}{36}$$
+$$x+\frac{z}{yz+1}=13+\frac{7}{36}$$ 
+$$x+\frac{1}{y+\frac{1}{z}} = 13+\frac{1}{5+\frac{1}{7}}$$ 
+$$x = 13, y = 5, z = 7$$
+ 
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Tue, 04 Aug 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Tue, 04 Aug 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/08/04/find-integer-x-y-z.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/04/find-integer-x-y-z.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+      <item>
+        <title>20150803 - 4 Dimensional Hypercube</title>
+        <description>&lt;p&gt;A two dimensional square has 4 vertices and 4 sides, with a sum 8. A three dimensional cube has 8 vertices, 12 edges, and 6 faces, with a sum 26. Imagine a four dimensional hypercube: what is the sum of the numbers of its vertices, edges, 2d faces, and 3d hyperfaces? What is the pattern?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+Coming soon!
+&lt;/solution&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Mon, 03 Aug 2015 14:52:55 -0400</pubDate>
+=======
+        <pubDate>Mon, 03 Aug 2015 11:52:55 -0700</pubDate>
+>>>>>>> origin/master
+        <link>http://mathmaven.github.io/numbertheory/2015/08/03/four-dimensional-hypercube.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/08/03/four-dimensional-hypercube.html</guid>
+        
+        
+        <category>numbertheory</category>
+        
+      </item>
+    
+<<<<<<< HEAD
+=======
+      <item>
+        <title>20150731- Find Degree of Angle in Semicircle</title>
+        <description>&lt;p&gt;In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45°, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees. O is the center of the circle.&lt;/p&gt;
+
+&lt;svg width=&quot;250&quot; height=&quot;250&quot; style=&quot;stroke:blue;stroke-width:1&quot;&gt;
+
+  &lt;path d=&quot;M50,100 A90,90 0 1,1 230,100&quot; fill=&quot;none&quot; /&gt;
+
+  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;230&quot; y2=&quot;100&quot; style=&quot;stroke:blue;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;100&quot; y2=&quot;50&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
+
+  &lt;text x=&quot;35&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;240&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;text x=&quot;140&quot; y=&quot;12&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
+  &lt;text x=&quot;50&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
+  &lt;text x=&quot;120&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;E&lt;/text&gt;
+  &lt;text x=&quot;135&quot; y=&quot;115&quot; fill=&quot;blue&quot;&gt;O&lt;/text&gt;
+  &lt;text x=&quot;120&quot; y=&quot;28&quot; fill=&quot;none&quot; style=&quot;stroke:red; font-size: 12px;&quot;&gt;?&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\sim \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&amp;deg;, $\angle$ACO = 45&amp;deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&amp;deg;, and $\angle$ACD = 60&amp;deg; - 45&amp;deg; = 15&amp;deg;. &lt;br /&gt;&lt;br /&gt;
+
+&lt;svg width=&quot;250&quot; height=&quot;250&quot; style=&quot;stroke:blue;stroke-width:1&quot;&gt;
+
+  &lt;path d=&quot;M50,100 A90,90 0 1,1 230,100&quot; fill=&quot;none&quot; /&gt;
+
+  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;230&quot; y2=&quot;100&quot; style=&quot;stroke:blue;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;100&quot; y2=&quot;50&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;140&quot; y1=&quot;100&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:green;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;140&quot; y1=&quot;100&quot; x2=&quot;65&quot; y2=&quot;50&quot; style=&quot;stroke:green;stroke-width:1&quot; /&gt;
+  &lt;line x1=&quot;140&quot; y1=&quot;50&quot; x2=&quot;100&quot; y2=&quot;50&quot; style=&quot;stroke:green;stroke-width:1&quot; /&gt;
+
+  &lt;text x=&quot;35&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;240&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;text x=&quot;140&quot; y=&quot;12&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
+  &lt;text x=&quot;50&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
+  &lt;text x=&quot;120&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;E&lt;/text&gt;
+  &lt;text x=&quot;150&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;M&lt;/text&gt;
+  &lt;text x=&quot;135&quot; y=&quot;115&quot; fill=&quot;blue&quot;&gt;O&lt;/text&gt;
+&lt;/svg&gt;
+
+&lt;/solution&gt;
+
+</description>
+        <pubDate>Fri, 31 Jul 2015 11:52:55 -0700</pubDate>
+        <link>http://mathmaven.github.io/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html</link>
+        <guid isPermaLink="true">http://mathmaven.github.io/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html</guid>
+        
+        
+        <category>geometry</category>
+        
+        <category>circle</category>
+        
+      </item>
+    
+>>>>>>> origin/master
+  </channel>
+</rss>
