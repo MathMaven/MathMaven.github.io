@@ -53,7 +53,7 @@ In this case, A > B because B is supposed to be the shortest in the same column.
 <br><br>
 2. They are on the same row.
 <br>
-In this case, A > B because A is supposed to be the tallest in the same column.
+In this case, A > B because A is supposed to be the tallest in the same row.
 <br>
 <svg width="300" height="300">
   <rect width="300" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
