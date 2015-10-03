@@ -15,16 +15,16 @@ Daily Magic Spells October 1, 2015
 
 In an 8x8 array of evenly spaced points, the distance between adjacent points is 1. Find the number of squares with positive integer side lengths and all vertices belonging to the array.
 <br>
-<svg width="350" height="250"> 
+<svg width="250" height="250"> 
   <g fill="none" stroke="black" stroke-width="4">
-    <path stroke-dasharray="5,30" d="M5 10 l275 0" />
-    <path stroke-dasharray="5,30" d="M5 40 l275 0" />
-    <path stroke-dasharray="5,30" d="M5 70 l275 0" />
-    <path stroke-dasharray="5,30" d="M5 100 l275 0" />
-    <path stroke-dasharray="5,30" d="M5 130 l275 0" />
-    <path stroke-dasharray="5,30" d="M5 160 l275 0" />
-    <path stroke-dasharray="5,30" d="M5 190 l275 0" />  
-    <path stroke-dasharray="5,30" d="M5 220 l275 0" />
+    <path stroke-dasharray="5,25" d="M5 10 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 40 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 70 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 100 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 130 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 160 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 190 l215 0"></path>      
+    <path stroke-dasharray="5,25" d="M5 220 l215 0"></path>          
   </g>
 </svg>
 
@@ -35,5 +35,20 @@ In an 8x8 array of evenly spaced points, the distance between adjacent points is
 
 49+36+25+16+9+4+1+2 = 142
 <br>
-The extra 2 are slant with side = 5.
+The extra 2 are slant with side = 5. See below:
+<br>
+<svg width="250" height="250"> 
+  <g fill="none" stroke="black" stroke-width="4">
+    <path stroke-dasharray="5,25" d="M5 10 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 40 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 70 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 100 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 130 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 160 l215 0"></path>
+    <path stroke-dasharray="5,25" d="M5 190 l215 0"></path>      
+    <path stroke-dasharray="5,25" d="M5 220 l215 0"></path>          
+    <path d="M 6 101 L 128 10 217 129 97 220 z" stroke="blue" stroke-width="3" />
+    <path d="M 6 130 L 98 10 217 99 128 220 z" stroke="red" stroke-width="3" />    
+  </g>
+</svg>
 </solution>
