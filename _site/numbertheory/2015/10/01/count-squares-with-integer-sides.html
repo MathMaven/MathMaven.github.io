@@ -113,20 +113,82 @@ Daily Magic Spells October 1, 2015</p>
 <br />
 The extra 2 are slant with side = 5. See below:
 <br />
-<svg width="250" height="250"> 
-  <g fill="none" stroke="black" stroke-width="4">
-    <path stroke-dasharray="5,25" d="M5 10 l215 0"></path>
-    <path stroke-dasharray="5,25" d="M5 40 l215 0"></path>
-    <path stroke-dasharray="5,25" d="M5 70 l215 0"></path>
-    <path stroke-dasharray="5,25" d="M5 100 l215 0"></path>
-    <path stroke-dasharray="5,25" d="M5 130 l215 0"></path>
-    <path stroke-dasharray="5,25" d="M5 160 l215 0"></path>
-    <path stroke-dasharray="5,25" d="M5 190 l215 0"></path>      
-    <path stroke-dasharray="5,25" d="M5 220 l215 0"></path>          
-    <path d="M 6 101 L 128 10 217 129 97 220 z" stroke="blue" stroke-width="3" />
-    <path d="M 6 130 L 98 10 217 99 128 220 z" stroke="red" stroke-width="3" />    
-  </g>
-</svg>
+<script>var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+svg.setAttribute('width', 450)
+svg.setAttribute('height', 450)
+svg.style.background = "PaleGreen";
+document.getElementsByTagName("solution")[0].appendChild(svg);
+var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+g.setAttribute('transform', 'translate(50,50)');
+svg.appendChild(g);
+
+var output = document.createElement('h1');
+output.style.fontSize = "24px";
+output.style.margin = '0.5em';
+document.getElementsByTagName("solution")[0].appendChild(output);
+
+function point(x, y) {
+  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  c.setAttribute('cx', x * 50);
+  c.setAttribute('cy', y * 50);
+  c.setAttribute('r', 8)
+  g.appendChild(c);
+}
+
+var count = 1;
+var delay = 0;
+
+function polygon(pArray, color) {
+  var p = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+  var points = '';
+  for (var i = 0; i < pArray.length; i++) {
+    points += pArray[i][0] * 50 + ', ' + pArray[i][1] * 50 + ' ';
+  }
+  p.setAttribute('points', points);
+  p.setAttribute('fill', 'none');
+  p.setAttribute('stroke', 'red')
+  p.setAttribute('stroke-width', 4);
+  delay += 200;
+  setTimeout(function() {
+    g.appendChild(p);
+    output.innerHTML = count++;
+    setTimeout(function() {
+      p.setAttribute('stroke', 'blue');
+      p.setAttribute('stroke-width', 1);
+    }, 200)
+  }, delay);
+}
+
+for (var i = 0; i < 8; i++) {
+  for (var j = 0; j < 8; j++) {
+    point(i, j);
+  }
+}
+
+var p0, p1, p2, p3;
+for (var k = 1; k < 8; k++) {
+  for (var i = 0; i < 8 - k; i++) {
+    for (var j = 0; j < 8 - k; j++) {
+      p0 = [i, j];
+      p1 = [i + k, j];
+      p2 = [i + k, j + k];
+      p3 = [i, j + k];
+      polygon([p0, p1, p2, p3]);
+    }
+  }
+}
+
+p0 = [3, 0];
+p1 = [7, 3];
+p2 = [4, 7];
+p3 = [0, 4];
+polygon([p0, p1, p2, p3]);
+
+p0 = [0, 3];
+p1 = [3, 7];
+p2 = [7, 4];
+p3 = [4, 0];
+polygon([p0, p1, p2, p3]);</script>
 </solution>
 
   </article>
@@ -171,7 +233,7 @@ The extra 2 are slant with side = 5. See below:
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">These are the daily questions from Dr. Kevin Wang, Areteem Institute. &copy; Copyright 2015</p>
+        <p class="text">These are the daily questions from Dr. Kevin Wang, <a href="http://www.areteem.org">Areteem Institute</a>. &copy; Copyright 2015</p>
       </div>
     </div>
 

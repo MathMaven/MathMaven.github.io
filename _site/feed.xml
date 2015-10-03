@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Math Challenges by Dr. Kevin Wang</title>
-    <description>These are the daily questions from Dr. Kevin Wang, Areteem Institute. &amp;copy; Copyright 2015</description>
+    <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015</description>
     <link>http://mathmaven.github.io/</link>
     <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Oct 2015 17:34:02 -0700</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2015 17:34:02 -0700</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2015 18:35:32 -0700</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2015 18:35:32 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -41,20 +41,82 @@ Daily Magic Spells October 1, 2015&lt;/p&gt;
 &lt;br /&gt;
 The extra 2 are slant with side = 5. See below:
 &lt;br /&gt;
-&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt; 
-  &lt;g fill=&quot;none&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot;&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 10 l215 0&quot;&gt;&lt;/path&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 40 l215 0&quot;&gt;&lt;/path&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 70 l215 0&quot;&gt;&lt;/path&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 100 l215 0&quot;&gt;&lt;/path&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 130 l215 0&quot;&gt;&lt;/path&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 160 l215 0&quot;&gt;&lt;/path&gt;
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 190 l215 0&quot;&gt;&lt;/path&gt;      
-    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 220 l215 0&quot;&gt;&lt;/path&gt;          
-    &lt;path d=&quot;M 6 101 L 128 10 217 129 97 220 z&quot; stroke=&quot;blue&quot; stroke-width=&quot;3&quot; /&gt;
-    &lt;path d=&quot;M 6 130 L 98 10 217 99 128 220 z&quot; stroke=&quot;red&quot; stroke-width=&quot;3&quot; /&gt;    
-  &lt;/g&gt;
-&lt;/svg&gt;
+&lt;script&gt;var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+svg.setAttribute('width', 450)
+svg.setAttribute('height', 450)
+svg.style.background = &quot;PaleGreen&quot;;
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
+var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+g.setAttribute('transform', 'translate(50,50)');
+svg.appendChild(g);
+
+var output = document.createElement('h1');
+output.style.fontSize = &quot;24px&quot;;
+output.style.margin = '0.5em';
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(output);
+
+function point(x, y) {
+  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  c.setAttribute('cx', x * 50);
+  c.setAttribute('cy', y * 50);
+  c.setAttribute('r', 8)
+  g.appendChild(c);
+}
+
+var count = 1;
+var delay = 0;
+
+function polygon(pArray, color) {
+  var p = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+  var points = '';
+  for (var i = 0; i &lt; pArray.length; i++) {
+    points += pArray[i][0] * 50 + ', ' + pArray[i][1] * 50 + ' ';
+  }
+  p.setAttribute('points', points);
+  p.setAttribute('fill', 'none');
+  p.setAttribute('stroke', 'red')
+  p.setAttribute('stroke-width', 4);
+  delay += 200;
+  setTimeout(function() {
+    g.appendChild(p);
+    output.innerHTML = count++;
+    setTimeout(function() {
+      p.setAttribute('stroke', 'blue');
+      p.setAttribute('stroke-width', 1);
+    }, 200)
+  }, delay);
+}
+
+for (var i = 0; i &lt; 8; i++) {
+  for (var j = 0; j &lt; 8; j++) {
+    point(i, j);
+  }
+}
+
+var p0, p1, p2, p3;
+for (var k = 1; k &lt; 8; k++) {
+  for (var i = 0; i &lt; 8 - k; i++) {
+    for (var j = 0; j &lt; 8 - k; j++) {
+      p0 = [i, j];
+      p1 = [i + k, j];
+      p2 = [i + k, j + k];
+      p3 = [i, j + k];
+      polygon([p0, p1, p2, p3]);
+    }
+  }
+}
+
+p0 = [3, 0];
+p1 = [7, 3];
+p2 = [4, 7];
+p3 = [0, 4];
+polygon([p0, p1, p2, p3]);
+
+p0 = [0, 3];
+p1 = [3, 7];
+p2 = [7, 4];
+p3 = [4, 0];
+polygon([p0, p1, p2, p3]);&lt;/script&gt;
 &lt;/solution&gt;
 </description>
         <pubDate>Thu, 01 Oct 2015 11:52:55 -0700</pubDate>

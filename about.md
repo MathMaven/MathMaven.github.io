@@ -6,4 +6,4 @@ permalink: /about/
 
 These are Math problems from <a href="http://www.areteem.org"> Areteem Institute </a>
 
-<img src="_include/Areteem.JPG"/>
+<img src="../r/Areteem.JPG"/>
