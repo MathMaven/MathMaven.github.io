@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>20151002 - Count How Many Zeros</title>
-  <meta name="description" content="How many zeros are in all the numbers from 1 to 1000000?">
+  <meta name="description" content="Areteem魔法学园每日一题 2015年10月2日">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://mathmaven.github.io/numbertheory/2015/10/02/count-how-many-zeros.html">
-  <link rel="alternate" type="application/rss+xml" title="Daily Math Challenges by Dr. Kevin Wang" href="http://mathmaven.github.io/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Daily Math Challenges by Dr. Kevin Wang</a>
+    <a class="site-title" href="/">Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -83,7 +83,9 @@
   </header>
 
   <article class="post-content">
-    <p>How many zeros are in all the numbers from 1 to 1000000?</p>
+    <h4 id="areteem-2015102">Areteem魔法学园每日一题 2015年10月2日</h4>
+
+<p>How many zeros are in all the numbers from 1 to 1000000?</p>
 
 <h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
@@ -92,17 +94,18 @@
 <ol>
 <li>First, take 1,000,000 out of the question. Just remember to add six zeros at the end. We are left with one through 999,999. Doing this problem by casework, there are five cases. The case number corresponds to the number of zeros that numbers in that case counts.</li><br />
 
-<li> <strong>Case one are all the numbers with one zero.</strong> The zero can go in five places. Take note that zeros can never go in the first place value of any number. The other place values each has nine choices, one through nine. So it's 1(Number of zeros in the case)*5(Number of ways the zeros can be put)*9^5(Number of ways the other numbers can be put in.)+4*9^4(5 digit numbers)+3*9^3+2*9^2+9.</li><br />
+<li> <strong>Case one are all the numbers with one zero.</strong> The zero can go in five places. Take note that zeros can never go in the first place value of any number. The other place values each has nine choices, one through nine. So it's 1(Number of zeros in the case)*5(Number of ways the zeros can be put)*$9^5$(Number of ways the other numbers can be put in.)+4*$9^4$(5 digit numbers)+3*$9^3$+2*$9^2$+9.</li><br />
 
-<li><strong>Case two is with two zeros.</strong> So it's 2(5C2(10)*9^4+4C2(6)*9^3+3C2(3)*9^2+9).</li><br />
+<li><strong>Case two is with two zeros.</strong> So it's 2($\binom{5}{2}$(10)*$9^4$+$\binom{4}{2}$(6)*$9^3$+$\binom{3}{2}$(3)*$9^2$+9).</li><br />
 
-<li><strong>Case three is with three zeros.</strong> So it's  3(5C3(10)*9^3+4C3(4)*9^2+9).</li><br />
+<li><strong>Case three is with three zeros.</strong> So it's  3($\binom{5}{3}$(10)*$9^3$+$\binom{4}{3}$(4)*$9^2$+9).</li><br />
   
-<li><strong>Case four are numbers with four zeros.</strong> So it's 4(5C4(5)*9^2+9).</li><br />
+<li><strong>Case four are numbers with four zeros.</strong> So it's 4($\binom{5}{4}$(5)*$9^2$+9).</li><br />
   
 <li><strong>Case five is with five zeros.</strong> So it's 5*9.</li><br />
 
 <li>Add all of them up plus the six from 1,000,000, you get <strong>488,895.</strong></li><br />
+
 </ol>
 
 </solution>
@@ -118,12 +121,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Daily Math Challenges by Dr. Kevin Wang</h2>
+    <h2 class="footer-heading">Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>Daily Math Challenges by Dr. Kevin Wang</li>
+          <li>Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry</li>
           <li><a href="mailto:"></a></li>
         </ul>
       </div>
