@@ -1,9 +1,8 @@
 # Site settings
 title: Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry
 # email: ev3commander@outlook.com
-description: These are the daily questions from Dr. Kevin Wang, <a href="http://www.areteem.org">Areteem Institute</a>. &copy; Copyright 2015
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mathmaven.github.io" # the base hostname & protocol for your site
+url: "http://mathmaven.github.io" 
 
 github_username: MathMaven
 
