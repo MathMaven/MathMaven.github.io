@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150731- Find Degree of Angle in Semicircle</title>
-  <meta name="description" content="In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45°, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees. O is the ...">
+  <title>20150917 - How do you plant 9 trees</title>
+  <meta name="description" content="Areteem魔法学园每日一题2015年9月17日">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Math Challenges by Dr. Kevin Wang" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -57,8 +57,8 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">20150731- Find Degree of Angle in Semicircle</h1>
-    <p class="post-meta">Jul 31, 2015</p>
+    <h1 class="post-title">20150917 - How do you plant 9 trees</h1>
+    <p class="post-meta">Sep 17, 2015 • richardwsong</p>
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -83,54 +83,68 @@
   </header>
 
   <article class="post-content">
-    <p>In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45°, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees. O is the center of the circle.</p>
+    <p>Areteem魔法学园每日一题2015年9月17日</p>
 
-<svg width="250" height="250" style="stroke:blue;stroke-width:1">
+<p>种9棵树，要求种成10排，每排3棵。</p>
 
-  <path d="M50,100 A90,90 0 1,1 230,100" fill="none" />
-
-  <line x1="50" y1="100" x2="230" y2="100" style="stroke:blue;stroke-width:1" />
-  <line x1="50" y1="100" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="100" y2="50" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-
-  <text x="35" y="110" fill="blue">A</text>
-  <text x="240" y="110" fill="blue">B</text>
-  <text x="140" y="12" fill="blue">C</text>
-  <text x="50" y="50" fill="blue">D</text>
-  <text x="120" y="50" fill="blue">E</text>
-  <text x="135" y="115" fill="blue">O</text>
-  <text x="120" y="28" fill="none" style="stroke:red; font-size: 12px;">?</text>
-</svg>
+<p>How do you plant 9 trees in 10 rows, 3 trees per row?</p>
 
 <h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
 <solution>
-First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\sim \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&deg;, $\angle$ACO = 45&deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&deg;, and $\angle$ACD = 60&deg; - 45&deg; = 15&deg;. <br /><br />
 
-<svg width="250" height="250" style="stroke:blue;stroke-width:1">
+<script>var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+svg.setAttribute('width', 300)
+svg.setAttribute('height', 300)
+svg.style.background = "PaleGreen";
+document.getElementsByTagName("solution")[0].appendChild(svg);
+var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+g.setAttribute('transform', 'translate(50,50)');
+svg.appendChild(g);
 
-  <path d="M50,100 A90,90 0 1,1 230,100" fill="none" />
 
-  <line x1="50" y1="100" x2="230" y2="100" style="stroke:blue;stroke-width:1" />
-  <line x1="50" y1="100" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="100" y2="50" style="stroke:red;stroke-width:1" />
-  <line x1="65" y1="50" x2="140" y2="10" style="stroke:red;stroke-width:1" />
-  <line x1="140" y1="100" x2="140" y2="10" style="stroke:green;stroke-width:1" />
-  <line x1="140" y1="100" x2="65" y2="50" style="stroke:green;stroke-width:1" />
-  <line x1="140" y1="50" x2="100" y2="50" style="stroke:green;stroke-width:1" />
+function point(x, y) {
+  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  c.setAttribute('cx', x * 5 );
+  c.setAttribute('cy', y * 5);
+  c.setAttribute('r', 10)
+  g.appendChild(c);
+}
+function line(x1, y1, x2, y2) {
+  var aLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    aLine.setAttribute('x1', x1 * 5);
+    aLine.setAttribute('y1', y1 * 5);
+    aLine.setAttribute('x2', x2 * 5);
+    aLine.setAttribute('y2', y2 * 5 );
+    aLine.setAttribute('stroke', 'blue');
+    aLine.setAttribute('stroke-width', 2);
 
-  <text x="35" y="110" fill="blue">A</text>
-  <text x="240" y="110" fill="blue">B</text>
-  <text x="140" y="12" fill="blue">C</text>
-  <text x="50" y="50" fill="blue">D</text>
-  <text x="120" y="50" fill="blue">E</text>
-  <text x="150" y="50" fill="blue">M</text>
-  <text x="135" y="115" fill="blue">O</text>
-</svg>
+  g.appendChild(aLine);
+}
+
+point(0,0);
+point(20,0);
+point(40,0);
+point(10,20);
+point(20,20);
+point(30,20);
+point(0,40);
+point(20,40);
+point(40,40);
+
+line(0,0,40,0);
+line(10,20,30,20);
+line(0,40,40,40);
+line(20,0,20,40);
+line(0,0,40,40);
+line(40,0,0,40);
+line(0,0,20,40);
+line(40,0,20,40);
+line(20,0,0,40);
+line(20,0,40,40);
+</script>
 
 </solution>
-
 
   </article>
 
