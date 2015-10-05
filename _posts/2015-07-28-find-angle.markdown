@@ -3,6 +3,7 @@ layout: post
 title:  "20150728 - Find Degree of Angle in a Square"
 date:   2015-07-28 18:52:55
 categories: Geometry Trigonometry
+author: ev3commander
 ---
 
 In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of $\angle$EAF in degrees.

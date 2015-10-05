@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is a playground to render Math problems with the best look they deserve.
+These are Math problems from <a href="http://www.areteem.org"> Areteem Institute </a>
+
+<img src="../r/Areteem.JPG"/>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<<<<<<< HEAD
   <channel>
     <title>Daily Math Challenges by Dr. Kevin Wang</title>
     <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015
@@ -13,269 +14,602 @@
       <item>
         <title>20150731- Find Degree of Angle in Semicircle</title>
         <description>&lt;p&gt;A two dimensional square has 4 vertices and 4 sides, with a sum 8. A three dimensional cube has 8 vertices, 12 edges, and 6 faces, with a sum 26. Imagine a four dimensional hypercube: what is the sum of the numbers of its vertices, edges, 2d faces, and 3d hyperfaces? What is the pattern?&lt;/p&gt;
+=======
+<channel>
+<title>Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry</title>
+<description></description>
+<link>http://mathmaven.github.io/</link>
+<atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+<pubDate>Sun, 04 Oct 2015 19:13:59 -0700</pubDate>
+<lastBuildDate>Sun, 04 Oct 2015 19:13:59 -0700</lastBuildDate>
+<generator>Jekyll v2.5.3</generator>
+
+<item>
+<title>20151002 - Count How Many Zeros</title>
+<description>&lt;h4 id=&quot;areteem-2015102&quot;&gt;Areteem魔法学园每日一题 2015年10月2日&lt;/h4&gt;
+
+&lt;p&gt;How many zeros are in all the numbers from 1 to 1000000?&lt;/p&gt;
+>>>>>>> origin/master
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
 &lt;solution&gt;
-Coming soon!
-&lt;/solution&gt;
 
-</description>
-        <pubDate>Fri, 31 Jul 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/numbertheory/2015/07/31/four-dimensional-hypercube.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/07/31/four-dimensional-hypercube.html</guid>
-        
-        
-        <category>numbertheory</category>
-        
-      </item>
-    
-      <item>
-        <title>20150731- Find Degree of Angle in Semicircle</title>
-        <description>&lt;p&gt;In the diagram below, AB is the diameter of the semicircle. $\angle$CAB is 45°, E is the midpoint of AC, and DE // AB. Find $\angle$ACD in degrees. O is the center of the circle.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First, take 1,000,000 out of the question. Just remember to add six zeros at the end. We are left with one through 999,999. Doing this problem by casework, there are five cases. The case number corresponds to the number of zeros that numbers in that case counts.&lt;/li&gt;&lt;br /&gt;
 
-&lt;svg width=&quot;250&quot; height=&quot;250&quot; style=&quot;stroke:blue;stroke-width:1&quot;&gt;
+&lt;li&gt; &lt;strong&gt;Case one are all the numbers with one zero.&lt;/strong&gt; The zero can go in five places. Take note that zeros can never go in the first place value of any number. The other place values each has nine choices, one through nine. So it's 1(Number of zeros in the case)*5(Number of ways the zeros can be put)*$9^5$(Number of ways the other numbers can be put in.)+4*$9^4$(5 digit numbers)+3*$9^3$+2*$9^2$+9.&lt;/li&gt;&lt;br /&gt;
 
-  &lt;path d=&quot;M50,100 A90,90 0 1,1 230,100&quot; fill=&quot;none&quot; /&gt;
+&lt;li&gt;&lt;strong&gt;Case two is with two zeros.&lt;/strong&gt; So it's 2($\binom{5}{2}$(10)*$9^4$+$\binom{4}{2}$(6)*$9^3$+$\binom{3}{2}$(3)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
 
-  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;230&quot; y2=&quot;100&quot; style=&quot;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;100&quot; y2=&quot;50&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
-
-  &lt;text x=&quot;35&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
-  &lt;text x=&quot;240&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;text x=&quot;140&quot; y=&quot;12&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
-  &lt;text x=&quot;50&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
-  &lt;text x=&quot;120&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;135&quot; y=&quot;115&quot; fill=&quot;blue&quot;&gt;O&lt;/text&gt;
-  &lt;text x=&quot;120&quot; y=&quot;28&quot; fill=&quot;none&quot; style=&quot;stroke:red; font-size: 12px;&quot;&gt;?&lt;/text&gt;
-&lt;/svg&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-First, create two lines CO and DO. Then, CO = DO. Extend DE to a point on CO. Call it M. Since E is the midpoint of AC, $\triangle$CEM $\sim \triangle$CAO. Since CE:AC = 1:2, CM:MO = 1:2, and M is the midpoint of CO. Also, since DM // AB, DM is an altitude of $\triangle$CDO. Since $\angle$CAB = 45&amp;deg;, $\angle$ACO = 45&amp;deg;. Because DM is both an altitude and a median, DC = DO, so $\triangle$CDO is equilateral. Then, $\angle$DCO = 60&amp;deg;, and $\angle$ACD = 60&amp;deg; - 45&amp;deg; = 15&amp;deg;. &lt;br /&gt;&lt;br /&gt;
-
-&lt;svg width=&quot;250&quot; height=&quot;250&quot; style=&quot;stroke:blue;stroke-width:1&quot;&gt;
-
-  &lt;path d=&quot;M50,100 A90,90 0 1,1 230,100&quot; fill=&quot;none&quot; /&gt;
-
-  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;230&quot; y2=&quot;100&quot; style=&quot;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;50&quot; y1=&quot;100&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;100&quot; y2=&quot;50&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;65&quot; y1=&quot;50&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:red;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;140&quot; y1=&quot;100&quot; x2=&quot;140&quot; y2=&quot;10&quot; style=&quot;stroke:green;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;140&quot; y1=&quot;100&quot; x2=&quot;65&quot; y2=&quot;50&quot; style=&quot;stroke:green;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;140&quot; y1=&quot;50&quot; x2=&quot;100&quot; y2=&quot;50&quot; style=&quot;stroke:green;stroke-width:1&quot; /&gt;
-
-  &lt;text x=&quot;35&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
-  &lt;text x=&quot;240&quot; y=&quot;110&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;text x=&quot;140&quot; y=&quot;12&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
-  &lt;text x=&quot;50&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
-  &lt;text x=&quot;120&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;150&quot; y=&quot;50&quot; fill=&quot;blue&quot;&gt;M&lt;/text&gt;
-  &lt;text x=&quot;135&quot; y=&quot;115&quot; fill=&quot;blue&quot;&gt;O&lt;/text&gt;
-&lt;/svg&gt;
-
-&lt;/solution&gt;
-
-</description>
-        <pubDate>Fri, 31 Jul 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html</guid>
-        
-        
-        <category>geometry</category>
-        
-        <category>circle</category>
-        
-      </item>
-    
-      <item>
-        <title>20150730- Number Number on a Star</title>
-        <description>&lt;p&gt;Put the 10 numbers 1,2,3,4,5,6,7,8,9,10 and 12 into the circles in the diagram, such that the sums of the four numbers along each line are all equal. There are multiple solutions, and you only need to give one.&lt;/p&gt;
-
-&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
-  &lt;line x1=&quot;25&quot; y1=&quot;100&quot; x2=&quot;200&quot; y2=&quot;100&quot; style=&quot;stroke:rgb(0,0,255);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;100&quot; y1=&quot;25&quot; x2=&quot;45&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,255);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;100&quot; y1=&quot;25&quot; x2=&quot;170&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,255);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;25&quot; y1=&quot;100&quot; x2=&quot;170&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,255);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;45&quot; y1=&quot;210&quot; x2=&quot;200&quot; y2=&quot;100&quot; style=&quot;stroke:rgb(0,0,255);stroke-width:1&quot; /&gt;
-
-  &lt;circle cx=&quot;100&quot; cy=&quot;25&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;circle cx=&quot;25&quot; cy=&quot;92&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;circle cx=&quot;75&quot; cy=&quot;92&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;circle cx=&quot;135&quot; cy=&quot;92&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;circle cx=&quot;188&quot; cy=&quot;92&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-
-  &lt;circle cx=&quot;70&quot; cy=&quot;135&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;circle cx=&quot;140&quot; cy=&quot;135&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-
-  &lt;circle cx=&quot;107&quot; cy=&quot;165&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-
-  &lt;circle cx=&quot;40&quot; cy=&quot;200&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;circle cx=&quot;165&quot; cy=&quot;200&quot; r=&quot;20&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt; 
-&lt;/svg&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-Coming soon
-&lt;/solution&gt;
-
-</description>
-        <pubDate>Thu, 30 Jul 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/numbertheory/2015/07/30/number-number-on-the-star.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/07/30/number-number-on-the-star.html</guid>
-        
-        
-        <category>numbertheory</category>
-        
-      </item>
-    
-      <item>
-        <title>20150729 - How Many Matches to Move</title>
-        <description>&lt;p&gt;On the table, an equation is formed with matches in Roman numerals: &lt;br /&gt;&lt;br /&gt;
-XI + I = X
-&lt;br /&gt;&lt;br /&gt;
-meaning 11 + 1 = 10, which is wrong. At least how many matches should be moved to make the equation correct?&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-Zero. Go to the opposite side of the table, the equation becomes X = I + IX.
-&lt;/solution&gt;
-
-</description>
-        <pubDate>Wed, 29 Jul 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/brainteaser/2015/07/29/move-n-match.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/brainteaser/2015/07/29/move-n-match.html</guid>
-        
-        
-        <category>brainteaser</category>
-        
-      </item>
-    
-      <item>
-        <title>20150728 - Find Degree of Angle in a Square</title>
-        <description>&lt;p&gt;In square ABCD, let E and F be points on BC and CD respectively, and BE=1, EF=4, FD=3. Find the measure of $\angle$EAF in degrees.&lt;/p&gt;
-
-&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt;
-  &lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-
-  &lt;text x=&quot;4&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
-  &lt;text x=&quot;214&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;text x=&quot;214&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
-  &lt;text x=&quot;4&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
-
-  &lt;text x=&quot;214&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;120&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
-  &lt;text x=&quot;215&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;80&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
-  &lt;text x=&quot;170&quot; y=&quot;165&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
-
-
-  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;214&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;214&quot; y1=&quot;60&quot; x2=&quot;116&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;15&quot; y1=&quot;15&quot; x2=&quot;116&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
+&lt;li&gt;&lt;strong&gt;Case three is with three zeros.&lt;/strong&gt; So it's  3($\binom{5}{3}$(10)*$9^3$+$\binom{4}{3}$(4)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
   
-&lt;/svg&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-Extend line segment CD to point G, let DG = 1. By construction $\triangle$ABE $\cong$ $\triangle$ADG, then line AG = AE, and EF = 4 = (GD + DF) = GF, so $\triangle$AGF $\cong$ $\triangle$AEF. &lt;br /&gt;
-Also $\angle$BAE = $\angle$DAG, and $\angle$BAD = 90&amp;deg;, so $\angle$EAG = 90&amp;deg;. &lt;br /&gt;
-Then we know $\angle$EAF = $\frac{1}{2}\angle$EAG = 45&amp;deg;.
-&lt;br /&gt;&lt;br /&gt;
-&lt;svg width=&quot;350&quot; height=&quot;250&quot;&gt;
-  &lt;rect x=&quot;65&quot; y=&quot;15&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-
-  &lt;text x=&quot;64&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;A&lt;/text&gt;
-  &lt;text x=&quot;274&quot; y=&quot;15&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
-  &lt;text x=&quot;274&quot; y=&quot;222&quot; fill=&quot;blue&quot;&gt;C&lt;/text&gt;
-  &lt;text x=&quot;64&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;D&lt;/text&gt;
-
-  &lt;text x=&quot;274&quot; y=&quot;70&quot; fill=&quot;red&quot;&gt;E&lt;/text&gt;
-  &lt;text x=&quot;170&quot; y=&quot;230&quot; fill=&quot;red&quot;&gt;F&lt;/text&gt;
-  &lt;text x=&quot;271&quot; y=&quot;45&quot; fill=&quot;blue&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;130&quot; y=&quot;230&quot; fill=&quot;blue&quot;&gt;3&lt;/text&gt;
-  &lt;text x=&quot;205&quot; y=&quot;150&quot; fill=&quot;blue&quot;&gt;4&lt;/text&gt;
-  &lt;text x=&quot;30&quot; y=&quot;230&quot; fill=&quot;green&quot;&gt;1&lt;/text&gt;
-
-  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;264&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;264&quot; y1=&quot;60&quot; x2=&quot;176&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;65&quot; y1=&quot;15&quot; x2=&quot;176&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-
-  &lt;text x=&quot;1&quot; y=&quot;230&quot; fill=&quot;green&quot;&gt;G&lt;/text&gt;
-  &lt;line x1=&quot;10&quot; y1=&quot;214&quot; x2=&quot;70&quot; y2=&quot;214&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;10&quot; y1=&quot;214&quot; x2=&quot;65&quot; y2=&quot;15&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
+&lt;li&gt;&lt;strong&gt;Case four are numbers with four zeros.&lt;/strong&gt; So it's 4($\binom{5}{4}$(5)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
   
-&lt;/svg&gt;
+&lt;li&gt;&lt;strong&gt;Case five is with five zeros.&lt;/strong&gt; So it's 5*9.&lt;/li&gt;&lt;br /&gt;
+
+&lt;li&gt;Add all of them up plus the six from 1,000,000, you get &lt;strong&gt;488,895.&lt;/strong&gt;&lt;/li&gt;&lt;br /&gt;
+
+&lt;/ol&gt;
+
 &lt;/solution&gt;
-
 </description>
-        <pubDate>Tue, 28 Jul 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/geometry/trigonometry/2015/07/28/find-angle.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/geometry/trigonometry/2015/07/28/find-angle.html</guid>
-        
-        
-        <category>geometry</category>
-        
-        <category>trigonometry</category>
-        
-      </item>
-    
-      <item>
-        <title>20150727 - Find Sum of Angles in Squares</title>
-        <description>&lt;p&gt;Three squares are drawn below. Find the sum of angle 1 and angle 2 in degrees.&lt;/p&gt;
+<pubDate>Fri, 02 Oct 2015 06:37:35 -0700</pubDate>
+<link>http://mathmaven.github.io/numbertheory/2015/10/02/count-how-many-zeros.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/10/02/count-how-many-zeros.html</guid>
 
-&lt;svg width=&quot;350&quot; height=&quot;150&quot;&gt;
-  &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;110&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;210&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;10&quot; y1=&quot;110&quot; x2=&quot;310&quot; y2=&quot;10&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;110&quot; y1=&quot;110&quot; x2=&quot;310&quot; y2=&quot;10&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;text x=&quot;45&quot; y=&quot;108&quot; fill=&quot;red&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;140&quot; y=&quot;108&quot; fill=&quot;red&quot;&gt;2&lt;/text&gt;
+
+<category>numbertheory</category>
+
+</item>
+
+<item>
+<title>20151001 - How Many Squares With Positive Integer Side Lengths</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月1日&lt;/p&gt;
+
+&lt;p&gt;Areteem Institute of Witchcraft and Wizardry
+Daily Magic Spells October 1, 2015&lt;/p&gt;
+
+&lt;p&gt;在 8x8 的均匀点阵中，相邻点的距离为1。问：以点阵中的点为顶点且边长为正整数的正方形共有多少个？&lt;/p&gt;
+
+&lt;p&gt;In an 8x8 array of evenly spaced points, the distance between adjacent points is 1. Find the number of squares with positive integer side lengths and all vertices belonging to the array.
+&lt;br /&gt;&lt;/p&gt;
+&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt; 
+  &lt;g fill=&quot;none&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot;&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 10 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 40 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 70 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 100 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 130 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 160 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 190 l215 0&quot;&gt;&lt;/path&gt;      
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 220 l215 0&quot;&gt;&lt;/path&gt;          
+  &lt;/g&gt;
 &lt;/svg&gt;
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
 &lt;solution&gt;
-In the diagram, angle 2&#39;=angle 2, and the green triangle is an isosceles right triangle, thus the desired sum of angles is 45 degrees.
+
+49+36+25+16+9+4+1+2 = 142
+&lt;br /&gt;
+The extra 2 are slant with side = 5. See below:
+&lt;br /&gt;
+&lt;script&gt;var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+svg.setAttribute('width', 300)
+svg.setAttribute('height', 300)
+//svg.style.background = &quot;PaleGreen&quot;;
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
+var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+g.setAttribute('transform', 'translate(32,32)');
+svg.appendChild(g);
+
+var output = document.createElement('h1');
+output.style.fontSize = &quot;24px&quot;;
+output.style.margin = '0.5em';
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(output);
+
+function point(x, y) {
+  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  c.setAttribute('cx', x * 32);
+  c.setAttribute('cy', y * 32);
+  c.setAttribute('r', 3)
+  g.appendChild(c);
+}
+
+var count = 1;
+var delay = 0;
+
+function polygon(pArray, color) {
+  var p = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+  var points = '';
+  for (var i = 0; i &lt; pArray.length; i++) {
+    points += pArray[i][0] * 32 + ', ' + pArray[i][1] * 32 + ' ';
+  }
+  p.setAttribute('points', points);
+  p.setAttribute('fill', 'none');
+  p.setAttribute('stroke', 'red')
+  p.setAttribute('stroke-width', 4);
+  delay += 200;
+  setTimeout(function() {
+    g.appendChild(p);
+    output.innerHTML = count++;
+    setTimeout(function() {
+      p.setAttribute('stroke', 'blue');
+      p.setAttribute('stroke-width', 1);
+    }, 200)
+  }, delay);
+}
+
+for (var i = 0; i &lt; 8; i++) {
+  for (var j = 0; j &lt; 8; j++) {
+    point(i, j);
+  }
+}
+
+var p0, p1, p2, p3;
+for (var k = 1; k &lt; 8; k++) {
+  for (var i = 0; i &lt; 8 - k; i++) {
+    for (var j = 0; j &lt; 8 - k; j++) {
+      p0 = [i, j];
+      p1 = [i + k, j];
+      p2 = [i + k, j + k];
+      p3 = [i, j + k];
+      polygon([p0, p1, p2, p3]);
+    }
+  }
+}
+
+p0 = [3, 0];
+p1 = [7, 3];
+p2 = [4, 7];
+p3 = [0, 4];
+polygon([p0, p1, p2, p3]);
+
+p0 = [0, 3];
+p1 = [3, 7];
+p2 = [7, 4];
+p3 = [4, 0];
+polygon([p0, p1, p2, p3]);&lt;/script&gt;
+&lt;/solution&gt;
+</description>
+<pubDate>Thu, 01 Oct 2015 11:52:55 -0700</pubDate>
+<link>http://mathmaven.github.io/numbertheory/2015/10/01/count-squares-with-integer-sides.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/10/01/count-squares-with-integer-sides.html</guid>
+
+
+<category>numbertheory</category>
+
+</item>
+
+<item>
+<title>20150930 - Who is Taller</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月30日&lt;/p&gt;
+
+&lt;p&gt;Areteem Institute of Witchcraft and Wizardry
+Daily Magic Spells September 30, 2015&lt;/p&gt;
+
+&lt;p&gt;100名学生身高各不相同。他们排成了一个10x10的方阵。从每行中挑出最高的学生，再从这10个各行最高的学生中选最矮的，称其为甲。然后从每列中挑出最矮的学生，再从这10个每列最矮的学生中选最高的，称其为乙。甲和乙谁高？&lt;/p&gt;
+
+&lt;p&gt;100 students, all with distinct heights, stand in a 10x10 array. From each row, choose the tallest student, and among these 10 tallest in their rows, assume student A is the shortest one. Next, from each column, choose the shortest student, and among these 10 shortest in their columns, assume student B is the tallest one. Between A and B, who is taller?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+There are 4 possibilities of A and B in the array.
 &lt;br /&gt;&lt;br /&gt;
-&lt;svg width=&quot;350&quot; height=&quot;300&quot;&gt;
-  &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;110&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;210&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;10&quot; y=&quot;110&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;110&quot; y=&quot;110&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
-  &lt;rect x=&quot;210&quot; y=&quot;110&quot; width=&quot;100&quot; height=&quot;100&quot; style=&quot;fill:none;stroke:blue;stroke-width:1&quot; /&gt;
+1. They are on the same row.
+&lt;br /&gt;
+In this case, A &amp;gt; B because A is supposed to be the tallest in the same row.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+2. They are on the same column.
+&lt;br /&gt;
+In this case, A &amp;gt; B because B is supposed to be the shortest in the same column.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;70&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;60&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+3. They are on different rows and different columns:
+&lt;br /&gt;
+In this case, C is on the same row as A, so A &amp;gt; C. C is on the same column as B, so C &amp;gt; B. Therefore A &amp;gt; C.&lt;br /&gt;
 
-  &lt;line x1=&quot;10&quot; y1=&quot;110&quot; x2=&quot;310&quot; y2=&quot;10&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;110&quot; y1=&quot;110&quot; x2=&quot;310&quot; y2=&quot;10&quot; style=&quot;stroke:rgb(255,0,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;10&quot; y1=&quot;110&quot; x2=&quot;210&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
-  &lt;line x1=&quot;210&quot; y1=&quot;210&quot; x2=&quot;310&quot; y2=&quot;10&quot; style=&quot;stroke:rgb(0,255,0);stroke-width:1&quot; /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;220&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+  &lt;rect x=&quot;210&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+  &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;green&quot;&gt;C&lt;/text&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+In the above cases A is the taller one.
+&lt;br /&gt;&lt;br /&gt;
+4. A and B are actually the same person.
+&lt;br /&gt;
 
-  &lt;text x=&quot;45&quot; y=&quot;108&quot; fill=&quot;red&quot;&gt;1&lt;/text&gt;
-  &lt;text x=&quot;140&quot; y=&quot;108&quot; fill=&quot;red&quot;&gt;2&lt;/text&gt;
-  &lt;text x=&quot;45&quot; y=&quot;125&quot; fill=&quot;green&quot;&gt;2&#39;&lt;/text&gt;
+
+&lt;/solution&gt;
+</description>
+<pubDate>Wed, 30 Sep 2015 11:52:55 -0700</pubDate>
+<link>http://mathmaven.github.io/logic/2015/09/30/who-is-taller.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/logic/2015/09/30/who-is-taller.html</guid>
+
+
+<category>logic</category>
+
+</item>
+
+<item>
+<title>20150929 - Find the Length of Square</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月29日&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.&lt;/p&gt;
+
+&lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
+   &lt;g transform=&quot;translate(40, 50)&quot;&gt;
+      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
+      &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;400&quot; x2=&quot;400&quot; y2=&quot;200&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;200&quot; y2=&quot;300&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;100&quot; y1=&quot;150&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;D&lt;/text&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;A&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;B&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;C&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;E&lt;/text&gt;
+      &lt;text x=&quot;200&quot; y=&quot;320&quot; font-size=&quot;24&quot;&gt;F&lt;/text&gt;
+      &lt;text x=&quot;80&quot; y=&quot;170&quot; font-size=&quot;24&quot;&gt;G&lt;/text&gt;
+    &lt;/g&gt;
+  &lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         AH=HD , so area:   $\triangle$AHB = $\triangle$HDB &lt;br /&gt;
+         HF=FB , so area:   $\triangle$HDF = $\triangle$DFB &lt;br /&gt;
+         DG=GF , so area:   $\triangle$DGB = $\triangle$GFB &lt;br /&gt;
+         So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 &lt;br /&gt;    
+
+         AB=4
+&lt;br /&gt;&lt;br /&gt;
+&lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
+    &lt;g transform=&quot;translate(40, 50)&quot;&gt;
+      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
+      &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;400&quot; x2=&quot;400&quot; y2=&quot;200&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;200&quot; y2=&quot;300&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;100&quot; y1=&quot;150&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;200&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;red&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;10, 6&quot; /&gt;
+
+      &lt;text x=&quot;-30&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;D&lt;/text&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;A&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;B&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;C&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;E&lt;/text&gt;
+      &lt;text x=&quot;190&quot; y=&quot;330&quot; font-size=&quot;24&quot;&gt;F&lt;/text&gt;
+      &lt;text x=&quot;80&quot; y=&quot;170&quot; font-size=&quot;24&quot;&gt;G&lt;/text&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;H&lt;/text&gt;
+
+    &lt;/g&gt;
+    &lt;defs&gt;
+    &lt;style type=&quot;text/css&quot;&gt;&lt;![CDATA[
+      svg {
+        margin: 2em;
+        margin-bottom:-300px;
+        transform: scale(0.5);
+        transform-origin: 0% 0%;
+
+      }
+    ]]&gt;&lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;/svg&gt;
+&lt;/solution&gt;
+
+</description>
+<pubDate>Tue, 29 Sep 2015 08:30:55 -0700</pubDate>
+<link>http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</guid>
+
+
+<category>geometry</category>
+
+</item>
+
+<item>
+<title>20150925 - ABC+DEF+GHI=NNN</title>
+<description>&lt;p&gt;Three 3-digit numbers add up to another 3-digit number: ABC+DEF+GHI=NNN.  Each letter represents one digit among 0-9, and different letters represent different digits. The first digit of each of the numbers is nonzero. What is N? If the answer is not unique, find all possible values.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+  134 + 207 + 658 = 999 
+&lt;/solution&gt;
+
+</description>
+<pubDate>Fri, 25 Sep 2015 10:42:27 -0700</pubDate>
+<link>http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</guid>
+
+
+<category>numbertheory</category>
+
+<category>algebra</category>
+
+</item>
+
+<item>
+<title>20150924 - Throwing Coconuts</title>
+<description>&lt;p&gt;There is a huge pile of coconuts on the beach, totally 1000 coconuts. A monkey, who has nothing better to do, picks up one of the coconuts and throws it into the ocean, and divides the remaining coconuts into two piles. Then it chooses one of the piles, throws one coconut from the pile to the ocean, and divides the remaining ones in the pile into two piles. The monkey continues: at each step, it chooses one of the piles with at least 3 coconuts, throws one of the coconuts into the ocean, and divide the remaining ones in the pile into two smaller piles, not necessarily equal in size. Question: is it possible to reach a situation that each of the piles on the beach contains exactly 3 coconuts?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Solution One: Backtracking.  Assume the scenario of 3 coconuts per pile is reached.  One step before that, two piles are combined and one coconut is taken out of the ocean to form a 7-coconut pile.  Backtrack another step, either combine two 3-coconut piles or combine one pile of 3 and one pile of 7, then take back one coconut from the ocean, and a 7-coconut pile or a 11-coconut pile is formed. We can find the following pattern: no matter how the piles are combined, the number of coconuts in each pile always has a remainder 3 when divided by 4. If we keep backtracking to the beginning, the original pile of 1000 should also have a remainder 3 when divided by 4.  But this is obviously false, therefore the conclusion is &quot;not possible&quot;.
+&lt;br /&gt; &lt;br /&gt;
+Solution Two: The Method of Invariant. We look for a quantity that does not change during the whole process. At each step, one coconut is thrown away, and one pile is split into 2, so the number of coconuts decreases by 1 but the number of piles is increased by 1.  Thus the sum of the number of coconuts and the number of piles is unchanged (invariant). At the beginning, there are 1000 coconuts, in 1 pile, so the sum is 1001, and this number will never change. Assume the situation where each pile have 3 coconuts is reached. Let there be N piles, then the total number of coconuts plus the number of piles equals 3N+N=4N, which is a multiple of 4. But this number is supposed to equal 1001, which is NOT a multiple of 4, contradiction. Therefore the final answer is &quot;not possible.&quot;
+
+&lt;/solution&gt;
+
+</description>
+<pubDate>Thu, 24 Sep 2015 11:52:55 -0700</pubDate>
+<link>http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</guid>
+
+
+<category>numbertheory</category>
+
+</item>
+
+<item>
+<title>20150923 - Cut the Cake</title>
+<description>&lt;p&gt;Harry invited 7 friends to his birthday party. The shape of the birthday cake is a regular hexagon. He wants to cut the cake into 8 congruent pieces, cutting 5 times along straight lines (no horizontal cutting). How does he cut it?&lt;/p&gt;
+
+&lt;svg width=&quot;400&quot; height=&quot;350&quot;&gt;
+&lt;g transform=&quot;translate(0.000000,312.000000) scale(0.100000,-0.100000)&quot; fill=&quot;#000000&quot; stroke=&quot;none&quot;&gt;
+&lt;path d=&quot;M952 3048 c-5 -7 -86 -146 -179 -308 -94 -162 -238 -412 -320 -555
+-312 -541 -343 -596 -343 -615 0 -10 114 -216 253 -457 139 -241 327 -566 417
+-723 90 -157 166 -289 170 -293 5 -6 591 -8 1717 -7 6 0 41 53 79 117 37 65
+113 197 169 293 409 705 605 1052 605 1071 0 12 -98 191 -217 398 -119 207
+-271 471 -338 586 -67 116 -156 271 -199 345 -43 74 -85 141 -94 148 -12 9
+-200 12 -863 12 -665 0 -849 -3 -857 -12z m1790 -165 c47 -82 236 -410 421
+-730 l336 -582 -310 -538 c-464 -803 -500 -866 -521 -896 l-20 -28 -834 1
+-834 1 -24 37 c-55 86 -816 1412 -816 1423 0 11 64 124 405 714 67 116 191
+330 275 478 l155 267 841 0 842 0 84 -147z&quot; /&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+&lt;svg width=&quot;400&quot; height=&quot;350&quot;&gt;
+&lt;g transform=&quot;translate(0.000000,312.000000) scale(0.100000,-0.100000)&quot; fill=&quot;#000000&quot; stroke=&quot;none&quot;&gt;
+&lt;path d=&quot;M947 3038 c-27 -43 -86 -144 -217 -373 -73 -126 -199 -345 -280 -485
+-310 -537 -340 -591 -340 -610 0 -17 172 -320 605 -1065 67 -116 147 -256 179
+-313 32 -56 63 -102 70 -102 8 0 1589 0 1703 0 6 0 26 26 44 58 17 31 44 77
+59 102 15 25 79 135 142 245 468 809 601 1043 609 1061 8 22 8 23 -556 999
+-73 127 -165 286 -205 355 -39 69 -79 131 -88 138 -12 9 -201 12 -864 12
+l-848 0 -13 -22z m173 -733 l0 -725 -491 0 -490 0 32 58 c18 31 47 82 65 112
+18 30 107 186 199 345 163 283 225 391 350 605 33 58 90 156 125 218 l64 112
+73 0 73 0 0 -725z m692 2 c279 -395 508 -720 508 -722 0 -3 -268 -5 -595 -5
+l-595 0 0 725 0 726 87 -3 87 -3 508 -718z m658 -2 l0 -725 -67 0 -68 1 -422
+597 c-232 328 -463 654 -512 725 l-91 127 580 0 580 0 0 -725z m278 568 c49
+-87 237 -412 416 -722 179 -310 326 -566 326 -568 0 -1 -227 -3 -505 -3 l-505
+0 0 725 0 725 89 0 89 0 90 -157z m-1628 -2034 l0 -731 -71 5 c-38 2 -74 8
+-79 13 -8 9 -116 195 -450 774 -81 140 -199 346 -263 457 -64 111 -117 205
+-117 208 0 3 221 5 490 5 l490 0 0 -731z m1178 722 c-1 -5 -217 -333 -478
+-730 l-475 -721 -107 0 -108 0 0 730 0 730 586 0 c342 0 584 -4 582 -9z m172
+-721 l0 -730 -556 0 c-324 0 -554 4 -552 9 2 5 217 333 478 730 l475 721 78 0
+77 0 0 -730z m1016 708 c-8 -13 -148 -255 -311 -538 -430 -746 -486 -842 -507
+-873 -19 -26 -23 -27 -104 -27 l-84 0 0 730 0 730 510 0 510 0 -14 -22z&quot; /&gt;
+&lt;/g&gt;
 &lt;/svg&gt;
 &lt;/solution&gt;
 
 </description>
-        <pubDate>Mon, 27 Jul 2015 14:52:55 -0400</pubDate>
-        <link>http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html</link>
-        <guid isPermaLink="true">http://mathmaven.github.io/geometry/trigonometry/2015/07/27/find-sum-of-angles.html</guid>
-        
-        
-        <category>geometry</category>
-        
-        <category>trigonometry</category>
-        
-      </item>
-    
-  </channel>
+<pubDate>Wed, 23 Sep 2015 11:52:55 -0700</pubDate>
+<link>http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</guid>
+
+
+<category>geometry</category>
+
+</item>
+
+<item>
+<title>20150918 - Find How Many Apples</title>
+<description>&lt;p&gt;Ming went to the Farmer’s Market to sell apples. The first buyer bought half of Ming’s apples plus half an apple; the second buyer bought 1/3 of the remaining apples plus 1/3 of an apple; the third buyer bought 1/4 of the then remaining apples plus 1/4 of an apple. All apples were sold in whole without being cut. At the end Ming had 2 apples left. How many apples did Ming have at the beginning?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+$$ x-(x/2+1/2)=y $$
+
+$$  y-(y/3+1/3)=z $$ 
+
+$$  z-(z/4+1/4)=2 $$ 
+
+$$  z=3, y=5, x=11 $$ 
+&lt;/solution&gt;
+
+</description>
+<pubDate>Fri, 18 Sep 2015 10:42:27 -0700</pubDate>
+<link>http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</guid>
+
+
+<category>numbertheory</category>
+
+<category>algebra</category>
+
+</item>
+
+<item>
+<title>20150917 - How Do You Plant 9 Trees</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月17日&lt;/p&gt;
+
+&lt;p&gt;种9棵树，要求种成10排，每排3棵。&lt;/p&gt;
+
+&lt;p&gt;How do you plant 9 trees in 10 rows, 3 trees per row?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+&lt;script&gt;var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+svg.setAttribute('width', 300)
+svg.setAttribute('height', 300)
+svg.style.background = &quot;PaleGreen&quot;;
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
+var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+g.setAttribute('transform', 'translate(50,50)');
+svg.appendChild(g);
+
+
+function point(x, y) {
+  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  c.setAttribute('cx', x * 5 );
+  c.setAttribute('cy', y * 5);
+  c.setAttribute('r', 10)
+  g.appendChild(c);
+}
+function line(x1, y1, x2, y2) {
+  var aLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    aLine.setAttribute('x1', x1 * 5);
+    aLine.setAttribute('y1', y1 * 5);
+    aLine.setAttribute('x2', x2 * 5);
+    aLine.setAttribute('y2', y2 * 5 );
+    aLine.setAttribute('stroke', 'blue');
+    aLine.setAttribute('stroke-width', 2);
+
+  g.appendChild(aLine);
+}
+
+point(0,0);
+point(20,0);
+point(40,0);
+point(10,20);
+point(20,20);
+point(30,20);
+point(0,40);
+point(20,40);
+point(40,40);
+
+line(0,0,40,0);
+line(10,20,30,20);
+line(0,40,40,40);
+line(20,0,20,40);
+line(0,0,40,40);
+line(40,0,0,40);
+line(0,0,20,40);
+line(40,0,20,40);
+line(20,0,0,40);
+line(20,0,40,40);
+&lt;/script&gt;
+
+&lt;/solution&gt;
+</description>
+<pubDate>Thu, 17 Sep 2015 03:50:51 -0700</pubDate>
+<link>http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html</guid>
+
+
+<category>geometry</category>
+
+</item>
+
+<item>
+<title>20150910 - Find Term</title>
+<description>&lt;p&gt;Find the 2015th term in the sequence 1,2,2,3,3,3,4,4,4,4,5,……&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+We notice that the formula $n(n+1)/2$ can come in handy for this question because we are dealing with the sum of numbers. We see that the last 1, 2, 3, and 4 are at the 1, 3, 6, and 10 rescpectively. 1, 3, 6, 10 are also the numbers in which 1+2+... +n, in which n is the number, (1,2,3,4,...) We can see that 63*64/2=2016, meaning that the 2016th position is the last number in the sequence of 63. Therefore, the 2015th term is 63.
+&lt;/solution&gt;
+
+</description>
+<pubDate>Thu, 10 Sep 2015 10:42:27 -0700</pubDate>
+<link>http://mathmaven.github.io/numbertheory/2015/09/10/find-term.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/10/find-term.html</guid>
+
+
+<category>numbertheory</category>
+
+</item>
+
+</channel>
 </rss>
