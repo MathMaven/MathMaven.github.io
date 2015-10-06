@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<<<<<<< HEAD
-  <channel>
-    <title>Daily Math Challenges by Dr. Kevin Wang</title>
-    <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015
-</description>
-    <link>http://mathmaven.github.io/</link>
-    <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Oct 2015 15:19:08 -0400</pubDate>
-    <lastBuildDate>Mon, 05 Oct 2015 15:19:08 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>20150731- Find Degree of Angle in Semicircle</title>
-        <description>&lt;p&gt;A two dimensional square has 4 vertices and 4 sides, with a sum 8. A three dimensional cube has 8 vertices, 12 edges, and 6 faces, with a sum 26. Imagine a four dimensional hypercube: what is the sum of the numbers of its vertices, edges, 2d faces, and 3d hyperfaces? What is the pattern?&lt;/p&gt;
-=======
 <channel>
-<title>Daily Magic Spells by Areteem Institute of Witchcraft and Wizardry</title>
-<description></description>
+<title>Daily Math Challenges by Dr. Kevin Wang</title>
+<description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015</description>
 <link>http://mathmaven.github.io/</link>
 <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<pubDate>Sun, 04 Oct 2015 19:13:59 -0700</pubDate>
-<lastBuildDate>Sun, 04 Oct 2015 19:13:59 -0700</lastBuildDate>
+<pubDate>Mon, 05 Oct 2015 22:04:26 -0400</pubDate>
+<lastBuildDate>Mon, 05 Oct 2015 22:04:26 -0400</lastBuildDate>
 <generator>Jekyll v2.5.3</generator>
 
 <item>
@@ -29,7 +14,6 @@
 <description>&lt;h4 id=&quot;areteem-2015102&quot;&gt;Areteem魔法学园每日一题 2015年10月2日&lt;/h4&gt;
 
 &lt;p&gt;How many zeros are in all the numbers from 1 to 1000000?&lt;/p&gt;
->>>>>>> origin/master
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
@@ -38,15 +22,15 @@
 &lt;ol&gt;
 &lt;li&gt;First, take 1,000,000 out of the question. Just remember to add six zeros at the end. We are left with one through 999,999. Doing this problem by casework, there are five cases. The case number corresponds to the number of zeros that numbers in that case counts.&lt;/li&gt;&lt;br /&gt;
 
-&lt;li&gt; &lt;strong&gt;Case one are all the numbers with one zero.&lt;/strong&gt; The zero can go in five places. Take note that zeros can never go in the first place value of any number. The other place values each has nine choices, one through nine. So it's 1(Number of zeros in the case)*5(Number of ways the zeros can be put)*$9^5$(Number of ways the other numbers can be put in.)+4*$9^4$(5 digit numbers)+3*$9^3$+2*$9^2$+9.&lt;/li&gt;&lt;br /&gt;
+&lt;li&gt; &lt;strong&gt;Case one are all the numbers with one zero.&lt;/strong&gt; The zero can go in five places. Take note that zeros can never go in the first place value of any number. The other place values each has nine choices, one through nine. So it&#39;s 1(Number of zeros in the case)*5(Number of ways the zeros can be put)*$9^5$(Number of ways the other numbers can be put in.)+4*$9^4$(5 digit numbers)+3*$9^3$+2*$9^2$+9.&lt;/li&gt;&lt;br /&gt;
 
-&lt;li&gt;&lt;strong&gt;Case two is with two zeros.&lt;/strong&gt; So it's 2($\binom{5}{2}$(10)*$9^4$+$\binom{4}{2}$(6)*$9^3$+$\binom{3}{2}$(3)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Case two is with two zeros.&lt;/strong&gt; So it&#39;s 2($\binom{5}{2}$(10)*$9^4$+$\binom{4}{2}$(6)*$9^3$+$\binom{3}{2}$(3)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
 
-&lt;li&gt;&lt;strong&gt;Case three is with three zeros.&lt;/strong&gt; So it's  3($\binom{5}{3}$(10)*$9^3$+$\binom{4}{3}$(4)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Case three is with three zeros.&lt;/strong&gt; So it&#39;s  3($\binom{5}{3}$(10)*$9^3$+$\binom{4}{3}$(4)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
   
-&lt;li&gt;&lt;strong&gt;Case four are numbers with four zeros.&lt;/strong&gt; So it's 4($\binom{5}{4}$(5)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Case four are numbers with four zeros.&lt;/strong&gt; So it&#39;s 4($\binom{5}{4}$(5)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
   
-&lt;li&gt;&lt;strong&gt;Case five is with five zeros.&lt;/strong&gt; So it's 5*9.&lt;/li&gt;&lt;br /&gt;
+&lt;li&gt;&lt;strong&gt;Case five is with five zeros.&lt;/strong&gt; So it&#39;s 5*9.&lt;/li&gt;&lt;br /&gt;
 
 &lt;li&gt;Add all of them up plus the six from 1,000,000, you get &lt;strong&gt;488,895.&lt;/strong&gt;&lt;/li&gt;&lt;br /&gt;
 
@@ -54,7 +38,7 @@
 
 &lt;/solution&gt;
 </description>
-<pubDate>Fri, 02 Oct 2015 06:37:35 -0700</pubDate>
+<pubDate>Fri, 02 Oct 2015 09:37:35 -0400</pubDate>
 <link>http://mathmaven.github.io/numbertheory/2015/10/02/count-how-many-zeros.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/10/02/count-how-many-zeros.html</guid>
 
@@ -95,25 +79,25 @@ Daily Magic Spells October 1, 2015&lt;/p&gt;
 &lt;br /&gt;
 The extra 2 are slant with side = 5. See below:
 &lt;br /&gt;
-&lt;script&gt;var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-svg.setAttribute('width', 300)
-svg.setAttribute('height', 300)
+&lt;script&gt;var svg = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;svg&#39;);
+svg.setAttribute(&#39;width&#39;, 300)
+svg.setAttribute(&#39;height&#39;, 300)
 //svg.style.background = &quot;PaleGreen&quot;;
 document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
-var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-g.setAttribute('transform', 'translate(32,32)');
+var g = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;g&#39;);
+g.setAttribute(&#39;transform&#39;, &#39;translate(32,32)&#39;);
 svg.appendChild(g);
 
-var output = document.createElement('h1');
+var output = document.createElement(&#39;h1&#39;);
 output.style.fontSize = &quot;24px&quot;;
-output.style.margin = '0.5em';
+output.style.margin = &#39;0.5em&#39;;
 document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(output);
 
 function point(x, y) {
-  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-  c.setAttribute('cx', x * 32);
-  c.setAttribute('cy', y * 32);
-  c.setAttribute('r', 3)
+  var c = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;circle&#39;);
+  c.setAttribute(&#39;cx&#39;, x * 32);
+  c.setAttribute(&#39;cy&#39;, y * 32);
+  c.setAttribute(&#39;r&#39;, 3)
   g.appendChild(c);
 }
 
@@ -121,22 +105,22 @@ var count = 1;
 var delay = 0;
 
 function polygon(pArray, color) {
-  var p = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-  var points = '';
+  var p = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;polygon&#39;);
+  var points = &#39;&#39;;
   for (var i = 0; i &lt; pArray.length; i++) {
-    points += pArray[i][0] * 32 + ', ' + pArray[i][1] * 32 + ' ';
+    points += pArray[i][0] * 32 + &#39;, &#39; + pArray[i][1] * 32 + &#39; &#39;;
   }
-  p.setAttribute('points', points);
-  p.setAttribute('fill', 'none');
-  p.setAttribute('stroke', 'red')
-  p.setAttribute('stroke-width', 4);
+  p.setAttribute(&#39;points&#39;, points);
+  p.setAttribute(&#39;fill&#39;, &#39;none&#39;);
+  p.setAttribute(&#39;stroke&#39;, &#39;red&#39;)
+  p.setAttribute(&#39;stroke-width&#39;, 4);
   delay += 200;
   setTimeout(function() {
     g.appendChild(p);
     output.innerHTML = count++;
     setTimeout(function() {
-      p.setAttribute('stroke', 'blue');
-      p.setAttribute('stroke-width', 1);
+      p.setAttribute(&#39;stroke&#39;, &#39;blue&#39;);
+      p.setAttribute(&#39;stroke-width&#39;, 1);
     }, 200)
   }, delay);
 }
@@ -173,7 +157,7 @@ p3 = [4, 0];
 polygon([p0, p1, p2, p3]);&lt;/script&gt;
 &lt;/solution&gt;
 </description>
-<pubDate>Thu, 01 Oct 2015 11:52:55 -0700</pubDate>
+<pubDate>Thu, 01 Oct 2015 14:52:55 -0400</pubDate>
 <link>http://mathmaven.github.io/numbertheory/2015/10/01/count-squares-with-integer-sides.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/10/01/count-squares-with-integer-sides.html</guid>
 
@@ -299,7 +283,7 @@ In the above cases A is the taller one.
 
 &lt;/solution&gt;
 </description>
-<pubDate>Wed, 30 Sep 2015 11:52:55 -0700</pubDate>
+<pubDate>Wed, 30 Sep 2015 14:52:55 -0400</pubDate>
 <link>http://mathmaven.github.io/logic/2015/09/30/who-is-taller.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/logic/2015/09/30/who-is-taller.html</guid>
 
@@ -379,7 +363,7 @@ In the above cases A is the taller one.
 &lt;/solution&gt;
 
 </description>
-<pubDate>Tue, 29 Sep 2015 08:30:55 -0700</pubDate>
+<pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
 <link>http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/29/find-length-of-square.html</guid>
 
@@ -399,7 +383,7 @@ In the above cases A is the taller one.
 &lt;/solution&gt;
 
 </description>
-<pubDate>Fri, 25 Sep 2015 10:42:27 -0700</pubDate>
+<pubDate>Fri, 25 Sep 2015 13:42:27 -0400</pubDate>
 <link>http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</guid>
 
@@ -425,7 +409,7 @@ Solution Two: The Method of Invariant. We look for a quantity that does not chan
 &lt;/solution&gt;
 
 </description>
-<pubDate>Thu, 24 Sep 2015 11:52:55 -0700</pubDate>
+<pubDate>Thu, 24 Sep 2015 14:52:55 -0400</pubDate>
 <link>http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/24/throwing-coconuts.html</guid>
 
@@ -480,7 +464,7 @@ l-595 0 0 725 0 726 87 -3 87 -3 508 -718z m658 -2 l0 -725 -67 0 -68 1 -422
 &lt;/solution&gt;
 
 </description>
-<pubDate>Wed, 23 Sep 2015 11:52:55 -0700</pubDate>
+<pubDate>Wed, 23 Sep 2015 14:52:55 -0400</pubDate>
 <link>http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/23/cut-the-cake.html</guid>
 
@@ -506,7 +490,7 @@ $$  z=3, y=5, x=11 $$
 &lt;/solution&gt;
 
 </description>
-<pubDate>Fri, 18 Sep 2015 10:42:27 -0700</pubDate>
+<pubDate>Fri, 18 Sep 2015 13:42:27 -0400</pubDate>
 <link>http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/numbertheory/algebra/2015/09/18/find-apples.html</guid>
 
@@ -529,31 +513,31 @@ $$  z=3, y=5, x=11 $$
 
 &lt;solution&gt;
 
-&lt;script&gt;var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-svg.setAttribute('width', 300)
-svg.setAttribute('height', 300)
+&lt;script&gt;var svg = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;svg&#39;);
+svg.setAttribute(&#39;width&#39;, 300)
+svg.setAttribute(&#39;height&#39;, 300)
 svg.style.background = &quot;PaleGreen&quot;;
 document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
-var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-g.setAttribute('transform', 'translate(50,50)');
+var g = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;g&#39;);
+g.setAttribute(&#39;transform&#39;, &#39;translate(50,50)&#39;);
 svg.appendChild(g);
 
 
 function point(x, y) {
-  var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-  c.setAttribute('cx', x * 5 );
-  c.setAttribute('cy', y * 5);
-  c.setAttribute('r', 10)
+  var c = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;circle&#39;);
+  c.setAttribute(&#39;cx&#39;, x * 5 );
+  c.setAttribute(&#39;cy&#39;, y * 5);
+  c.setAttribute(&#39;r&#39;, 10)
   g.appendChild(c);
 }
 function line(x1, y1, x2, y2) {
-  var aLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-    aLine.setAttribute('x1', x1 * 5);
-    aLine.setAttribute('y1', y1 * 5);
-    aLine.setAttribute('x2', x2 * 5);
-    aLine.setAttribute('y2', y2 * 5 );
-    aLine.setAttribute('stroke', 'blue');
-    aLine.setAttribute('stroke-width', 2);
+  var aLine = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;line&#39;);
+    aLine.setAttribute(&#39;x1&#39;, x1 * 5);
+    aLine.setAttribute(&#39;y1&#39;, y1 * 5);
+    aLine.setAttribute(&#39;x2&#39;, x2 * 5);
+    aLine.setAttribute(&#39;y2&#39;, y2 * 5 );
+    aLine.setAttribute(&#39;stroke&#39;, &#39;blue&#39;);
+    aLine.setAttribute(&#39;stroke-width&#39;, 2);
 
   g.appendChild(aLine);
 }
@@ -582,7 +566,7 @@ line(20,0,40,40);
 
 &lt;/solution&gt;
 </description>
-<pubDate>Thu, 17 Sep 2015 03:50:51 -0700</pubDate>
+<pubDate>Thu, 17 Sep 2015 06:50:51 -0400</pubDate>
 <link>http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html</guid>
 
@@ -592,22 +576,56 @@ line(20,0,40,40);
 </item>
 
 <item>
-<title>20150910 - Find Term</title>
-<description>&lt;p&gt;Find the 2015th term in the sequence 1,2,2,3,3,3,4,4,4,4,5,……&lt;/p&gt;
+<title>20150916 - Find the total area of the shaded regions</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月16日&lt;/p&gt;
 
-&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
+&lt;p&gt;三个圆的半径都是1，且每个圆都经过另两个圆的圆心，如图所示。求阴影部分的总面积。&lt;/p&gt;
+
+&lt;p&gt;The radii of the three circles in the figure are all 1, and each circle passes through the centers of the other two circles. Find the total area of the shaded regions.&lt;/p&gt;
+
+&lt;svg width=&quot;396pt&quot; height=&quot;377pt&quot; viewbox=&quot;0 0 396 377&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+&lt;path fill=&quot;blue&quot; d=&quot; M 168.81 10.86 C 191.17 5.63 214.94 6.38 236.87 13.29 C 273.14 24.30 303.56 52.42 317.69 87.57 C 318.73 88.32 320.31 89.38 319.03 90.73 C 323.66 104.61 326.61 119.09 326.62 133.76 C 342.82 143.07 356.61 156.31 367.33 171.56 C 381.61 192.45 389.62 217.65 389.57 242.98 C 389.86 268.40 381.97 293.75 367.77 314.79 C 358.50 328.26 346.70 339.93 333.25 349.22 L 335.19 350.15 C 330.31 349.89 326.73 353.52 322.58 355.54 C 285.19 375.88 237.52 375.56 200.52 354.46 C 192.46 358.79 184.18 362.82 175.39 365.46 C 175.40 365.77 175.41 366.41 175.42 366.72 L 175.32 365.52 C 149.99 373.77 121.99 373.60 96.73 365.16 C 69.76 356.48 46.14 338.18 30.52 314.60 C 16.01 292.74 8.45 266.31 9.53 240.08 C 10.20 214.64 19.13 189.58 34.23 169.15 C 44.20 155.54 56.97 144.10 71.36 135.32 C 71.06 98.14 87.76 61.09 116.48 37.35 C 131.46 24.50 149.66 15.55 168.81 10.86 Z&quot; /&gt;
+
+&lt;path fill=&quot;#fffffe&quot; d=&quot; M 162.69 168.46 C 172.40 155.43 184.76 144.42 198.72 136.10 C 217.30 146.89 233.13 162.41 244.03 180.95 C 255.09 199.50 261.07 220.95 261.49 242.53 C 240.41 255.01 215.41 260.61 191.01 259.17 C 172.31 258.19 153.98 252.63 137.53 243.76 C 137.46 216.81 146.42 189.95 162.69 168.46 Z&quot; /&gt;
+  
+&lt;path fill=&quot;#fffffe&quot; d=&quot; M 326.59 136.14 C 340.96 145.04 353.91 156.47 363.70 170.31 C 387.47 202.55 393.96 246.64 380.52 284.38 C 372.47 308.03 356.97 329.00 336.90 343.84 C 316.52 359.02 291.40 367.78 265.99 368.36 C 244.01 369.17 222.06 363.60 202.71 353.29 C 213.70 345.98 224.08 337.63 232.65 327.54 C 241.11 318.12 247.54 307.08 252.98 295.70 C 254.66 295.27 254.67 293.94 254.03 292.63 C 260.63 277.33 263.59 260.57 263.60 243.94 C 282.60 232.83 298.61 216.69 309.69 197.67 C 320.47 179.05 326.40 157.66 326.59 136.14 Z&quot; /&gt;
+  
+&lt;path fill=&quot;#fffffe&quot; d=&quot; M 38.78 166.68 C 47.94 155.23 59.12 145.55 71.47 137.69 C 72.05 162.13 79.79 186.35 93.63 206.51 C 104.15 221.79 118.04 234.77 134.04 244.17 C 135.71 244.72 135.40 246.57 135.56 247.95 C 136.38 276.90 147.69 305.44 166.88 327.13 C 175.88 337.37 186.46 346.29 198.24 353.16 C 176.76 365.37 151.61 371.02 126.96 369.01 C 105.59 367.61 84.79 360.10 66.98 348.30 C 44.27 333.01 26.58 310.17 18.10 284.08 C 12.73 268.80 10.92 252.38 11.87 236.25 C 13.43 211.03 23.06 186.45 38.78 166.68 Z&quot; /&gt;
+  
+&lt;path fill=&quot;white&quot; d=&quot; M 120.05 37.20 C 139.27 21.55 163.33 12.05 188.00 10.01 C 214.93 7.78 242.59 14.30 265.45 28.75 C 288.09 42.79 306.07 64.22 315.78 89.03 C 318.45 95.48 320.12 102.27 321.88 109.00 C 321.46 108.90 320.62 108.69 320.20 108.58 C 320.59 108.80 321.38 109.25 321.78 109.48 C 323.62 116.93 324.14 124.64 324.42 132.30 C 311.98 125.87 298.77 120.71 284.91 118.40 C 255.54 113.08 224.34 118.54 198.60 133.67 C 160.66 111.87 111.29 112.10 73.51 134.16 C 73.55 97.04 90.89 60.28 120.05 37.20 Z&quot; /&gt;
+  
+&lt;path fill=&quot;#d9cbbe&quot; d=&quot; M 200.88 134.80 C 238.27 113.20 287.04 113.15 324.32 135.02 C 324.76 177.85 300.58 219.82 263.58 241.27 C 262.99 217.14 255.27 193.25 241.74 173.28 C 231.17 157.64 216.96 144.60 200.88 134.80 Z&quot; /&gt;
+  
+&lt;path fill=&quot;#d9cbbe&quot; d=&quot; M 73.70 136.46 C 98.95 121.80 129.40 116.26 158.15 121.50 C 171.60 123.59 184.41 128.61 196.49 134.77 C 176.95 147.07 160.33 164.27 149.76 184.88 C 142.43 198.85 137.83 214.24 136.15 229.91 C 135.64 233.97 135.93 238.11 135.17 242.14 C 97.96 221.06 73.81 179.18 73.70 136.46 Z&quot; /&gt;
+  
+
+&lt;path fill=&quot;#d9cbbe&quot; d=&quot; M 190.12 261.29 C 214.80 262.98 239.92 257.23 261.50 245.14 C 261.20 267.39 255.29 289.64 243.67 308.67 C 233.06 326.33 218.09 341.49 200.25 351.85 C 174.00 336.73 153.40 311.87 144.03 283.00 C 139.89 271.21 137.98 258.72 137.63 246.25 C 153.84 254.85 171.77 260.20 190.12 261.29 Z&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;&lt;![CDATA[
+      svg {
+        margin: 2em;
+        margin-bottom:-200px;
+        transform: scale(0.5);
+        transform-origin: 0% 0%;
+
+      }
+    ]]&gt;&lt;/style&gt;
+
+
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
 
 &lt;solution&gt;
-We notice that the formula $n(n+1)/2$ can come in handy for this question because we are dealing with the sum of numbers. We see that the last 1, 2, 3, and 4 are at the 1, 3, 6, and 10 rescpectively. 1, 3, 6, 10 are also the numbers in which 1+2+... +n, in which n is the number, (1,2,3,4,...) We can see that 63*64/2=2016, meaning that the 2016th position is the last number in the sequence of 63. Therefore, the 2015th term is 63.
+  &lt;strong&gt; $\frac{\pi}{2}$ &lt;/strong&gt; 
+
 &lt;/solution&gt;
-
 </description>
-<pubDate>Thu, 10 Sep 2015 10:42:27 -0700</pubDate>
-<link>http://mathmaven.github.io/numbertheory/2015/09/10/find-term.html</link>
-<guid isPermaLink="true">http://mathmaven.github.io/numbertheory/2015/09/10/find-term.html</guid>
+<pubDate>Wed, 16 Sep 2015 06:50:51 -0400</pubDate>
+<link>http://mathmaven.github.io/geometry/2015/09/16/find-area-of-shaded-regions.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/16/find-area-of-shaded-regions.html</guid>
 
 
-<category>numbertheory</category>
+<category>geometry</category>
 
 </item>
 
