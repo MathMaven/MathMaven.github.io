@@ -16,7 +16,7 @@ Put the 10 numbers 1,2,3,4,5,6,7,8,9,10 and 12 into the circles in the diagram, 
   <circle cx="125" cy="25" r="20" fill="white" style="stroke:rgb(0,255,0);stroke-width:1"/>
   <circle cx="190" cy="225" r="20" fill="white" style="stroke:rgb(0,255,0);stroke-width:1"/>
   
-  <circle cx="100" cy="95" r="20" fill="white" style="stroke:rgb(0,255,0);stroke-width:1"/>
+  <circle cx="100" cy="95" r="20" fill="white" style="st roke:rgb(0,255,0);stroke-width:1"/>
   <circle cx="150" cy="95" r="20" fill="white" style="stroke:rgb(0,255,0);stroke-width:1"/>
   <circle cx="90" cy="140" r="20" fill="white" style="stroke:rgb(0,255,0);stroke-width:1"/>
   <circle cx="160" cy="140" r="20" fill="white" style="stroke:rgb(0,255,0);stroke-width:1"/>  

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>20150916 - Find the total area of the shaded regions</title>
+  <meta name="description" content="Areteem魔法学园每日一题2015年9月16日">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/09/16/find-area-of-shaded-regions.html">
+  <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://mathmaven.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Daily Magic Spells</a>by Areteem Institute of Witchcraft and Wizardry
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">20150916 - Find the total area of the shaded regions</h1>
+    <p class="post-meta">Sep 16, 2015 • richardwsong</p>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="jquery-1.11.3.min.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $("solution").hide();
+        $("button").click(function(){
+          $("solution").toggle();
+        });
+      });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+
+  </header>
+
+  <article class="post-content">
+    <p>Areteem魔法学园每日一题2015年9月16日</p>
+
+<p>三个圆的半径都是1，且每个圆都经过另两个圆的圆心，如图所示。求阴影部分的总面积。</p>
+
+<p>The radii of the three circles in the figure are all 1, and each circle passes through the centers of the other two circles. Find the total area of the shaded regions.</p>
+
+<svg width="300" height="300">
+<g transform="scale(0.5,0.5)">
+
+<path fill="blue" d=" M 168.81 10.86 C 191.17 5.63 214.94 6.38 236.87 13.29 C 273.14 24.30 303.56 52.42 317.69 87.57 C 318.73 88.32 320.31 89.38 319.03 90.73 C 323.66 104.61 326.61 119.09 326.62 133.76 C 342.82 143.07 356.61 156.31 367.33 171.56 C 381.61 192.45 389.62 217.65 389.57 242.98 C 389.86 268.40 381.97 293.75 367.77 314.79 C 358.50 328.26 346.70 339.93 333.25 349.22 L 335.19 350.15 C 330.31 349.89 326.73 353.52 322.58 355.54 C 285.19 375.88 237.52 375.56 200.52 354.46 C 192.46 358.79 184.18 362.82 175.39 365.46 C 175.40 365.77 175.41 366.41 175.42 366.72 L 175.32 365.52 C 149.99 373.77 121.99 373.60 96.73 365.16 C 69.76 356.48 46.14 338.18 30.52 314.60 C 16.01 292.74 8.45 266.31 9.53 240.08 C 10.20 214.64 19.13 189.58 34.23 169.15 C 44.20 155.54 56.97 144.10 71.36 135.32 C 71.06 98.14 87.76 61.09 116.48 37.35 C 131.46 24.50 149.66 15.55 168.81 10.86 Z" />
+
+<path fill="#fffffe" d=" M 162.69 168.46 C 172.40 155.43 184.76 144.42 198.72 136.10 C 217.30 146.89 233.13 162.41 244.03 180.95 C 255.09 199.50 261.07 220.95 261.49 242.53 C 240.41 255.01 215.41 260.61 191.01 259.17 C 172.31 258.19 153.98 252.63 137.53 243.76 C 137.46 216.81 146.42 189.95 162.69 168.46 Z" />
+  
+<path fill="#fffffe" d=" M 326.59 136.14 C 340.96 145.04 353.91 156.47 363.70 170.31 C 387.47 202.55 393.96 246.64 380.52 284.38 C 372.47 308.03 356.97 329.00 336.90 343.84 C 316.52 359.02 291.40 367.78 265.99 368.36 C 244.01 369.17 222.06 363.60 202.71 353.29 C 213.70 345.98 224.08 337.63 232.65 327.54 C 241.11 318.12 247.54 307.08 252.98 295.70 C 254.66 295.27 254.67 293.94 254.03 292.63 C 260.63 277.33 263.59 260.57 263.60 243.94 C 282.60 232.83 298.61 216.69 309.69 197.67 C 320.47 179.05 326.40 157.66 326.59 136.14 Z" />
+  
+<path fill="#fffffe" d=" M 38.78 166.68 C 47.94 155.23 59.12 145.55 71.47 137.69 C 72.05 162.13 79.79 186.35 93.63 206.51 C 104.15 221.79 118.04 234.77 134.04 244.17 C 135.71 244.72 135.40 246.57 135.56 247.95 C 136.38 276.90 147.69 305.44 166.88 327.13 C 175.88 337.37 186.46 346.29 198.24 353.16 C 176.76 365.37 151.61 371.02 126.96 369.01 C 105.59 367.61 84.79 360.10 66.98 348.30 C 44.27 333.01 26.58 310.17 18.10 284.08 C 12.73 268.80 10.92 252.38 11.87 236.25 C 13.43 211.03 23.06 186.45 38.78 166.68 Z" />
+  
+<path fill="white" d=" M 120.05 37.20 C 139.27 21.55 163.33 12.05 188.00 10.01 C 214.93 7.78 242.59 14.30 265.45 28.75 C 288.09 42.79 306.07 64.22 315.78 89.03 C 318.45 95.48 320.12 102.27 321.88 109.00 C 321.46 108.90 320.62 108.69 320.20 108.58 C 320.59 108.80 321.38 109.25 321.78 109.48 C 323.62 116.93 324.14 124.64 324.42 132.30 C 311.98 125.87 298.77 120.71 284.91 118.40 C 255.54 113.08 224.34 118.54 198.60 133.67 C 160.66 111.87 111.29 112.10 73.51 134.16 C 73.55 97.04 90.89 60.28 120.05 37.20 Z" />
+  
+<path fill="#d9cbbe" d=" M 200.88 134.80 C 238.27 113.20 287.04 113.15 324.32 135.02 C 324.76 177.85 300.58 219.82 263.58 241.27 C 262.99 217.14 255.27 193.25 241.74 173.28 C 231.17 157.64 216.96 144.60 200.88 134.80 Z" />
+  
+<path fill="#d9cbbe" d=" M 73.70 136.46 C 98.95 121.80 129.40 116.26 158.15 121.50 C 171.60 123.59 184.41 128.61 196.49 134.77 C 176.95 147.07 160.33 164.27 149.76 184.88 C 142.43 198.85 137.83 214.24 136.15 229.91 C 135.64 233.97 135.93 238.11 135.17 242.14 C 97.96 221.06 73.81 179.18 73.70 136.46 Z" />
+  
+
+<path fill="#d9cbbe" d=" M 190.12 261.29 C 214.80 262.98 239.92 257.23 261.50 245.14 C 261.20 267.39 255.29 289.64 243.67 308.67 C 233.06 326.33 218.09 341.49 200.25 351.85 C 174.00 336.73 153.40 311.87 144.03 283.00 C 139.89 271.21 137.98 258.72 137.63 246.25 C 153.84 254.85 171.77 260.20 190.12 261.29 Z" />
+
+</g>
+</svg>
+
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
+
+<solution>
+  <strong> $\frac{\pi}{2}$ </strong> 
+
+</solution>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Daily Magic Spells</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Daily Magic Spells</li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/MathMaven">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">MathMaven</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">These are problems by Areteem Institute of Witchcraft and Wizardry</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
