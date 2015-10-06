@@ -5,8 +5,8 @@
 <description>These are the daily questions from Dr. Kevin Wang, &lt;a href=&quot;http://www.areteem.org&quot;&gt;Areteem Institute&lt;/a&gt;. &amp;copy; Copyright 2015</description>
 <link>http://mathmaven.github.io/</link>
 <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<pubDate>Mon, 05 Oct 2015 22:04:26 -0400</pubDate>
-<lastBuildDate>Mon, 05 Oct 2015 22:04:26 -0400</lastBuildDate>
+<pubDate>Mon, 05 Oct 2015 22:28:02 -0400</pubDate>
+<lastBuildDate>Mon, 05 Oct 2015 22:28:02 -0400</lastBuildDate>
 <generator>Jekyll v2.5.3</generator>
 
 <item>
@@ -583,7 +583,9 @@ line(20,0,40,40);
 
 &lt;p&gt;The radii of the three circles in the figure are all 1, and each circle passes through the centers of the other two circles. Find the total area of the shaded regions.&lt;/p&gt;
 
-&lt;svg width=&quot;396pt&quot; height=&quot;377pt&quot; viewbox=&quot;0 0 396 377&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+&lt;g transform=&quot;scale(0.5,0.5)&quot;&gt;
+
 &lt;path fill=&quot;blue&quot; d=&quot; M 168.81 10.86 C 191.17 5.63 214.94 6.38 236.87 13.29 C 273.14 24.30 303.56 52.42 317.69 87.57 C 318.73 88.32 320.31 89.38 319.03 90.73 C 323.66 104.61 326.61 119.09 326.62 133.76 C 342.82 143.07 356.61 156.31 367.33 171.56 C 381.61 192.45 389.62 217.65 389.57 242.98 C 389.86 268.40 381.97 293.75 367.77 314.79 C 358.50 328.26 346.70 339.93 333.25 349.22 L 335.19 350.15 C 330.31 349.89 326.73 353.52 322.58 355.54 C 285.19 375.88 237.52 375.56 200.52 354.46 C 192.46 358.79 184.18 362.82 175.39 365.46 C 175.40 365.77 175.41 366.41 175.42 366.72 L 175.32 365.52 C 149.99 373.77 121.99 373.60 96.73 365.16 C 69.76 356.48 46.14 338.18 30.52 314.60 C 16.01 292.74 8.45 266.31 9.53 240.08 C 10.20 214.64 19.13 189.58 34.23 169.15 C 44.20 155.54 56.97 144.10 71.36 135.32 C 71.06 98.14 87.76 61.09 116.48 37.35 C 131.46 24.50 149.66 15.55 168.81 10.86 Z&quot; /&gt;
 
 &lt;path fill=&quot;#fffffe&quot; d=&quot; M 162.69 168.46 C 172.40 155.43 184.76 144.42 198.72 136.10 C 217.30 146.89 233.13 162.41 244.03 180.95 C 255.09 199.50 261.07 220.95 261.49 242.53 C 240.41 255.01 215.41 260.61 191.01 259.17 C 172.31 258.19 153.98 252.63 137.53 243.76 C 137.46 216.81 146.42 189.95 162.69 168.46 Z&quot; /&gt;
@@ -600,17 +602,8 @@ line(20,0,40,40);
   
 
 &lt;path fill=&quot;#d9cbbe&quot; d=&quot; M 190.12 261.29 C 214.80 262.98 239.92 257.23 261.50 245.14 C 261.20 267.39 255.29 289.64 243.67 308.67 C 233.06 326.33 218.09 341.49 200.25 351.85 C 174.00 336.73 153.40 311.87 144.03 283.00 C 139.89 271.21 137.98 258.72 137.63 246.25 C 153.84 254.85 171.77 260.20 190.12 261.29 Z&quot; /&gt;
-&lt;style type=&quot;text/css&quot;&gt;&lt;![CDATA[
-      svg {
-        margin: 2em;
-        margin-bottom:-200px;
-        transform: scale(0.5);
-        transform-origin: 0% 0%;
 
-      }
-    ]]&gt;&lt;/style&gt;
-
-
+&lt;/g&gt;
 &lt;/svg&gt;
 
 &lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
