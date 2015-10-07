@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body style="background-image:url('http://mathmaven.github.io/r/backgroundnf.jpg')">
+  <body style="background-image:url('http://mathmaven.github.io/r/dr.jpg')">
 
     {% include header.html %}
 

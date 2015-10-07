@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #e8f0c8;
+  color: #2d0202;
   text-decoration: none; }
   a:visited {
-    color: #cfe08c; }
+    color: #a70707; }
   a:hover {
     color: #aba06e;
     text-decoration: underline; }
@@ -265,7 +265,10 @@ pre {
 
 .post-list {
   margin-left: 0;
-  list-style: none; }
+  list-style: none;
+  padding: 15px;
+  color: #2D0202;
+  background-image: url("//mathmaven.github.io/r/old-scroll-1.jpg"); }
   .post-list > li {
     margin-bottom: 30px; }
 
@@ -275,7 +278,8 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 20px;
+  color: #2d0202; }
 
 /**
  * Posts

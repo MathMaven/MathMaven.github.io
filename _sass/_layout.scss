@@ -172,6 +172,9 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    padding:    15px;
+    color:      #2D0202;
+    background-image: $old-scroll;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -185,7 +188,8 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    color: $post-main-color;
 }
 
 
