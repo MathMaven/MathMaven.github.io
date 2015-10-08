@@ -206,6 +206,7 @@
 .post-title {
     font-size: 42px;
     color: $post-main-color;
+	background-image: $old-scroll;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -243,13 +244,12 @@
             font-size: 18px;
         }
     }
-}
-
-.logo-img {
+	.logo-img {
 	width:3000px;
 	height:300px;
 	position:absolute;
 	left:50%;
 	top:50%;
 	margin:-75px 0 0 -135px;
+}
 }
