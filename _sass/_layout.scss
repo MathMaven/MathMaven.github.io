@@ -200,6 +200,7 @@
 .post-header {
     margin-bottom: $spacing-unit;
     color: $post-main-color;
+	background-image: $old-scroll;
 }
 
 .post-title {
@@ -215,6 +216,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+	background-image: $old-scroll;
 
     h2 {
         font-size: 32px;
