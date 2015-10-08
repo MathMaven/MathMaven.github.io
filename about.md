@@ -9,8 +9,5 @@ permalink: /about/
 <p/>
 <h4>Enjoy being a MathMagician!<h4>
 
-<table width=100% height=100% border=1>
-<tr><td style="text-align: center; vertical-align: middle;">
-<img src="../r/Areteem.JPG" align="middle"/>
-</td></tr></table>
+<div class="logo-img"><img src="../r/Areteem.JPG" align="middle"/></div>
 
