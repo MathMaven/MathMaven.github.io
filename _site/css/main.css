@@ -266,9 +266,9 @@ pre {
 .post-list {
   margin-left: 0;
   list-style: none;
-  padding: 15px;
+  padding: 12px;
   color: #2D0202;
-  background-image: url("//mathmaven.github.io/r/old-scroll-1.jpg"); }
+  background-image: url("//mathmaven.github.io/r/OldScroll.jpg"); }
   .post-list > li {
     margin-bottom: 30px; }
 
@@ -286,11 +286,12 @@ pre {
  */
 .post-header {
   margin-bottom: 30px;
-  color: #2d0202; }
+  color: #2d0202;
+  padding: 12px; }
 
 .post-title {
   font-size: 42px;
-  color: #2d0202;
+  color: #eac69c;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
@@ -298,7 +299,10 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background-image: url("//mathmaven.github.io/r/OldScroll.jpg");
+  color: #2d0202;
+  padding: 12px; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
@@ -314,6 +318,9 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content .logo {
+    left: 50%;
+    top: 50%; }
 
 /**
  * Syntax highlighting styles

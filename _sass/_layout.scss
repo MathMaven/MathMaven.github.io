@@ -199,13 +199,13 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    color: $post-main-color;	
-	padding:    12px;
+    color: $post-main-color;
+    padding:    12px;
 }
 
 .post-title {
     font-size: 42px;
-    color: $post-main-color;
+    color: $grey-color;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -243,13 +243,12 @@
             font-size: 18px;
         }
     }
+
+    .logo {
+        left: 50%;
+        top: 50%;
+    }
+
 }
 
-.logo-img {
-	width:3000px;
-	height:300px;
-	position:absolute;
-	left:50%;
-	top:50%;
-	margin:-75px 0 0 -135px;
-}
+
