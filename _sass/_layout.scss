@@ -172,7 +172,7 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-    padding:    15px;
+    padding:    12px;
     color:      #2D0202;
     background-image: $old-scroll;
 
@@ -199,8 +199,8 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    color: $post-main-color;
-	background-image: $old-scroll;
+    color: $post-main-color;	
+	padding:    12px;
 }
 
 .post-title {
@@ -217,6 +217,8 @@
 .post-content {
     margin-bottom: $spacing-unit;
 	background-image: $old-scroll;
+	color: $post-main-color;
+	padding:    12px;
 
     h2 {
         font-size: 32px;

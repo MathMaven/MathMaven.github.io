@@ -9,4 +9,4 @@ permalink: /about/
 <p/>
 <h4>Enjoy being a MathMagician!<h4>
 
-<img src="../r/Areteem.JPG" align="center"/>
+<img src="../r/Areteem.JPG" align="middle"/>
