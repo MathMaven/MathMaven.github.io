@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150817 - Find the Sum of Shades **</title>
-  <meta name="description" content="Areteem每日一题2015年8月17日">
+  <title>20150825 - Find the ratio of the areas</title>
+  <meta name="description" content="Areteem每日一题2015年8月25日">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/08/17/find-the-sum-of-shades.html">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/08/25/find-ratio-areas.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Math Challenges by Dr. Kevin Wang" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -57,8 +57,8 @@
         <div class="post">
 
   <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldFloralPaper.jpg');padding: 25px;color:#2D0202">
-    <h1 class="post-title">20150817 - Find the Sum of Shades **</h1>
-    <p class="post-meta">Aug 17, 2015 • ev3commander</p>
+    <h1 class="post-title">20150825 - Find the ratio of the areas</h1>
+    <p class="post-meta">Aug 25, 2015 • richardwsong</p>
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -83,28 +83,34 @@
   </header>
 
   <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
-    <p>Areteem每日一题2015年8月17日</p>
+    <p>Areteem每日一题2015年8月25日</p>
 
-<p>Areteem Daily Magic Spells August 17</p>
+<p>图中大圆内嵌入两个半圆，三个圆心共线。两个半圆的直径分别为3和7，求阴影部分和非阴影部分的面积比。</p>
 
-<problem>
+<p>In the figure two semicircles are inside the big circle, where all three centers are collinear (on the same line). The diameters of the semicircles are 3 and 7 respectively. Find the ratio of the areas between the shaded and the unshaded regions.</p>
 
-
-如图所示，矩形ABCD的面积是48，E、F、G是各自边上的中点，求两个阴影部分面积之和。
-
-
-As shown, the area of the rectangle ABCD is 48, and E, F, and G are the midpoints of the respective sides. Find the sum of the areas of the two shaded regions.
-
-</problem>
+<svg width="300" height="300">
+  
+  <circle cx="200" cy="110" r="100" fill="white" stroke-width="1" stroke="black" />
+    
+  <path d="M 100 110 A 30 30, 1, 0, 0, 160 110" fill="lightblue" stroke="black" stroke-width="1" />  
+  <path d="M 100 110 A 100 100, 0, 0, 1, 300 110" fill="lightblue" stroke="black" stroke-width="1" />
+  <path d="M 160 110 A 70 70, 0, 0, 1, 300 110" fill="white" stroke="black" stroke-width="1" />
+  
+ <line x1="100" y1="110" x2="300" y2="110" stroke="red" stroke-width="2" stroke-dasharray="10, 6" />
+  
+  <text x="128" y="100" font-size="16">3</text>
+  <text x="230" y="100" font-size="16">7</text>
+   
+</svg>
 
 <h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
 <solution>
 
-Coming soon.
+(25+49/4-9/4）/（25-49/4+9/4）=35/15=7/3
 
 </solution>
-
 
   </article>
 
