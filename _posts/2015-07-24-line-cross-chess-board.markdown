@@ -7,7 +7,7 @@ author: ev3commander
 ---
 
 #### Areteem魔法学园每日一题 2015年7月24日
-
+<problem>
 On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the chessboard so that it crosses the interior of maximum number of the little squares. How many squares does the line cross?
 
 <script>
@@ -27,7 +27,7 @@ On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the c
         });
     };
 
-    var div = d3.select("body")
+    var div = d3.select("problem")
         .append("div")
         .style("position", "fixed")
         .style("top", marginTop + "px")
@@ -63,7 +63,7 @@ On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the c
          });
 svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("height", boardSize).style("fill","none").style("stroke-width", "2").style("stroke","rgb(0,0,0)");
 </script>
-
+</problem>
 ### Solution <button>Show / Hide</button>
 
 <solution>
@@ -85,7 +85,7 @@ svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("heig
         });
     };
 
-    var div = d3.select("body")
+    var div = d3.select("solution")
         .append("div")
         .style("position", "fixed")
         .style("top", marginTop + "px")
