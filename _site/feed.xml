@@ -5,8 +5,8 @@
 <description>These are problems by Areteem Institute of Witchcraft and Wizardry</description>
 <link>http://mathmaven.github.io/</link>
 <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<pubDate>Thu, 08 Oct 2015 19:47:47 -0700</pubDate>
-<lastBuildDate>Thu, 08 Oct 2015 19:47:47 -0700</lastBuildDate>
+<pubDate>Thu, 08 Oct 2015 20:16:25 -0700</pubDate>
+<lastBuildDate>Thu, 08 Oct 2015 20:16:25 -0700</lastBuildDate>
 <generator>Jekyll v2.5.3</generator>
 
 <item>
@@ -474,6 +474,84 @@ l-595 0 0 725 0 726 87 -3 87 -3 508 -718z m658 -2 l0 -725 -67 0 -68 1 -422
 </item>
 
 <item>
+<title>20150922 - Reverse 2x2 Squares on Chess Board - [TODO]</title>
+<description>&lt;h4 id=&quot;areteem-2015922&quot;&gt;Areteem魔法学园每日一题 2015年9月22日&lt;/h4&gt;
+&lt;problem&gt;
+On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
+
+&lt;script&gt;
+	var marginTop = 20,
+        marginLeft = 20,
+        fieldSize = 30,
+        boardDimension = 8,
+        boardSize = boardDimension*fieldSize;
+
+    var board =[];
+    
+    for(var i = 0; i &lt; boardDimension*boardDimension; i++) {
+        board.push({
+            x: i % boardDimension,
+            y: Math.floor(i / boardDimension),
+            piece: 0
+        });
+    };
+
+    var div = d3.select(&quot;problem&quot;)
+        .append(&quot;div&quot;)
+        .style(&quot;top&quot;, marginTop + &quot;px&quot;)
+        .style(&quot;left&quot;, marginLeft + &quot;px&quot;)
+        .style(&quot;width&quot;, boardSize + &quot;px&quot;)
+        .style(&quot;height&quot;, boardSize + &quot;px&quot;);
+
+    var svg = div.append(&quot;svg&quot;)
+         .attr(&quot;width&quot;, boardSize + &quot;px&quot;)
+         .attr(&quot;height&quot;, boardSize + &quot;px&quot;)
+         .selectAll(&quot;.fields&quot;)
+         .data(board)
+        .enter()
+         .append(&quot;g&quot;);
+
+    svg.append(&quot;rect&quot;)
+         .style(&quot;class&quot;, &quot;fields&quot;)
+         .style(&quot;class&quot;, &quot;rects&quot;)
+         .attr(&quot;x&quot;, function (d) {
+             return d.x*fieldSize;
+         })
+         .attr(&quot;y&quot;, function (d) {
+             return d.y*fieldSize;
+         })
+         .attr(&quot;width&quot;, fieldSize + &quot;px&quot;)
+         .attr(&quot;height&quot;, fieldSize + &quot;px&quot;)
+         .style(&quot;fill&quot;, function (d) {
+             if ( ((d.x%2 == 0) &amp;&amp; (d.y%2 == 0)) ||
+                  ((d.x%2 == 1) &amp;&amp; (d.y%2 == 1))    ) 
+                 return &quot;white&quot;;
+             else
+                 return &quot;black&quot;;
+         });
+svg.append(&quot;rect&quot;).attr(&quot;x&quot;, 0).attr(&quot;y&quot;, 0).attr(&quot;width&quot;, boardSize).attr(&quot;height&quot;, boardSize).style(&quot;fill&quot;,&quot;none&quot;).style(&quot;stroke-width&quot;, &quot;2&quot;).style(&quot;stroke&quot;,&quot;rgb(0,0,0)&quot;);
+&lt;/script&gt;
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+Coming soon.
+
+&lt;/solution&gt;
+
+</description>
+<pubDate>Tue, 22 Sep 2015 11:52:55 -0700</pubDate>
+<link>http://mathmaven.github.io/misc/2015/09/22/reverse-2-by-2-on-chess-board.html</link>
+<guid isPermaLink="true">http://mathmaven.github.io/misc/2015/09/22/reverse-2-by-2-on-chess-board.html</guid>
+
+
+<category>misc</category>
+
+</item>
+
+<item>
 <title>20150918 - Find How Many Apples</title>
 <description>&lt;p&gt;Ming went to the Farmer’s Market to sell apples. The first buyer bought half of Ming’s apples plus half an apple; the second buyer bought 1/3 of the remaining apples plus 1/3 of an apple; the third buyer bought 1/4 of the then remaining apples plus 1/4 of an apple. All apples were sold in whole without being cut. At the end Ming had 2 apples left. How many apples did Ming have at the beginning?&lt;/p&gt;
 
@@ -569,86 +647,6 @@ line(20,0,40,40);
 <pubDate>Thu, 17 Sep 2015 03:50:51 -0700</pubDate>
 <link>http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html</link>
 <guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/17/plant-trees.html</guid>
-
-
-<category>geometry</category>
-
-</item>
-
-<item>
-<title>20150916 - Find the total area of the shaded regions</title>
-<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月16日&lt;/p&gt;
-
-&lt;p&gt;三个圆的半径都是1，且每个圆都经过另两个圆的圆心，如图所示。求阴影部分的总面积。&lt;/p&gt;
-
-&lt;p&gt;The radii of the three circles in the figure are all 1, and each circle passes through the centers of the other two circles. Find the total area of the shaded regions.&lt;/p&gt;
-
-&lt;svg width=&quot;350&quot; height=&quot;350&quot;&gt;
-  &lt;circle cx=&quot;100&quot; cy=&quot;200&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0&quot; /&gt;
-  &lt;circle cx=&quot;200&quot; cy=&quot;200&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0&quot; /&gt;
-  &lt;circle cx=&quot;150&quot; cy=&quot;114&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0&quot; /&gt;  
-  
-&lt;path d=&quot;M50 114
-           A 100 100, 0, 0, 0, 100 200
-           A 100 100, 0, 0, 1, 150 114
-          A 100 100, 0, 0, 0, 50 113
-           &quot; fill=&quot;lightblue&quot; /&gt;
-  
- &lt;path d=&quot;M150 113
-           A 100 100, 0, 0, 1, 250 114
-           A 100 100, 0, 0, 1, 200 200
-           A 100 100, 0, 0, 0, 150 114           
-           &quot; fill=&quot;lightblue&quot; /&gt;
-  
-  &lt;path d=&quot;M200 200
-           A 100 100, 0, 0, 1, 150 287
-           A 100 100, 0, 0, 1, 100 200
-           A 100 100, 0, 0, 0, 200 200
-           &quot; fill=&quot;lightblue&quot; /&gt;
-&lt;/svg&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-	We can make an imaginary line to create areas a and b and also a circle identical to the three other ones to make area c so that the area of a+b=c. Also, we notice that the area of e equals the area of d. Therefore, the area of the shaded regions equals a semi-circle with radius 1. The area of the semi-circle is $\frac{\pi}{2}$. Thus, the area of the 3 shaded regions is $\frac{\pi}{2}$.
-
-
-&lt;svg width=&quot;400&quot; height=&quot;400&quot;&gt;
-  &lt;circle cx=&quot;100&quot; cy=&quot;200&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0&quot; /&gt;
-  &lt;circle cx=&quot;200&quot; cy=&quot;200&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0&quot; /&gt;
-  &lt;circle cx=&quot;150&quot; cy=&quot;114&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0&quot; /&gt;  
-  
-   &lt;circle cx=&quot;150&quot; cy=&quot;287&quot; r=&quot;100&quot; fill=&quot;white&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:1;fill-opacity:0;stroke-dasharray: 10 5&quot; /&gt; 
-
-  
-  
-&lt;path d=&quot;M50 114
-           A 100 100, 0, 0, 0, 100 200
-           A 100 100, 0, 0, 1, 150 114
-          A 100 100, 0, 0, 0, 50 113
-           &quot; fill=&quot;lightblue&quot; /&gt;
-&lt;path d=&quot;M150 113
-           A 100 100, 0, 0, 1, 250 114
-           A 100 100, 0, 0, 1, 200 200
-           A 100 100, 0, 0, 0, 150 114           
-           &quot; fill=&quot;lightblue&quot; /&gt;
-&lt;path d=&quot;M200 200
-           A 100 100, 0, 0, 1, 150 287
-           A 100 100, 0, 0, 1, 100 200
-           A 100 100, 0, 0, 0, 200 200
-           &quot; fill=&quot;lightblue&quot; /&gt;
- &lt;line x1=&quot;50&quot; y1=&quot;113&quot; x2=&quot;250&quot; y2=&quot;113&quot; style=&quot;stroke:black;stroke-dasharray: 10 5&quot; /&gt;
- &lt;text x=&quot;100&quot; y=&quot;110&quot;&gt;a&lt;/text&gt;
- &lt;text x=&quot;200&quot; y=&quot;110&quot;&gt;b&lt;/text&gt;
- &lt;text x=&quot;150&quot; y=&quot;200&quot;&gt;c&lt;/text&gt;
- &lt;text x=&quot;150&quot; y=&quot;150&quot;&gt;d&lt;/text&gt;
- &lt;text x=&quot;150&quot; y=&quot;250&quot;&gt;e&lt;/text&gt; 
-&lt;/svg&gt;
-&lt;/solution&gt;
-</description>
-<pubDate>Wed, 16 Sep 2015 03:50:51 -0700</pubDate>
-<link>http://mathmaven.github.io/geometry/2015/09/16/find-area-of-shaded-regions.html</link>
-<guid isPermaLink="true">http://mathmaven.github.io/geometry/2015/09/16/find-area-of-shaded-regions.html</guid>
 
 
 <category>geometry</category>
