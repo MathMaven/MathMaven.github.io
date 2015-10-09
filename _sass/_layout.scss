@@ -182,8 +182,8 @@
 }
 
 .post-meta {
-    font-size: 14px;
-    color: darken($post-main-color, 5%);
+    font-size: 15px;
+    color: $post-main-color;
 }
 
 .post-link {
@@ -204,9 +204,8 @@
 }
 
 .post-title {
-    font-family: "Calibri";
     font-size: 38px;
-    color: darken($post-main-color, 5%);
+    color: $post-main-color;
     letter-spacing: -1px;
     line-height: 1;
 

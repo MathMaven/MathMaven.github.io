@@ -273,8 +273,8 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
-  color: #150101; }
+  font-size: 15px;
+  color: #2d0202; }
 
 .post-link {
   display: block;
@@ -290,9 +290,8 @@ pre {
   padding: 12px; }
 
 .post-title {
-  font-family: "Calibri";
   font-size: 38px;
-  color: #150101;
+  color: #2d0202;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
