@@ -292,7 +292,6 @@ pre {
 .post-title {
   font-size: 42px;
   color: #2d0202;
-  background-image: url("//mathmaven.github.io/r/OldScroll.jpg");
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
@@ -319,13 +318,6 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
-  .post-content .logo-img {
-    width: 3000px;
-    height: 300px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -75px 0 0 -135px; }
 
 /**
  * Syntax highlighting styles
