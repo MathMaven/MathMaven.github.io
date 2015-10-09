@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150916 - Find the total area of the shaded regions"
+title:  "20150916 - Find the Total Area of the Shaded Regions"
 date:   2015-09-16 10:50:51
 categories: Geometry
 author: richardwsong
