@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150817 - What is The One-Digit Number **"
+title:  "20150817 - Find the Sum of Shades **"
 date:   2015-08-17 18:52:55
 categories: Geometry
 author: ev3commander

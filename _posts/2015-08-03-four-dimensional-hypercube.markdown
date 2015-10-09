@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150803 - 4 Dimensional Hypercube"
+title:  "20150803 - 4 Dimensional Hypercube **"
 date:   2015-08-03 18:52:55
 categories: NumberTheory
 author: ev3commander
