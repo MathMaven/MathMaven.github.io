@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>20150724 - Line Cross Chess Board</title>
-  <meta name="description" content="Areteem魔法学园每日一题 2015年7月24日">
+  <meta name="description" content="Areteem魔法学园每日一题 2015年7月24日On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the chessboard so that it crosses the interior of maximu...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://mathmaven.github.io/misc/2015/07/24/line-cross-chess-board.html">
@@ -84,8 +84,8 @@
 
   <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
     <h4 id="areteem-2015724">Areteem魔法学园每日一题 2015年7月24日</h4>
-
-<p>On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the chessboard so that it crosses the interior of maximum number of the little squares. How many squares does the line cross?</p>
+<problem>
+On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the chessboard so that it crosses the interior of maximum number of the little squares. How many squares does the line cross?
 
 <script>
 	var marginTop = 30,
@@ -104,7 +104,7 @@
         });
     };
 
-    var div = d3.select("body")
+    var div = d3.select("problem")
         .append("div")
         .style("position", "fixed")
         .style("top", marginTop + "px")
@@ -140,8 +140,8 @@
          });
 svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("height", boardSize).style("fill","none").style("stroke-width", "2").style("stroke","rgb(0,0,0)");
 </script>
-
-<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
+</problem>
+<p>### Solution <button>Show / Hide</button></p>
 
 <solution>
 
@@ -162,7 +162,7 @@ svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("heig
         });
     };
 
-    var div = d3.select("body")
+    var div = d3.select("solution")
         .append("div")
         .style("position", "fixed")
         .style("top", marginTop + "px")
