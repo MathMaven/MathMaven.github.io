@@ -10,6 +10,7 @@ author: ev3commander
 <problem>
 
 在8x8的国际象棋盘上，定义一次操作如下：把棋盘上一个2x2的正方形黑白颠倒。能否经过若干次操作后使棋盘上恰好只有一个黑格？
+<p>
 On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
 
 <script>
