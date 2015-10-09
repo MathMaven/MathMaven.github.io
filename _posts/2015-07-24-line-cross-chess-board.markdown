@@ -29,7 +29,6 @@ On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the c
 
     var div = d3.select("problem")
         .append("div")
-        .style("position", "fixed")
         .style("top", marginTop + "px")
         .style("left", marginLeft + "px")
         .style("width", boardSize + "px")
@@ -64,6 +63,8 @@ On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the c
 svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("height", boardSize).style("fill","none").style("stroke-width", "2").style("stroke","rgb(0,0,0)");
 </script>
 </problem>
+
+
 ### Solution <button>Show / Hide</button>
 
 <solution>
@@ -87,7 +88,6 @@ svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("heig
 
     var div = d3.select("solution")
         .append("div")
-        .style("position", "fixed")
         .style("top", marginTop + "px")
         .style("left", marginLeft + "px")
         .style("width", boardSize + "px")
