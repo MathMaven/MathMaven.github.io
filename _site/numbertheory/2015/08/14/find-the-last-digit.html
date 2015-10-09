@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150922 - Reverse 2x2 Squares on Chess Board **</title>
-  <meta name="description" content="Areteem魔法学园每日一题 2015年9月22日">
+  <title>20150814 - What is The One-Digit Number **</title>
+  <meta name="description" content="Areteem每日一题2015年8月14日">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/misc/2015/09/22/reverse-2-by-2-on-chess-board.html">
+  <link rel="canonical" href="http://mathmaven.github.io/numbertheory/2015/08/14/find-the-last-digit.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -57,8 +57,8 @@
         <div class="post">
 
   <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldFloralPaper.jpg');padding: 25px;color:#2D0202">
-    <h1 class="post-title">20150922 - Reverse 2x2 Squares on Chess Board **</h1>
-    <p class="post-meta">Sep 22, 2015 • ev3commander</p>
+    <h1 class="post-title">20150814 - What is The One-Digit Number **</h1>
+    <p class="post-meta">Aug 14, 2015 • ev3commander</p>
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -83,64 +83,17 @@
   </header>
 
   <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
-    <h4 id="areteem-2015922">Areteem魔法学园每日一题 2015年9月22日</h4>
+    <p>Areteem每日一题2015年8月14日</p>
+
+<p>Areteem Daily Magic Spells August 14</p>
+
 <problem>
 
-在8x8的国际象棋盘上，定义一次操作如下：把棋盘上一个2x2的正方形黑白颠倒。能否经过若干次操作后使棋盘上恰好只有一个黑格？
-On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
 
-<script>
-	var marginTop = 20,
-        marginLeft = 20,
-        fieldSize = 30,
-        boardDimension = 8,
-        boardSize = boardDimension*fieldSize;
+把从1到1024的整数按倒序写下来：102410231022……54321。对这个数进行以下操作：取第一位1，乘以2得2，加上第二位0得2，再乘以2得4，再加上第三位2得6，以此类推，每次把已有的得数乘以2再加上下一位数，直到加上最后一位1。如果得到的数字多于一位，就照这样再操作一次，继续下去，直到结果是一位数为止。最后这个一位数是几？
 
-    var board =[];
-    
-    for(var i = 0; i < boardDimension*boardDimension; i++) {
-        board.push({
-            x: i % boardDimension,
-            y: Math.floor(i / boardDimension),
-            piece: 0
-        });
-    };
-
-    var div = d3.select("problem")
-        .append("div")
-        .style("top", marginTop + "px")
-        .style("left", marginLeft + "px")
-        .style("width", boardSize + "px")
-        .style("height", boardSize + "px");
-
-    var svg = div.append("svg")
-         .attr("width", boardSize + "px")
-         .attr("height", boardSize + "px")
-         .selectAll(".fields")
-         .data(board)
-        .enter()
-         .append("g");
-
-    svg.append("rect")
-         .style("class", "fields")
-         .style("class", "rects")
-         .attr("x", function (d) {
-             return d.x*fieldSize;
-         })
-         .attr("y", function (d) {
-             return d.y*fieldSize;
-         })
-         .attr("width", fieldSize + "px")
-         .attr("height", fieldSize + "px")
-         .style("fill", function (d) {
-             if ( ((d.x%2 == 0) && (d.y%2 == 0)) ||
-                  ((d.x%2 == 1) && (d.y%2 == 1))    ) 
-                 return "white";
-             else
-                 return "black";
-         });
-svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("height", boardSize).style("fill","none").style("stroke-width", "2").style("stroke","rgb(0,0,0)");
-</script>
+2015
+Write down the integers from 1 to 1024 in reverse order: 102410231022……54321. Perform the following "operation" on this number: take the first digit 1, multiply by 2 to get 2, add the next digit 0 to get 2, multiply by 2 to get 4, add the next digit 2 to get 6, etc., each time multiply by 2 and add the next digit, until the last digit 1 is added. If the result is more than one digit, perform the same operation on it, and keep going until the result is a one-digit number. What is this one-digit number?
 </problem>
 
 <h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>

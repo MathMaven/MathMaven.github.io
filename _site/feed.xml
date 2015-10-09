@@ -5,8 +5,8 @@
 <description>These are problems by Areteem Institute of Witchcraft and Wizardry</description>
 <link>http://mathmaven.github.io/</link>
 <atom:link href="http://mathmaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<pubDate>Thu, 08 Oct 2015 20:16:25 -0700</pubDate>
-<lastBuildDate>Thu, 08 Oct 2015 20:16:25 -0700</lastBuildDate>
+<pubDate>Thu, 08 Oct 2015 20:51:59 -0700</pubDate>
+<lastBuildDate>Thu, 08 Oct 2015 20:51:59 -0700</lastBuildDate>
 <generator>Jekyll v2.5.3</generator>
 
 <item>
@@ -474,9 +474,11 @@ l-595 0 0 725 0 726 87 -3 87 -3 508 -718z m658 -2 l0 -725 -67 0 -68 1 -422
 </item>
 
 <item>
-<title>20150922 - Reverse 2x2 Squares on Chess Board - [TODO]</title>
+<title>20150922 - Reverse 2x2 Squares on Chess Board **</title>
 <description>&lt;h4 id=&quot;areteem-2015922&quot;&gt;Areteem魔法学园每日一题 2015年9月22日&lt;/h4&gt;
 &lt;problem&gt;
+
+在8x8的国际象棋盘上，定义一次操作如下：把棋盘上一个2x2的正方形黑白颠倒。能否经过若干次操作后使棋盘上恰好只有一个黑格？
 On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
 
 &lt;script&gt;

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150922 - Reverse 2x2 Squares on Chess Board **</title>
-  <meta name="description" content="Areteem魔法学园每日一题 2015年9月22日">
+  <title>20150818 - Cut Into 8 Congruent Regions **</title>
+  <meta name="description" content="Areteem每日一题2015年8月18日">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/misc/2015/09/22/reverse-2-by-2-on-chess-board.html">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/08/18/cut-into-8-pieces.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -57,8 +57,8 @@
         <div class="post">
 
   <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldFloralPaper.jpg');padding: 25px;color:#2D0202">
-    <h1 class="post-title">20150922 - Reverse 2x2 Squares on Chess Board **</h1>
-    <p class="post-meta">Sep 22, 2015 • ev3commander</p>
+    <h1 class="post-title">20150818 - Cut Into 8 Congruent Regions **</h1>
+    <p class="post-meta">Aug 18, 2015 • ev3commander</p>
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -83,64 +83,18 @@
   </header>
 
   <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
-    <h4 id="areteem-2015922">Areteem魔法学园每日一题 2015年9月22日</h4>
+    <p>Areteem每日一题2015年8月18日</p>
+
+<p>Areteem Daily Magic Spells August 18</p>
+
 <problem>
 
-在8x8的国际象棋盘上，定义一次操作如下：把棋盘上一个2x2的正方形黑白颠倒。能否经过若干次操作后使棋盘上恰好只有一个黑格？
-On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
 
-<script>
-	var marginTop = 20,
-        marginLeft = 20,
-        fieldSize = 30,
-        boardDimension = 8,
-        boardSize = boardDimension*fieldSize;
 
-    var board =[];
-    
-    for(var i = 0; i < boardDimension*boardDimension; i++) {
-        board.push({
-            x: i % boardDimension,
-            y: Math.floor(i / boardDimension),
-            piece: 0
-        });
-    };
+把下面由三个正方形组成的图形分成8个全等（即形状大小都相同）的部分。
 
-    var div = d3.select("problem")
-        .append("div")
-        .style("top", marginTop + "px")
-        .style("left", marginLeft + "px")
-        .style("width", boardSize + "px")
-        .style("height", boardSize + "px");
 
-    var svg = div.append("svg")
-         .attr("width", boardSize + "px")
-         .attr("height", boardSize + "px")
-         .selectAll(".fields")
-         .data(board)
-        .enter()
-         .append("g");
-
-    svg.append("rect")
-         .style("class", "fields")
-         .style("class", "rects")
-         .attr("x", function (d) {
-             return d.x*fieldSize;
-         })
-         .attr("y", function (d) {
-             return d.y*fieldSize;
-         })
-         .attr("width", fieldSize + "px")
-         .attr("height", fieldSize + "px")
-         .style("fill", function (d) {
-             if ( ((d.x%2 == 0) && (d.y%2 == 0)) ||
-                  ((d.x%2 == 1) && (d.y%2 == 1))    ) 
-                 return "white";
-             else
-                 return "black";
-         });
-svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("height", boardSize).style("fill","none").style("stroke-width", "2").style("stroke","rgb(0,0,0)");
-</script>
+The shape in the image is made up of three squares. Divide it into 8 congruent regions.
 </problem>
 
 <h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
