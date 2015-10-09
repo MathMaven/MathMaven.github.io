@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150922 - Reverse 2x2 Squares on Chess Board - [TODO]"
+title:  "20150922 - Reverse 2x2 Squares on Chess Board **"
 date:   2015-09-22 18:52:55
 categories: Misc
 author: ev3commander
@@ -8,6 +8,8 @@ author: ev3commander
 
 #### Areteem魔法学园每日一题 2015年9月22日
 <problem>
+
+在8x8的国际象棋盘上，定义一次操作如下：把棋盘上一个2x2的正方形黑白颠倒。能否经过若干次操作后使棋盘上恰好只有一个黑格？
 On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
 
 <script>
