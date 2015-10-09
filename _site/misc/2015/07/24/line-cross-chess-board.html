@@ -88,9 +88,9 @@
 On an 8x8 chessboard, there are 64 little squares. Draw a straight line on the chessboard so that it crosses the interior of maximum number of the little squares. How many squares does the line cross?
 
 <script>
-	var marginTop = 30,
-        marginLeft = 30,
-        fieldSize = 40,
+	var marginTop = 20,
+        marginLeft = 20,
+        fieldSize = 30,
         boardDimension = 8,
         boardSize = boardDimension*fieldSize;
 
@@ -146,9 +146,9 @@ svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("heig
 <solution>
 
 <script>
-	var marginTop = 30,
-        marginLeft = 30,
-        fieldSize = 40,
+	var marginTop = 20,
+        marginLeft = 20,
+        fieldSize = 30,
         boardDimension = 8,
         boardSize = boardDimension*fieldSize;
 
@@ -198,9 +198,9 @@ svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("heig
 
 svg.append("rect").attr("x", 0).attr("y", 0).attr("width", boardSize).attr("height", boardSize).style("fill","none").style("stroke-width", "2").style("stroke","rgb(0,0,0)");
   
-svg.append("line").attr("x1",20).attr("y1",0).attr("x2",boardSize).attr("y2",boardSize-20).style("stroke", "blue").style("stroke-width","2px");
+svg.append("line").attr("x1",15).attr("y1",0).attr("x2",boardSize).attr("y2",boardSize-15).style("stroke", "blue").style("stroke-width","2px");
 
-svg.append("line").attr("x1",0).attr("y1",20).attr("x2",boardSize-20).attr("y2",boardSize).style("stroke", "red").style("stroke-width","2px");
+svg.append("line").attr("x1",0).attr("y1",15).attr("x2",boardSize-15).attr("y2",boardSize).style("stroke", "red").style("stroke-width","2px");
 
 
 </script>
