@@ -13,7 +13,7 @@ Areteem Daily Magic Spells August 17
 
 如图所示，矩形ABCD的面积是48，E、F、G是各自边上的中点，求两个阴影部分面积之和。
 <p>
-As shown, the area of the rectangle ABCD is 48, and E, F, and G are the midpoints of the respective sides. Find the sum of the areas of the two shaded regions.
+As shown, the area of the rectangle ABCD is 48, and E, F, and G are the midpoints of the respective sides. Find the area of the orange reigon.
 </p>
  <svg width="500" height="130">
   <rect width="300" height="100" style="fill:rgb(55,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
