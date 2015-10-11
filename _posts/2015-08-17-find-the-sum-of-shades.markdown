@@ -28,7 +28,7 @@ As shown, the area of the rectangle ABCD is 48, and E, F, and G are the midpoint
      <text x="305" y="60" fill="black">G</text>
     <text x="305" y="20" fill="black">B</text>
     <text x="200" y="20" fill="black">H</text>
-<polyline points="200,1 2,50 2,99 150,99 200,1 299,2 299,50" fill="#FFA9A9">
+<polyline points="200,1 2,50 2,99 150,99 200,1 299,2 299,50" fill="#FFA9A9" />
    <line x1="200" y1="0" x2="150" y2="100" style="stroke dasharray:rgb(0,0,0);stroke -width:3" />
 </svg>
 
