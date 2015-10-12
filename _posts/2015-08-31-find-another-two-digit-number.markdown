@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "20150831 - Find Another Two Digit Number **"
+title: "20150831 - Find Another Two Digit Number "
 date: 2015-08-31 18:52:55
 categories: NumberTheory
 author: richardwsong
