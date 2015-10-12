@@ -6,12 +6,14 @@ categories: Geometry
 author: richardwsong
 ---
 Areteem每日一题2015年8月25日
-<p>
+
 <problem>
+<p>	
 图中大圆内嵌入两个半圆，三个圆心共线。两个半圆的直径分别为3和7，求阴影部分和非阴影部分的面积比。
+</p>
 <p>
 In the figure two semicircles are inside the big circle, where all three centers are collinear (on the same line). The diameters of the semicircles are 3 and 7 respectively. Find the ratio of the areas between the shaded and the unshaded regions.
-
+</p>
 <svg width="300" height="300">
   
   <circle cx="200" cy="110" r="100" fill="white" stroke-width="1" stroke="black"/>
