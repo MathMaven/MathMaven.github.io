@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150811 - Find the Missing Number **"
+title:  "20150811 - Find the Missing Number "
 date:   2015-08-11 18:52:55
 categories: NumberTheory
 author: richardwsong
