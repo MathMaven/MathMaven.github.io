@@ -3,7 +3,7 @@ layout: post
 title:  "20150812 - Find the Original Number "
 date:   2015-08-12 18:52:55
 categories: NumberTheory
-author: ev3commander
+author: Wyzdm
 ---
 Areteem每日一题2015年8月12日
 
