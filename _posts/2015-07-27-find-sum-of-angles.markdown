@@ -3,6 +3,7 @@ layout: post
 title:  "20150727 - Find Sum of Angles in Squares"
 date:   2015-07-27 18:52:55
 categories: Geometry Trigonometry
+author: ev3commander
 ---
 
 Three squares are drawn below. Find the sum of angle 1 and angle 2 in degrees.

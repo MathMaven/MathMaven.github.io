@@ -172,6 +172,9 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    padding:    12px;
+    color:      #2D0202;
+    background-image: $old-scroll;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -179,13 +182,14 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    font-size: 15px;
+    color: $post-main-color;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
+    color: $post-main-color;
 }
 
 
@@ -195,10 +199,13 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    color: $post-main-color;	
+    padding:    12px;
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 38px;
+    color: $post-main-color;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -209,6 +216,9 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    background-image: $old-scroll;
+    color: $post-main-color;
+    padding:    12px;
 
     h2 {
         font-size: 32px;

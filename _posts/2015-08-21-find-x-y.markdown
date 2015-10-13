@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "20150821 - Find x and y"
+date:   2015-08-21 18:52:55
+categories: Algebra
+author: richardwsong
+---
+
+
+Areteem每日一题2015年8月21日
+
+解下列方程组，只能心算：
+
+Solve the following system of equations in your head:
+
+34567x + 65433y = 734567
+
+65433x + 34567y = 765433
+
+
+### Solution <button>Show / Hide</button>
+
+
+<solution>
+
+x + y = 15 <br>
+x - y = 1  <br>
+x=8  &nbsp; &nbsp; y=7
+
+</solution>
+
+
+
+

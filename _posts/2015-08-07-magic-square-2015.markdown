@@ -3,6 +3,7 @@ layout: post
 title:  "20150807- Magic Square With Sum equals 2015"
 date:   2015-08-07 18:52:55
 categories: NumberTheory
+author: ev3commander
 ---
 
 <svg width="250" height="250">
@@ -25,7 +26,7 @@ A "magic square" is an arrangement of numbers in a square grid such that the sum
 
 <solution>
 
-Coming soon
+No. In order for there to be a 3x3 magic square, the sum must be divisble by 3. Since 2015 is not, this is impossible.
 
 </solution>
 

@@ -3,6 +3,7 @@ layout: post
 title:  "20150729 - How Many Matches to Move"
 date:   2015-07-29 18:52:55
 categories: BrainTeaser
+author: ev3commander
 ---
 
 On the table, an equation is formed with matches in Roman numerals: <br><br>
