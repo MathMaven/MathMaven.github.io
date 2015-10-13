@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150812 - Find the Original Number **"
+title:  "20150812 - Find the Original Number "
 date:   2015-08-12 18:52:55
 categories: NumberTheory
 author: ev3commander
@@ -21,7 +21,7 @@ The units digit of a given number is 2. If this units digit 2 is moved to the fi
 
 <solution>
 
-Coming soon.
+Because the two is at the beginning of the new number the old number must have a one at the front. That means after the two in the new number there is also a one. After the one in the old number there has to be a zero so the rest of the number is valid since one is the largest whole number that goes into two twice. There is also a zero in the new number after the one because zero is the largest whole number that goes into zero twice. Since we left out a one, we add ten to thenumber we got, which is zero. So zero is actually ten. That means the next number is five. This logic follows for the rest of the digits in both of the numbers until the old number reaches a two which is when the number ends. The answer is 105263157894736842.
 
 </solution>
 
