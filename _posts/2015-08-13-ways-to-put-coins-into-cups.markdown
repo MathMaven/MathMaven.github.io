@@ -17,7 +17,8 @@ Put ten coins into three cups, so that each cup contains an odd number of coins.
 ### Solution <button>Show / Hide</button>
 
 <solution>
-
+You will need to stack the cups together. Here is one example: 
+<br/><br/>
 <svg width="200">
   <line x1="5" y1="5" x2="10" y2="95" style="stroke:black" />
   <line x1="95" y1="5" x2="90" y2="95" style="stroke:black" />
@@ -27,8 +28,21 @@ Put ten coins into three cups, so that each cup contains an odd number of coins.
   <line x1="195" y1="5" x2="190" y2="95" style="stroke:black" />
   <line x1="190" y1="95" x2="110" y2="95" style="stroke:black" />
   <text x="42" y="50" style="font-size:35px">5</text>
-  <text x="142" y="80" style="font-size:35px">5</text>
+  <text x="42" y="92" style="font-size:35px">2</text>
+  <text x="142" y="80" style="font-size:35px">3</text>
 </svg>
-You will need to stack the cups together. Here is one example. In total, there are 15 ways to do it.
+<br/>
+In total, there are 15 ways to do it:
+<br/>
+((1))(9), ((1)2)(7), ((1)4)(5), ((1)6)(3),((1)8)(1)
+<br/>
+((3))(7), ((3)2)(5), ((3)4)(3), ((3)6)(1)
+<br/>
+((5))(5), ((5)2)(3), ((5)4)(1)
+<br/>
+((7))(3), ((7)2)(1)
+<br/>
+((9))(1)
+
 </solution>
 
