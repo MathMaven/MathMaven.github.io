@@ -23,7 +23,7 @@ Areteem每日一题2015年9月2日
 
 
 <solution>
-
+12344 matches. Each game produces a loser, and then the losers get eliminated, until there is one undefeated person. Since there are 12345 players and 1 undefeated person, there must be 12344 losers and therefore 12344 matches.
 
 </solution>
 
