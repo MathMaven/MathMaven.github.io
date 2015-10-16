@@ -22,6 +22,18 @@ The Goldbach Conjecture states that every even number greater than 2 can be expr
 
 
 <solution>
-
+10 ways. 
+<ul>
+<li> 13 and 113</li>
+<li> 17 and 109</li>
+<li> 19 and 107</li>
+<li> 23 and 103</li>
+<li> 29 and 97</li>
+<li> 37 and 89</li>
+<li> 43 and 83</li>
+<li> 47 and 79</li>
+<li> 53 and 73</li>
+<li> 59 and 67</li>
+</ul>
 
 </solution>
