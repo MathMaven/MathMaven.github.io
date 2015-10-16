@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150915 - Find All Ways to Write 126 as the Sum of Two Primes.  **"
+title:  "20150915 - Find All Ways to Write 126 as the Sum of Two Primes."
 date:   2015-09-15 11:52:55
 categories: NumberTheory
 author: richardwsong Wyzdm ev3commander
