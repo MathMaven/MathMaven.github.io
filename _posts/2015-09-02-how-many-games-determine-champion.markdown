@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150902 - How Many Games Are Needed to Determine the Champion  **"
+title:  "20150902 - How Many Games Are Needed to Determine the Champion"
 date:   2015-09-02 11:52:55
 categories: logic
 author: richardwsong Wyzdm ev3commander
