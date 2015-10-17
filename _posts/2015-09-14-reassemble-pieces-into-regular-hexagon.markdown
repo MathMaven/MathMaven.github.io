@@ -15,8 +15,8 @@ Areteem魔法学园每日一题2015年9月14日
 <p>
 The rhombus in the figure is made up of two equilateral triangles. Cut the rhombus into 4 pieces and reassemble the pieces into a regular hexagon.
 </p>
-<svg width="350px" height="300px" viewBox="0 0 300 300">
-  <g transform="translate(40, 10)">
+<svg width="350px" height="300px" >
+  <g transform="translate(50, 10) scale(0.9 0.9)">
    <line x1 = "100" y1 = "0" x2 = "243" y2 = "83" stroke = "black" stroke-width = "3"/>
    <line x1 = "100" y1 = "0" x2 = "-43" y2 = "83" stroke = "black" stroke-width = "3"/>
    <line x1 = "-43" y1 = "83" x2 = "100" y2 = "166" stroke = "black" stroke-width = "3"/>
@@ -32,8 +32,8 @@ The rhombus in the figure is made up of two equilateral triangles. Cut the rhomb
 
 
 <solution>
-<svg width="350px" height="300px" viewBox="0 0 300 300">
-  <g transform="translate(40, 10)">
+<svg width="350px" height="300px" >
+  <g transform="translate(50, 10) scale(0.9 0.9)">
    <line x1 = "100" y1 = "100" x2 = "243" y2 = "183" stroke = "black" stroke-width = "3"/>
    <line x1 = "100" y1 = "100" x2 = "-43" y2 = "183" stroke = "black" stroke-width = "3"/>
    <line x1 = "-43" y1 = "183" x2 = "100" y2 = "266" stroke = "black" stroke-width = "3"/>
@@ -64,7 +64,13 @@ The rhombus in the figure is made up of two equilateral triangles. Cut the rhomb
 	<text x="150" y="200" font-size="12">D</text>  
     
       </g>
-     
+     <style type="text/css"><![CDATA[
+      svg {
+        margin-bottom:-50px;
+        transform-origin: 0% 0%;
+
+      }
+    ]]></style>
 </svg>
 
 </solution>
