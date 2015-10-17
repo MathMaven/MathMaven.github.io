@@ -12,7 +12,7 @@ Areteem魔法学园每日一题2015年9月29日<br>
 
 In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.
 
-<svg width="600" height="600" >
+<svg width="600" height="600" viewBox="0 0 800 800" >
    <g transform="translate(40, 50)">
       <rect x="0" y="0" width="400" height="400" stroke="black" stroke-width="4" fill="none" />
       <polygon points="0,0 100, 150 400, 400" fill="cyan" />
@@ -41,7 +41,7 @@ In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectiv
 
          AB=4
 <br><br>
-<svg width="600" height="600">
+<svg width="600" height="600" viewBox="0 0 800 800">
     <g transform="translate(40, 50)">
       <rect x="0" y="0" width="400" height="400" stroke="black" stroke-width="4" fill="none" />
       <polygon points="0,0 100, 150 400, 400" fill="cyan" />
