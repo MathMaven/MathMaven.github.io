@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150908 - Find the Area of the Octagon  **"
+title:  "20150908 - Find the Area of the Octagon"
 date:   2015-09-08 11:52:55
 categories: Geometry
 author: richardwsong Wyzdm ev3commander
