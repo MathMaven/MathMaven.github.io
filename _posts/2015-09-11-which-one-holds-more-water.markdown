@@ -27,8 +27,8 @@ Roll a rectangular sheet metal to make a cylindrical barrel. The bottom will be 
   <line x1="370" y1="210" x2="370" y2="300" style="stroke:rgb(0,0,0);stroke-width:2" /> n
   <rect x="20" y="20" width="120" height="140" style="fill:transparent;stroke:black;stroke-width:2" />
   <rect x="20" y="190" width="140" height="120" style="fill:transparent;stroke:black;stroke-width:2" />
-  <text x="165" y="100" style="font-size:60px">→</text>  
-  <text x="175" y="260" style="font-size:60px">→</text>
+  <text x="165" y="100" style="font-size:60px;fill:black;">→</text>  
+  <text x="175" y="260" style="font-size:60px;fill:black;">→</text>
 </svg>
 </problem>
 
