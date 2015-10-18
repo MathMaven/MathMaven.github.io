@@ -38,7 +38,7 @@ Roll a rectangular sheet metal to make a cylindrical barrel. The bottom will be 
 
 
 <solution>
-The second one would have a greater volume. If $a$ is the long side of the rectangle and $b$ is the short side, in the second case, where b is the height, the radius of the base would be ${a \over 2\pi}$. Thus, the volume would be ${\pi\times\left({a \over 2\pi}\right)^2\times b}$, and similarly, the volume of the first cylinder would be ${\pi\times\left({b \over 2\pi}\right)^2\times a}$. Then, after dividing and canceling, we get that the volume of the second cylinder over the volume of the first cylinder is ${a^2b \over b^2a}$. Since we know that $a\gtb$, we know that the volume of the second cylinder divided by the volume of the first cylinder is more than 1, and therefore the volume of the second cylinder is larger.
+The second one would have a greater volume. If $a$ is the long side of the rectangle and $b$ is the short side, in the second case, where b is the height, the radius of the base would be ${a \over 2\pi}$. Thus, the volume would be ${\pi\times\left({a \over 2\pi}\right)^2\times b}$, and similarly, the volume of the first cylinder would be ${\pi\times\left({b \over 2\pi}\right)^2\times a}$. Then, after dividing and canceling, we get that the volume of the second cylinder over the volume of the first cylinder is ${a^2b \over b^2a}$. Since we know that $a \gt b$, we know that the volume of the second cylinder divided by the volume of the first cylinder is more than 1, and therefore the volume of the second cylinder is larger.
 
 </solution>
 
