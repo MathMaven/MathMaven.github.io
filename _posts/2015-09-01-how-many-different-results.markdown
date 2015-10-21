@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150901 - How Many Different Results  **"
+title:  "20150901 - How Many Different Results  *"
 date:   2015-09-01 11:52:55
 categories: NumberTheory
 author: richardwsong Wyzdm ev3commander
@@ -24,5 +24,6 @@ Add parentheses to the expression 1:2:3, there can be two results: (1:2):3=1/6, 
 
 <solution>
 
+2^6 - 4 = 64 - 4 = 60
 
 </solution>

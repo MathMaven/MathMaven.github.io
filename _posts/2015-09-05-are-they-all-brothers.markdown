@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150905 - Are the 7 Boys Necessarily All Brothers?  **"
+title:  "20150905 - Are the 7 Boys Necessarily All Brothers?  *"
 date:   2015-09-05 11:52:55
 categories: logic
 author: richardwsong Wyzdm ev3commander
@@ -25,6 +25,7 @@ There are 7 boys. Each boy has at least 3 brothers among the other 6 boys. Are t
 
 <solution>
 
+No.
 
 </solution>
 

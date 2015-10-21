@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150907 - How Many Pages Does the Book Have?  **"
+title:  "20150907 - How Many Pages Does the Book Have?  *"
 date:   2015-09-07 11:52:55
 categories: NumberTheory
 author: richardwsong Wyzdm ev3commander
@@ -24,5 +24,6 @@ The page numbers of a book begins with 1. Count the digits used in all the page 
 
 <solution>
 
+99 + (1890-189)/3 = 666
 
 </solution>

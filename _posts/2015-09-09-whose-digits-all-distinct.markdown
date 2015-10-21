@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150909 - Whose Digits Are All Distinct  **"
+title:  "20150909 - Whose Digits Are All Distinct  *"
 date:   2015-09-09 11:52:55
 categories: NumberTheory
 author: richardwsong Wyzdm ev3commander
@@ -25,5 +25,6 @@ Find the largest multiple of 99 among the nine-digit integers, whose digits are 
 
 <solution>
 
+987652413
 
 </solution>

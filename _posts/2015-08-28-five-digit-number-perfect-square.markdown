@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20150828 - Can a Five-digit Number Consisting of 5 Distinct Even Digits be a Perfect Square? **"
+title:  "20150828 - Can a Five-digit Number Consisting of 5 Distinct Even Digits be a Perfect Square? *"
 date:   2015-08-28 17:42:27
 categories: NumberTheory
 author: richardwsong Wyzdm ev3commander
@@ -23,6 +23,7 @@ Can a five-digit number consisting of 5 distinct even digits be a perfect square
 
 <solution>
 
+No. 
 
 </solution>
 
