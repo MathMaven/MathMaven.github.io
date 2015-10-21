@@ -98,6 +98,7 @@ $on-laptop:        800px;
   line-height: 34px;
   border: 1px solid #DDD;
   border-left-width: 0;
+  color: gold;
 }
 
 .pagination a:hover, .active a {
@@ -112,4 +113,4 @@ $on-laptop:        800px;
 
 .disabled a:hover {
   background-color: transparent;
-}
+  }
