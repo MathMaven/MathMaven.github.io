@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Daily Magic Spells</title>
-  <meta name="description" content="These are problems by Areteem Institute of Witchcraft and Wizardry">
+  <title>20151027 - What is the Maximum Possible Sum?  *</title>
+  <meta name="description" content="Areteem魔法学园每日一题2015年10月27日">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/blog/page4/">
+  <link rel="canonical" href="http://mathmaven.github.io/numbertheory/2015/10/27/what-is-maximum-possible-sum.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -58,97 +58,56 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h4 class="page-heading">Brought to You by <a href="http://www.areteem.org/">Areteem Institute</a> of Witchcraft and Wizardry</h4>
+  <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding: 25px;color:#2D0202">
+    <h1 class="post-title">20151027 - What is the Maximum Possible Sum?  *</h1>
+    <p class="post-meta">Oct 27, 2015 • richardwsong Wyzdm ev3commander</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <!--<span class="post-date">Jul 6, 2015</span>-->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="jquery-1.11.3.min.js">
+    </script>
 
-        <h3>
-          <a class="post-link" href="/brainteaser/2015/07/06/move-only-one-digit.html">20150706 - Move only one digit *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 3, 2015</span>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $("solution").hide();
+        $("button").click(function(){
+          $("solution").toggle();
+        });
+      });
+  </script>
 
-        <h3>
-          <a class="post-link" href="/geometry/2015/07/03/find-length-of-PD.html">20150703 - Find the Length of PD **</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 2, 2015</span>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 
-        <h3>
-          <a class="post-link" href="/brainteaser/2015/07/02/which-box-has-answer.html">20150702 - Which Box Has the Answer? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 1, 2015</span>-->
+  </header>
 
-        <h3>
-          <a class="post-link" href="/numbertheory/2015/07/01/what-is-2015th-digit-of-the-number.html">20150701 - What is the 2015th Digit of This Number? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jun 30, 2015</span>-->
+  <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
+    <p>Areteem魔法学园每日一题2015年10月27日
+<br /></p>
 
-        <h3>
-          <a class="post-link" href="/geometry/2015/06/30/is-it-possible-pass-through-each-points.html">20150630 - Is it Possible for it to Pass Through Each of These Points Exactly Once  *</a>
-        </h3>
-      </li>
-    
-  </ul>
+<problem>
+<p>	
+一堆石子共25个，任意分成两堆，把两堆石子的个数相乘，得到一个乘积。再把其中一堆分成两堆，这两小堆的石子个数相乘，又得到一个乘积。依此类推，只要某堆石子至少两个，就可以分成两堆，得到一个乘积，直到每堆都只有一个石子为止。把所有得到的乘积加起来，这个总和最大是多少？
+</p>
+<p>
 
-<!-- Pagination links -->
-<div class="pagination">
-  <ul>
-    
-      
-        <li>
-          <a href="/blog/page3/">&laquo;</a>
-        </li>
-      
-    
-    
-      <li>
-        <a href="/">1</a>
-      </li>
-    
-    
-      
-        <li>
-          <a href="/blog/page2/">2</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="/blog/page3/">3</a>
-        </li>
-      
-    
-      
-        <li class="active">
-          <a href="#">4</a>
-        </li>
-      
-    
-    
-      <li class="disabled">
-        <a href="#">&raquo;</a>
-      </li>
-    
-  </ul>
-</div>
+Twenty-five stones are in a pile. Split the pile into two smaller piles, calculate the product of the numbers of stones in each pile. Then split one of the piles into two even smaller piles, and calculate the product of the numbers of stones in these new piles. Keep going, as long as one of the piles contains at least two stones, split it into two piles and calculate the product, until every pile has only one stone. Now add all the products obtained during the process. What is the maximum possible sum?
+</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+</problem>
+
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
+
+<solution>
+这个问题等价于握手问题。把25个石子看成25个人，每次把一组分成两组，每个人都和另一组的每个人握手，本组的人不握手，两数的乘积相当于握手次数。最后所有分组完成后，每两个人都握过一次手，所有乘积之和就是握手的总次数。因此答案是C(25,2)=25*24/2=300，与分组方法无关。
+</solution>
+
+  </article>
 
 </div>
 
