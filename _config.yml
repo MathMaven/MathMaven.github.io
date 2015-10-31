@@ -11,3 +11,7 @@ description: These are problems by Areteem Institute of Witchcraft and Wizardry
 markdown: kramdown
 paginate: 20
 paginate_path: "/blog/page:num/"
+collections:
+  questions:
+    output: true
+   
