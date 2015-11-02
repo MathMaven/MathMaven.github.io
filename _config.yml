@@ -8,3 +8,9 @@ github_username: Leiw2000
 description: These are problems by Areteem Institute of Witchcraft and Wizardry
 # Build settings
 markdown: kramdown
+paginate: 20
+paginate_path: "/blog/page:num/"
+collections:
+  questions:
+    output: true
+   
