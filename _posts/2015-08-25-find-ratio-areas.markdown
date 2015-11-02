@@ -28,7 +28,7 @@ In the figure two semicircles are inside the big circle, where all three centers
   <text x="230" y="100" font-size="16">7</text>
    
 </svg>
-<problem>
+</problem>
 
 ### Solution <button>Show / Hide</button>
 
