@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Daily Magic Spells</title>
-  <meta name="description" content="These are problems by Areteem Institute of Witchcraft and Wizardry">
+  <title>20151103 - Find the Area of the Hexagon   **</title>
+  <meta name="description" content="Areteem魔法学园每日一题2015年11月3日">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mathmaven.github.io/blog/page4/">
+  <link rel="canonical" href="http://mathmaven.github.io/geometry/2015/11/03/find-the-area-of-the-hexagon.html">
   <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://mathmaven.github.io/feed.xml" />
 </head>
 
@@ -69,121 +69,59 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h4 class="page-heading">Brought to You by <a href="http://www.areteem.org/">Areteem Institute</a> of Witchcraft and Wizardry</h4>
+  <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding: 25px;color:#2D0202">
+    <h1 class="post-title">20151103 - Find the Area of the Hexagon   **</h1>
+    <p class="post-meta">Nov 3, 2015 • richardwsong Wyzdm ev3commander</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <!--<span class="post-date">Jul 9, 2015</span>-->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="jquery-1.11.3.min.js">
+    </script>
 
-        <h3>
-          <a class="post-link" href="/numbertheory/2015/07/09/what-is-original-4-digit-number.html">20150709 - What is the Original 4-Digit Number? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 8, 2015</span>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $("solution").hide();
+        $("button").click(function(){
+          $("solution").toggle();
+        });
+      });
+  </script>
 
-        <h3>
-          <a class="post-link" href="/geometry/2015/07/08/what-is-length-of-remaining-altitude.html">20150708 - What is the Original 4-Digit Number? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 7, 2015</span>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 
-        <h3>
-          <a class="post-link" href="/numbertheory/2015/07/07/how-many-ways-can-100-expressed.html">20150707 - In How Many Ways Can 100 be so Expressed? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 6, 2015</span>-->
+  </header>
 
-        <h3>
-          <a class="post-link" href="/brainteaser/2015/07/06/move-only-one-digit.html">20150706 - Move only one digit *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 3, 2015</span>-->
+  <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
+    <p>Areteem魔法学园每日一题2015年11月3日
+<br /></p>
 
-        <h3>
-          <a class="post-link" href="/geometry/2015/07/03/find-length-of-PD.html">20150703 - Find the Length of PD **</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 2, 2015</span>-->
+<problem>
+<p>	
+圆内接六边形的六条边长依次是3，3，3，5，5，5。求六边形的面积。
+</p>
+<p>
+A hexagon is inscribed in a circle. The lengths of the 6 sides of the hexagon are 3,3,3,5,5,5, in that order. Find the area of the hexagon.
+</p>
 
-        <h3>
-          <a class="post-link" href="/brainteaser/2015/07/02/which-box-has-answer.html">20150702 - Which Box Has the Answer? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jul 1, 2015</span>-->
+</problem>
 
-        <h3>
-          <a class="post-link" href="/numbertheory/2015/07/01/what-is-2015th-digit-of-the-number.html">20150701 - What is the 2015th Digit of This Number? *</a>
-        </h3>
-      </li>
-    
-      <li>
-        <!--<span class="post-date">Jun 30, 2015</span>-->
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
-        <h3>
-          <a class="post-link" href="/geometry/2015/06/30/is-it-possible-pass-through-each-points.html">20150630 - Is it Possible for it to Pass Through Each of These Points Exactly Once  *</a>
-        </h3>
-      </li>
-    
-  </ul>
+<solution>
+         
+重新排列各边顺序：3、5、3、5、3、5延长边构成一个边长11的正三角形，减去三个边长3的正三角形的面积。
+<br />
+(11²-3*3²)√3/4
+  
+</solution>
 
-<!-- Pagination links -->
-<div class="pagination">
-  <ul>
-    
-      
-        <li>
-          <a href="/blog/page3/">&laquo;</a>
-        </li>
-      
-    
-    
-      <li>
-        <a href="/">1</a>
-      </li>
-    
-    
-      
-        <li>
-          <a href="/blog/page2/">2</a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="/blog/page3/">3</a>
-        </li>
-      
-    
-      
-        <li class="active">
-          <a href="#">4</a>
-        </li>
-      
-    
-    
-      <li class="disabled">
-        <a href="#">&raquo;</a>
-      </li>
-    
-  </ul>
-</div>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
