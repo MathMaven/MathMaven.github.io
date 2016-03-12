@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150813 - How Many Ways to Put Coins Into Cups **</title>
+  <title>20150813 - How Many Ways to Put Coins Into Cups</title>
   <meta name="description" content="Areteem每日一题2015年8月13日">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/numbertheory/2015/08/13/ways-to-put-coins-into-cups.html">
-  <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="/feed.xml" />
+  <link rel="stylesheet" href="/Math123/css/main.css">
+  <link rel="canonical" href="http://leiw2000.github.io//Math123/numbertheory/2015/08/13/ways-to-put-coins-into-cups.html">
+  <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://leiw2000.github.io//Math123/feed.xml" />
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper" >
 
-     <a class="site-title" href="/">Daily Magic Spells</a>by Areteem Institute of Witchcraft and Wizardry
+     <a class="site-title" href="/Math123/">Daily Magic Spells</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -31,21 +31,32 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
-
+ 
       <div class="trigger">
         
           
-          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="/Math123/about/">About</a>
           
         
           
         
           
         
+          
+        
+          
+          <a class="page-link" href="/Math123/question/">Others</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/Math123/search/">Search</a>
           
         
       </div>
     </nav>
+
 
   </div>
 
@@ -57,7 +68,7 @@
         <div class="post">
 
   <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding: 25px;color:#2D0202">
-    <h1 class="post-title">20150813 - How Many Ways to Put Coins Into Cups **</h1>
+    <h1 class="post-title">20150813 - How Many Ways to Put Coins Into Cups</h1>
     <p class="post-meta">Aug 13, 2015 • ev3commander</p>
 
     <script type="text/x-mathjax-config">
@@ -87,21 +98,42 @@
 
 <problem>
 把十枚硬币装进三个杯子，要求每个杯子中的硬币数是奇数。第一问：给出一种符合条件的装法。第二问：共有多少种符合条件的装法？
-<p>
 Put ten coins into three cups, so that each cup contains an odd number of coins. First question: find one way to do this. Second question: how many different ways are there to do this?
 
+</problem>
 
-
-
-### Solution <button>Show / Hide</button>
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
 <solution>
-
-Coming soon.
+You will need to stack the cups together. Here is one example: 
+<br /><br />
+<svg width="200">
+  <line x1="5" y1="5" x2="10" y2="95" style="stroke:black" />
+  <line x1="95" y1="5" x2="90" y2="95" style="stroke:black" />
+  <line x1="90" y1="95" x2="10" y2="95" style="stroke:black" />
+  <line x1="8" y1="65" x2="92" y2="65" style="stroke:black" />
+  <line x1="105" y1="5" x2="110" y2="95" style="stroke:black" />
+  <line x1="195" y1="5" x2="190" y2="95" style="stroke:black" />
+  <line x1="190" y1="95" x2="110" y2="95" style="stroke:black" />
+  <text x="42" y="50" style="font-size:35px">5</text>
+  <text x="42" y="92" style="font-size:35px">2</text>
+  <text x="142" y="80" style="font-size:35px">3</text>
+</svg>
+<br />
+In total, there are 15 ways to do it:
+<br />
+((1))(9), ((1)2)(7), ((1)4)(5), ((1)6)(3),((1)8)(1)
+<br />
+((3))(7), ((3)2)(5), ((3)4)(3), ((3)6)(1)
+<br />
+((5))(5), ((5)2)(3), ((5)4)(1)
+<br />
+((7))(3), ((7)2)(1)
+<br />
+((9))(1)
 
 </solution>
 
-</p></problem>
 
   </article>
 

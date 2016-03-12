@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>20150925 - ABC+DEF+GHI=NNN</title>
-  <meta name="description" content="Three 3-digit numbers add up to another 3-digit number: ABC+DEF+GHI=NNN.  Each letter represents one digit among 0-9, and different letters represent differe...">
+  <title>20151028 - What is the Maximum Possible Sum? </title>
+  <meta name="description" content="Areteem魔法学园每日一题2015年10月28日">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html">
-  <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="/feed.xml" />
+  <link rel="stylesheet" href="/Math123/css/main.css">
+  <link rel="canonical" href="http://leiw2000.github.io//Math123/numbertheory/2015/10/28/what-is-maximun-possible-sum.html">
+  <link rel="alternate" type="application/rss+xml" title="Daily Magic Spells" href="http://leiw2000.github.io//Math123/feed.xml" />
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper" >
 
-     <a class="site-title" href="/">Daily Magic Spells</a>by Areteem Institute of Witchcraft and Wizardry
+     <a class="site-title" href="/Math123/">Daily Magic Spells</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -31,21 +31,32 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
-
+ 
       <div class="trigger">
         
           
-          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="/Math123/about/">About</a>
           
         
           
         
           
         
+          
+        
+          
+          <a class="page-link" href="/Math123/question/">Others</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/Math123/search/">Search</a>
           
         
       </div>
     </nav>
+
 
   </div>
 
@@ -57,8 +68,8 @@
         <div class="post">
 
   <header class="post-header" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding: 25px;color:#2D0202">
-    <h1 class="post-title">20150925 - ABC+DEF+GHI=NNN</h1>
-    <p class="post-meta">Sep 25, 2015 • ev3commander</p>
+    <h1 class="post-title">20151028 - What is the Maximum Possible Sum? </h1>
+    <p class="post-meta">Oct 28, 2015 • richardwsong</p>
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -83,14 +94,25 @@
   </header>
 
   <article class="post-content" style="background-image: url('//mathmaven.github.io/r/OldScroll.jpg');padding:25px;color:#2D0202">
-    <p>Three 3-digit numbers add up to another 3-digit number: ABC+DEF+GHI=NNN.  Each letter represents one digit among 0-9, and different letters represent different digits. The first digit of each of the numbers is nonzero. What is N? If the answer is not unique, find all possible values.</p>
+    <p>Areteem魔法学园每日一题2015年10月28日
+<br /></p>
 
-<h3 id="solution-buttonshowhidebutton">Solution <button>Show/Hide</button></h3>
+<problem>
+<p>	
+一堆石子共25个，任意分成两堆，把两堆石子的个数相乘，得到一个乘积。再把其中一堆分成两堆，这两小堆的石子个数相乘，又得到一个乘积。依此类推，只要某堆石子至少两个，就可以分成两堆，得到一个乘积，直到每堆都只有一个石子为止。把所有得到的乘积加起来，这个总和最大是多少？
+</p>
+<p>
+
+Twenty-five stones are in a pile. Split the pile into two smaller piles, calculate the product of the numbers of stones in each pile. Then split one of the piles into two even smaller piles, and calculate the product of the numbers of stones in these new piles. Keep going, as long as one of the piles contains at least two stones, split it into two piles and calculate the product, until every pile has only one stone. Now add all the products obtained during the process. What is the maximum possible sum?
+</p>
+
+</problem>
+
+<h3 id="solution-buttonshow--hidebutton">Solution <button>Show / Hide</button></h3>
 
 <solution>
-  134 + 207 + 658 = 999 
+这个问题等价于握手问题。把25个石子看成25个人，每次把一组分成两组，每个人都和另一组的每个人握手，本组的人不握手，两数的乘积相当于握手次数。最后所有分组完成后，每两个人都握过一次手，所有乘积之和就是握手的总次数。因此答案是C(25,2)=25*24/2=300，与分组方法无关。
 </solution>
-
 
   </article>
 

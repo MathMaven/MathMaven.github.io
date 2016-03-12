@@ -3,11 +3,105 @@
 <channel>
 <title>Daily Magic Spells</title>
 <description>These are problems by Areteem Institute of Witchcraft and Wizardry</description>
-<link>/</link>
-<atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-<pubDate>Tue, 13 Oct 2015 11:18:20 -0400</pubDate>
-<lastBuildDate>Tue, 13 Oct 2015 11:18:20 -0400</lastBuildDate>
-<generator>Jekyll v2.5.3</generator>
+<link>http://leiw2000.github.io//Math123/</link>
+<atom:link href="http://leiw2000.github.io//Math123/feed.xml" rel="self" type="application/rss+xml"/>
+<pubDate>Sat, 12 Mar 2016 15:20:05 -0500</pubDate>
+<lastBuildDate>Sat, 12 Mar 2016 15:20:05 -0500</lastBuildDate>
+<generator>Jekyll v3.1.2</generator>
+
+<item>
+<title>20151028 - What is the Maximum Possible Sum? </title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月28日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+一堆石子共25个，任意分成两堆，把两堆石子的个数相乘，得到一个乘积。再把其中一堆分成两堆，这两小堆的石子个数相乘，又得到一个乘积。依此类推，只要某堆石子至少两个，就可以分成两堆，得到一个乘积，直到每堆都只有一个石子为止。把所有得到的乘积加起来，这个总和最大是多少？
+&lt;/p&gt;
+&lt;p&gt;
+
+Twenty-five stones are in a pile. Split the pile into two smaller piles, calculate the product of the numbers of stones in each pile. Then split one of the piles into two even smaller piles, and calculate the product of the numbers of stones in these new piles. Keep going, as long as one of the piles contains at least two stones, split it into two piles and calculate the product, until every pile has only one stone. Now add all the products obtained during the process. What is the maximum possible sum?
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+这个问题等价于握手问题。把25个石子看成25个人，每次把一组分成两组，每个人都和另一组的每个人握手，本组的人不握手，两数的乘积相当于握手次数。最后所有分组完成后，每两个人都握过一次手，所有乘积之和就是握手的总次数。因此答案是C(25,2)=25*24/2=300，与分组方法无关。
+&lt;/solution&gt;
+</description>
+<pubDate>Wed, 28 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/28/what-is-maximun-possible-sum.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/28/what-is-maximun-possible-sum.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151027 - What is the Maximum Possible Sum?  *</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月27日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+一堆石子共25个，任意分成两堆，把两堆石子的个数相乘，得到一个乘积。再把其中一堆分成两堆，这两小堆的石子个数相乘，又得到一个乘积。依此类推，只要某堆石子至少两个，就可以分成两堆，得到一个乘积，直到每堆都只有一个石子为止。把所有得到的乘积加起来，这个总和最大是多少？
+&lt;/p&gt;
+&lt;p&gt;
+
+Twenty-five stones are in a pile. Split the pile into two smaller piles, calculate the product of the numbers of stones in each pile. Then split one of the piles into two even smaller piles, and calculate the product of the numbers of stones in these new piles. Keep going, as long as one of the piles contains at least two stones, split it into two piles and calculate the product, until every pile has only one stone. Now add all the products obtained during the process. What is the maximum possible sum?
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+这个问题等价于握手问题。把25个石子看成25个人，每次把一组分成两组，每个人都和另一组的每个人握手，本组的人不握手，两数的乘积相当于握手次数。最后所有分组完成后，每两个人都握过一次手，所有乘积之和就是握手的总次数。因此答案是C(25,2)=25*24/2=300，与分组方法无关。
+&lt;/solution&gt;
+</description>
+<pubDate>Tue, 27 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/27/what-is-maximum-possible-sum.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/27/what-is-maximum-possible-sum.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151026 - How Many Distinct Midpoints Are There?  *</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月26日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+一条直线上取390个不同的点。在以这些点为端点的所有线段上，至少有多少个不同的中点？
+&lt;/p&gt;
+&lt;p&gt;
+
+Select 390 distinct points on the same line. Among all the line segments using the selected points as endpoints, at least how many distinct midpoints are there?
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+777
+
+&lt;/solution&gt;
+</description>
+<pubDate>Mon, 26 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/26/how-many-distinct-midpoints.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/26/how-many-distinct-midpoints.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
 
 <item>
 <title>20151002 - Count How Many Zeros</title>
@@ -39,11 +133,11 @@
 &lt;/solution&gt;
 </description>
 <pubDate>Fri, 02 Oct 2015 09:37:35 -0400</pubDate>
-<link>/numbertheory/2015/10/02/count-how-many-zeros.html</link>
-<guid isPermaLink="true">/numbertheory/2015/10/02/count-how-many-zeros.html</guid>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/02/count-how-many-zeros.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/02/count-how-many-zeros.html</guid>
 
 
-<category>numbertheory</category>
+<category>NumberTheory</category>
 
 </item>
 
@@ -158,11 +252,11 @@ polygon([p0, p1, p2, p3]);&lt;/script&gt;
 &lt;/solution&gt;
 </description>
 <pubDate>Thu, 01 Oct 2015 14:52:55 -0400</pubDate>
-<link>/numbertheory/2015/10/01/count-squares-with-integer-sides.html</link>
-<guid isPermaLink="true">/numbertheory/2015/10/01/count-squares-with-integer-sides.html</guid>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/01/count-squares-with-integer-sides.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/01/count-squares-with-integer-sides.html</guid>
 
 
-<category>numbertheory</category>
+<category>NumberTheory</category>
 
 </item>
 
@@ -284,11 +378,11 @@ In the above cases A is the taller one.
 &lt;/solution&gt;
 </description>
 <pubDate>Wed, 30 Sep 2015 14:52:55 -0400</pubDate>
-<link>/logic/2015/09/30/who-is-taller.html</link>
-<guid isPermaLink="true">/logic/2015/09/30/who-is-taller.html</guid>
+<link>http://leiw2000.github.io//Math123/logic/2015/09/30/who-is-taller.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/logic/2015/09/30/who-is-taller.html</guid>
 
 
-<category>logic</category>
+<category>Logic</category>
 
 </item>
 
@@ -301,7 +395,7 @@ In the above cases A is the taller one.
 &lt;p&gt;In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.&lt;/p&gt;
 
 &lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
-   &lt;g transform=&quot;translate(40, 50)&quot;&gt;
+   &lt;g transform=&quot;translate(20, 20) scale(0.5,0.5)&quot;&gt;
       &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
       &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
       &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
@@ -329,7 +423,7 @@ In the above cases A is the taller one.
          AB=4
 &lt;br /&gt;&lt;br /&gt;
 &lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
-    &lt;g transform=&quot;translate(40, 50)&quot;&gt;
+   &lt;g transform=&quot;translate(20, 20) scale(0.5,0.5)&quot;&gt;
       &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
       &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
       &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
@@ -353,7 +447,6 @@ In the above cases A is the taller one.
       svg {
         margin: 2em;
         margin-bottom:-300px;
-        transform: scale(0.5);
         transform-origin: 0% 0%;
 
       }
@@ -364,11 +457,11 @@ In the above cases A is the taller one.
 
 </description>
 <pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
-<link>/geometry/2015/09/29/find-length-of-square.html</link>
-<guid isPermaLink="true">/geometry/2015/09/29/find-length-of-square.html</guid>
+<link>http://leiw2000.github.io//Math123/geometry/2015/09/29/find-length-of-square.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/09/29/find-length-of-square.html</guid>
 
 
-<category>geometry</category>
+<category>Geometry</category>
 
 </item>
 
@@ -384,13 +477,13 @@ In the above cases A is the taller one.
 
 </description>
 <pubDate>Fri, 25 Sep 2015 13:42:27 -0400</pubDate>
-<link>/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</link>
-<guid isPermaLink="true">/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html</guid>
+<link>http://leiw2000.github.io//Math123/numbertheory/algebra/2015/09/25/abc-def-ghi-nnn.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/algebra/2015/09/25/abc-def-ghi-nnn.html</guid>
 
 
-<category>numbertheory</category>
+<category>NumberTheory</category>
 
-<category>algebra</category>
+<category>Algebra</category>
 
 </item>
 
@@ -410,11 +503,11 @@ Solution Two: The Method of Invariant. We look for a quantity that does not chan
 
 </description>
 <pubDate>Thu, 24 Sep 2015 14:52:55 -0400</pubDate>
-<link>/numbertheory/2015/09/24/throwing-coconuts.html</link>
-<guid isPermaLink="true">/numbertheory/2015/09/24/throwing-coconuts.html</guid>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/09/24/throwing-coconuts.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/09/24/throwing-coconuts.html</guid>
 
 
-<category>numbertheory</category>
+<category>NumberTheory</category>
 
 </item>
 
@@ -448,196 +541,11 @@ Harry invited 7 friends to his birthday party. The shape of the birthday cake is
 
 </description>
 <pubDate>Wed, 23 Sep 2015 14:52:55 -0400</pubDate>
-<link>/geometry/2015/09/23/cut-the-cake.html</link>
-<guid isPermaLink="true">/geometry/2015/09/23/cut-the-cake.html</guid>
+<link>http://leiw2000.github.io//Math123/geometry/2015/09/23/cut-the-cake.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/09/23/cut-the-cake.html</guid>
 
 
-<category>geometry</category>
-
-</item>
-
-<item>
-<title>20150922 - Reverse 2x2 Squares on Chess Board **</title>
-<description>&lt;h4 id=&quot;areteem-2015922&quot;&gt;Areteem魔法学园每日一题 2015年9月22日&lt;/h4&gt;
-&lt;problem&gt;
-
-在8x8的国际象棋盘上，定义一次操作如下：把棋盘上一个2x2的正方形黑白颠倒。能否经过若干次操作后使棋盘上恰好只有一个黑格？
-&lt;p&gt;
-On an 8x8 chessboard, define an operation as reversing all the colors of one 2x2 square. Is it possible that, after a number of operations, there is exactly a single black square remaining?
-
-&lt;script&gt;
-	var marginTop = 20,
-        marginLeft = 20,
-        fieldSize = 30,
-        boardDimension = 8,
-        boardSize = boardDimension*fieldSize;
-
-    var board =[];
-    
-    for(var i = 0; i &lt; boardDimension*boardDimension; i++) {
-        board.push({
-            x: i % boardDimension,
-            y: Math.floor(i / boardDimension),
-            piece: 0
-        });
-    };
-
-    var div = d3.select(&quot;problem&quot;)
-        .append(&quot;div&quot;)
-        .style(&quot;top&quot;, marginTop + &quot;px&quot;)
-        .style(&quot;left&quot;, marginLeft + &quot;px&quot;)
-        .style(&quot;width&quot;, boardSize + &quot;px&quot;)
-        .style(&quot;height&quot;, boardSize + &quot;px&quot;);
-
-    var svg = div.append(&quot;svg&quot;)
-         .attr(&quot;width&quot;, boardSize + &quot;px&quot;)
-         .attr(&quot;height&quot;, boardSize + &quot;px&quot;)
-         .selectAll(&quot;.fields&quot;)
-         .data(board)
-        .enter()
-         .append(&quot;g&quot;);
-
-    svg.append(&quot;rect&quot;)
-         .style(&quot;class&quot;, &quot;fields&quot;)
-         .style(&quot;class&quot;, &quot;rects&quot;)
-         .attr(&quot;x&quot;, function (d) {
-             return d.x*fieldSize;
-         })
-         .attr(&quot;y&quot;, function (d) {
-             return d.y*fieldSize;
-         })
-         .attr(&quot;width&quot;, fieldSize + &quot;px&quot;)
-         .attr(&quot;height&quot;, fieldSize + &quot;px&quot;)
-         .style(&quot;fill&quot;, function (d) {
-             if ( ((d.x%2 == 0) &amp;&amp; (d.y%2 == 0)) ||
-                  ((d.x%2 == 1) &amp;&amp; (d.y%2 == 1))    ) 
-                 return &quot;white&quot;;
-             else
-                 return &quot;black&quot;;
-         });
-svg.append(&quot;rect&quot;).attr(&quot;x&quot;, 0).attr(&quot;y&quot;, 0).attr(&quot;width&quot;, boardSize).attr(&quot;height&quot;, boardSize).style(&quot;fill&quot;,&quot;none&quot;).style(&quot;stroke-width&quot;, &quot;2&quot;).style(&quot;stroke&quot;,&quot;rgb(0,0,0)&quot;);
-&lt;/script&gt;
-
-
-
-### Solution &lt;button&gt;Show / Hide&lt;/button&gt;
-
-&lt;solution&gt;
-
-Coming soon.
-
-&lt;/solution&gt;
-
-&lt;/p&gt;&lt;/problem&gt;
-</description>
-<pubDate>Tue, 22 Sep 2015 14:52:55 -0400</pubDate>
-<link>/misc/2015/09/22/reverse-2-by-2-on-chess-board.html</link>
-<guid isPermaLink="true">/misc/2015/09/22/reverse-2-by-2-on-chess-board.html</guid>
-
-
-<category>misc</category>
-
-</item>
-
-<item>
-<title>20150918 - Find How Many Apples</title>
-<description>&lt;p&gt;Ming went to the Farmer’s Market to sell apples. The first buyer bought half of Ming’s apples plus half an apple; the second buyer bought 1/3 of the remaining apples plus 1/3 of an apple; the third buyer bought 1/4 of the then remaining apples plus 1/4 of an apple. All apples were sold in whole without being cut. At the end Ming had 2 apples left. How many apples did Ming have at the beginning?&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-$$ x-(x/2+1/2)=y $$
-
-$$  y-(y/3+1/3)=z $$ 
-
-$$  z-(z/4+1/4)=2 $$ 
-
-$$  z=3, y=5, x=11 $$ 
-&lt;/solution&gt;
-
-</description>
-<pubDate>Fri, 18 Sep 2015 13:42:27 -0400</pubDate>
-<link>/numbertheory/algebra/2015/09/18/find-apples.html</link>
-<guid isPermaLink="true">/numbertheory/algebra/2015/09/18/find-apples.html</guid>
-
-
-<category>numbertheory</category>
-
-<category>algebra</category>
-
-</item>
-
-<item>
-<title>20150917 - How Do You Plant 9 Trees</title>
-<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月17日&lt;/p&gt;
-
-&lt;p&gt;种9棵树，要求种成10排，每排3棵。&lt;/p&gt;
-
-&lt;p&gt;How do you plant 9 trees in 10 rows, 3 trees per row?&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-
-&lt;script&gt;var svg = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;svg&#39;);
-svg.setAttribute(&#39;width&#39;, 300)
-svg.setAttribute(&#39;height&#39;, 300)
-svg.style.background = &quot;PaleGreen&quot;;
-document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
-var g = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;g&#39;);
-g.setAttribute(&#39;transform&#39;, &#39;translate(50,50)&#39;);
-svg.appendChild(g);
-
-
-function point(x, y) {
-  var c = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;circle&#39;);
-  c.setAttribute(&#39;cx&#39;, x * 5 );
-  c.setAttribute(&#39;cy&#39;, y * 5);
-  c.setAttribute(&#39;r&#39;, 10)
-  g.appendChild(c);
-}
-function line(x1, y1, x2, y2) {
-  var aLine = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;line&#39;);
-    aLine.setAttribute(&#39;x1&#39;, x1 * 5);
-    aLine.setAttribute(&#39;y1&#39;, y1 * 5);
-    aLine.setAttribute(&#39;x2&#39;, x2 * 5);
-    aLine.setAttribute(&#39;y2&#39;, y2 * 5 );
-    aLine.setAttribute(&#39;stroke&#39;, &#39;blue&#39;);
-    aLine.setAttribute(&#39;stroke-width&#39;, 2);
-
-  g.appendChild(aLine);
-}
-
-point(0,0);
-point(20,0);
-point(40,0);
-point(10,20);
-point(20,20);
-point(30,20);
-point(0,40);
-point(20,40);
-point(40,40);
-
-line(0,0,40,0);
-line(10,20,30,20);
-line(0,40,40,40);
-line(20,0,20,40);
-line(0,0,40,40);
-line(40,0,0,40);
-line(0,0,20,40);
-line(40,0,20,40);
-line(20,0,0,40);
-line(20,0,40,40);
-&lt;/script&gt;
-
-&lt;/solution&gt;
-</description>
-<pubDate>Thu, 17 Sep 2015 06:50:51 -0400</pubDate>
-<link>/geometry/2015/09/17/plant-trees.html</link>
-<guid isPermaLink="true">/geometry/2015/09/17/plant-trees.html</guid>
-
-
-<category>geometry</category>
+<category>Geometry</category>
 
 </item>
 
