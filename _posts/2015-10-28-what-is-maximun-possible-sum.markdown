@@ -5,7 +5,7 @@ date:   2015-10-28 17:42:27
 categories: NumberTheory
 author: richardwsong
 ---
-Areteem魔法学园每日一题2015年10月28日
+Areteem魔法学园每日一题2015年10月28日 ***
 <br>
 
 <problem>

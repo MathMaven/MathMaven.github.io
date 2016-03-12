@@ -5,13 +5,80 @@
 <description>These are problems by Areteem Institute of Witchcraft and Wizardry</description>
 <link>http://leiw2000.github.io//Math123/</link>
 <atom:link href="http://leiw2000.github.io//Math123/feed.xml" rel="self" type="application/rss+xml"/>
-<pubDate>Sat, 12 Mar 2016 15:48:16 -0500</pubDate>
-<lastBuildDate>Sat, 12 Mar 2016 15:48:16 -0500</lastBuildDate>
+<pubDate>Sat, 12 Mar 2016 16:13:13 -0500</pubDate>
+<lastBuildDate>Sat, 12 Mar 2016 16:13:13 -0500</lastBuildDate>
 <generator>Jekyll v3.1.2</generator>
 
 <item>
+<title>20151103 - Find the Area of the Hexagon   **</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年11月3日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+圆内接六边形的六条边长依次是3，3，3，5，5，5。求六边形的面积。
+&lt;/p&gt;
+&lt;p&gt;
+A hexagon is inscribed in a circle. The lengths of the 6 sides of the hexagon are 3,3,3,5,5,5, in that order. Find the area of the hexagon.
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         
+重新排列各边顺序：3、5、3、5、3、5延长边构成一个边长11的正三角形，减去三个边长3的正三角形的面积。
+&lt;br /&gt;
+(11²-3*3²)√3/4
+  
+&lt;/solution&gt;
+</description>
+<pubDate>Tue, 03 Nov 2015 10:30:55 -0500</pubDate>
+<link>http://leiw2000.github.io//Math123/geometry/2015/11/03/find-the-area-of-the-hexagon.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/11/03/find-the-area-of-the-hexagon.html</guid>
+
+
+<category>Geometry</category>
+
+</item>
+
+<item>
+<title>20151030 - How Many Such Pairs Are There?  **</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月30日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+
+求两个素数a和b，使算式a^b+b^a的值也是素数。这样的素数共有多少对？（交换a、b，只算一种解)
+
+&lt;/p&gt;
+&lt;p&gt;
+
+Find all pairs of prime numbers a and b, such that a^b+b^a is also a prime number. How many such pairs are there? (Switching a and b will be considered the same pair)
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+&lt;/solution&gt;
+</description>
+<pubDate>Fri, 30 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/30/how-many-such-pairs.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/30/how-many-such-pairs.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
 <title>20151028 - What is the Maximum Possible Sum? *** </title>
-<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月28日
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月28日 ***
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;problem&gt;
@@ -37,6 +104,32 @@ Twenty-five stones are in a pile. Split the pile into two smaller piles, calcula
 
 
 <category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151028 - Find BC:CD   **</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月28日&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;四边形ABCD中，角A是60度，角B和角D都是直角。已知AB:AD=8:7，求BC:CD。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In quadrilateral ABCD, angle A is 60 degrees, and angles B and D are both right angles. Given that AB:AD=8:7, find BC:CD.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         
+  BC : CD = 2 : 3
+  
+&lt;/solution&gt;
+
+</description>
+<pubDate>Wed, 28 Oct 2015 11:30:55 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/geometry/2015/10/28/find-ratio-bc-cd.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/10/28/find-ratio-bc-cd.html</guid>
+
+
+<category>Geometry</category>
 
 </item>
 
@@ -459,90 +552,6 @@ In the above cases A is the taller one.
 <pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
 <link>http://leiw2000.github.io//Math123/geometry/2015/09/29/find-length-of-square.html</link>
 <guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/09/29/find-length-of-square.html</guid>
-
-
-<category>Geometry</category>
-
-</item>
-
-<item>
-<title>20150925 - ABC+DEF+GHI=NNN</title>
-<description>&lt;p&gt;Three 3-digit numbers add up to another 3-digit number: ABC+DEF+GHI=NNN.  Each letter represents one digit among 0-9, and different letters represent different digits. The first digit of each of the numbers is nonzero. What is N? If the answer is not unique, find all possible values.&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-  134 + 207 + 658 = 999 
-&lt;/solution&gt;
-
-</description>
-<pubDate>Fri, 25 Sep 2015 13:42:27 -0400</pubDate>
-<link>http://leiw2000.github.io//Math123/numbertheory/algebra/2015/09/25/abc-def-ghi-nnn.html</link>
-<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/algebra/2015/09/25/abc-def-ghi-nnn.html</guid>
-
-
-<category>NumberTheory</category>
-
-<category>Algebra</category>
-
-</item>
-
-<item>
-<title>20150924 - Throwing Coconuts</title>
-<description>&lt;p&gt;There is a huge pile of coconuts on the beach, totally 1000 coconuts. A monkey, who has nothing better to do, picks up one of the coconuts and throws it into the ocean, and divides the remaining coconuts into two piles. Then it chooses one of the piles, throws one coconut from the pile to the ocean, and divides the remaining ones in the pile into two piles. The monkey continues: at each step, it chooses one of the piles with at least 3 coconuts, throws one of the coconuts into the ocean, and divide the remaining ones in the pile into two smaller piles, not necessarily equal in size. Question: is it possible to reach a situation that each of the piles on the beach contains exactly 3 coconuts?&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-buttonshowhidebutton&quot;&gt;Solution &lt;button&gt;Show/Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-
-Solution One: Backtracking.  Assume the scenario of 3 coconuts per pile is reached.  One step before that, two piles are combined and one coconut is taken out of the ocean to form a 7-coconut pile.  Backtrack another step, either combine two 3-coconut piles or combine one pile of 3 and one pile of 7, then take back one coconut from the ocean, and a 7-coconut pile or a 11-coconut pile is formed. We can find the following pattern: no matter how the piles are combined, the number of coconuts in each pile always has a remainder 3 when divided by 4. If we keep backtracking to the beginning, the original pile of 1000 should also have a remainder 3 when divided by 4.  But this is obviously false, therefore the conclusion is &quot;not possible&quot;.
-&lt;br /&gt; &lt;br /&gt;
-Solution Two: The Method of Invariant. We look for a quantity that does not change during the whole process. At each step, one coconut is thrown away, and one pile is split into 2, so the number of coconuts decreases by 1 but the number of piles is increased by 1.  Thus the sum of the number of coconuts and the number of piles is unchanged (invariant). At the beginning, there are 1000 coconuts, in 1 pile, so the sum is 1001, and this number will never change. Assume the situation where each pile have 3 coconuts is reached. Let there be N piles, then the total number of coconuts plus the number of piles equals 3N+N=4N, which is a multiple of 4. But this number is supposed to equal 1001, which is NOT a multiple of 4, contradiction. Therefore the final answer is &quot;not possible.&quot;
-
-&lt;/solution&gt;
-
-</description>
-<pubDate>Thu, 24 Sep 2015 14:52:55 -0400</pubDate>
-<link>http://leiw2000.github.io//Math123/numbertheory/2015/09/24/throwing-coconuts.html</link>
-<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/09/24/throwing-coconuts.html</guid>
-
-
-<category>NumberTheory</category>
-
-</item>
-
-<item>
-<title>20150923 - Cut the Cake</title>
-<description>&lt;p&gt;Areteem Daily Magic Spells September 23&lt;/p&gt;
-
-&lt;problem&gt;
-
-Harry invited 7 friends to his birthday party. The shape of the birthday cake is a regular hexagon. He wants to cut the cake into 8 congruent pieces, cutting 5 times along straight lines (no horizontal cutting). How does he cut it?
-&lt;br /&gt;
-&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
-  &lt;polygon points=&quot;300,150 225,280 75,280 0,150 75,20 225,20&quot; fill=&quot;lightblue&quot; style=&quot;fill-opacity: 0.4;stroke: #000;stroke-width: 2;&quot;&gt;&lt;/polygon&gt;
- &lt;/svg&gt;
-
-&lt;/problem&gt;
-
-&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
-
-&lt;solution&gt;
-&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
-  &lt;polygon points=&quot;300,150 225,280 75,280 0,150 75,20 225,20&quot; fill=&quot;lightblue&quot; style=&quot;fill-opacity: 0.4;stroke: #000;stroke-width: 2;&quot;&gt;&lt;/polygon&gt;
-  &lt;line x1=&quot;92.5&quot; y1=&quot;20&quot; x2=&quot;92.5&quot; y2=&quot;280&quot; stroke-width=&quot;1&quot; stroke=&quot;black&quot; /&gt;
-  &lt;line x1=&quot;207.5&quot; y1=&quot;20&quot; x2=&quot;207.5&quot; y2=&quot;280&quot; stroke-width=&quot;1&quot; stroke=&quot;black&quot; /&gt;
-  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; stroke-width=&quot;1&quot; stroke=&quot;black&quot; /&gt;
-  &lt;line x1=&quot;110&quot; y1=&quot;20&quot; x2=&quot;190&quot; y2=&quot;150&quot; stroke-width=&quot;1&quot; stroke=&quot;black&quot; /&gt;
-  &lt;line x1=&quot;110&quot; y1=&quot;280&quot; x2=&quot;190&quot; y2=&quot;150&quot; stroke-width=&quot;1&quot; stroke=&quot;black&quot; /&gt;
-  
-&lt;/svg&gt;
-&lt;/solution&gt;
-
-</description>
-<pubDate>Wed, 23 Sep 2015 14:52:55 -0400</pubDate>
-<link>http://leiw2000.github.io//Math123/geometry/2015/09/23/cut-the-cake.html</link>
-<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/09/23/cut-the-cake.html</guid>
 
 
 <category>Geometry</category>
