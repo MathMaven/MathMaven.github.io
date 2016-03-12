@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "20151028 - What is the Maximum Possible Sum? "
+title:  "20151028 - What is the Maximum Possible Sum? *** "
 date:   2015-10-28 17:42:27
 categories: NumberTheory
 author: richardwsong
