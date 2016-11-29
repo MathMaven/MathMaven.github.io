@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Daily Magic Spells</title>
+<description>These are problems by Areteem Institute of Witchcraft and Wizardry</description>
+<link>http://leiw2000.github.io//Math123/</link>
+<atom:link href="http://leiw2000.github.io//Math123/feed.xml" rel="self" type="application/rss+xml"/>
+<pubDate>Sat, 12 Mar 2016 16:13:13 -0500</pubDate>
+<lastBuildDate>Sat, 12 Mar 2016 16:13:13 -0500</lastBuildDate>
+<generator>Jekyll v3.1.2</generator>
+
+<item>
+<title>20151103 - Find the Area of the Hexagon   **</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年11月3日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+圆内接六边形的六条边长依次是3，3，3，5，5，5。求六边形的面积。
+&lt;/p&gt;
+&lt;p&gt;
+A hexagon is inscribed in a circle. The lengths of the 6 sides of the hexagon are 3,3,3,5,5,5, in that order. Find the area of the hexagon.
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         
+重新排列各边顺序：3、5、3、5、3、5延长边构成一个边长11的正三角形，减去三个边长3的正三角形的面积。
+&lt;br /&gt;
+(11²-3*3²)√3/4
+  
+&lt;/solution&gt;
+</description>
+<pubDate>Tue, 03 Nov 2015 10:30:55 -0500</pubDate>
+<link>http://leiw2000.github.io//Math123/geometry/2015/11/03/find-the-area-of-the-hexagon.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/11/03/find-the-area-of-the-hexagon.html</guid>
+
+
+<category>Geometry</category>
+
+</item>
+
+<item>
+<title>20151030 - How Many Such Pairs Are There?  **</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月30日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+
+求两个素数a和b，使算式a^b+b^a的值也是素数。这样的素数共有多少对？（交换a、b，只算一种解)
+
+&lt;/p&gt;
+&lt;p&gt;
+
+Find all pairs of prime numbers a and b, such that a^b+b^a is also a prime number. How many such pairs are there? (Switching a and b will be considered the same pair)
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+&lt;/solution&gt;
+</description>
+<pubDate>Fri, 30 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/30/how-many-such-pairs.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/30/how-many-such-pairs.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151028 - What is the Maximum Possible Sum? *** </title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月28日 ***
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+一堆石子共25个，任意分成两堆，把两堆石子的个数相乘，得到一个乘积。再把其中一堆分成两堆，这两小堆的石子个数相乘，又得到一个乘积。依此类推，只要某堆石子至少两个，就可以分成两堆，得到一个乘积，直到每堆都只有一个石子为止。把所有得到的乘积加起来，这个总和最大是多少？
+&lt;/p&gt;
+&lt;p&gt;
+
+Twenty-five stones are in a pile. Split the pile into two smaller piles, calculate the product of the numbers of stones in each pile. Then split one of the piles into two even smaller piles, and calculate the product of the numbers of stones in these new piles. Keep going, as long as one of the piles contains at least two stones, split it into two piles and calculate the product, until every pile has only one stone. Now add all the products obtained during the process. What is the maximum possible sum?
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+这个问题等价于握手问题。把25个石子看成25个人，每次把一组分成两组，每个人都和另一组的每个人握手，本组的人不握手，两数的乘积相当于握手次数。最后所有分组完成后，每两个人都握过一次手，所有乘积之和就是握手的总次数。因此答案是C(25,2)=25*24/2=300，与分组方法无关。
+&lt;/solution&gt;
+</description>
+<pubDate>Wed, 28 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/28/what-is-maximun-possible-sum.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/28/what-is-maximun-possible-sum.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151028 - Find BC:CD   **</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月28日&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;四边形ABCD中，角A是60度，角B和角D都是直角。已知AB:AD=8:7，求BC:CD。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In quadrilateral ABCD, angle A is 60 degrees, and angles B and D are both right angles. Given that AB:AD=8:7, find BC:CD.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         
+  BC : CD = 2 : 3
+  
+&lt;/solution&gt;
+
+</description>
+<pubDate>Wed, 28 Oct 2015 11:30:55 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/geometry/2015/10/28/find-ratio-bc-cd.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/10/28/find-ratio-bc-cd.html</guid>
+
+
+<category>Geometry</category>
+
+</item>
+
+<item>
+<title>20151027 - What is the Maximum Possible Sum?  *</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月27日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+一堆石子共25个，任意分成两堆，把两堆石子的个数相乘，得到一个乘积。再把其中一堆分成两堆，这两小堆的石子个数相乘，又得到一个乘积。依此类推，只要某堆石子至少两个，就可以分成两堆，得到一个乘积，直到每堆都只有一个石子为止。把所有得到的乘积加起来，这个总和最大是多少？
+&lt;/p&gt;
+&lt;p&gt;
+
+Twenty-five stones are in a pile. Split the pile into two smaller piles, calculate the product of the numbers of stones in each pile. Then split one of the piles into two even smaller piles, and calculate the product of the numbers of stones in these new piles. Keep going, as long as one of the piles contains at least two stones, split it into two piles and calculate the product, until every pile has only one stone. Now add all the products obtained during the process. What is the maximum possible sum?
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+这个问题等价于握手问题。把25个石子看成25个人，每次把一组分成两组，每个人都和另一组的每个人握手，本组的人不握手，两数的乘积相当于握手次数。最后所有分组完成后，每两个人都握过一次手，所有乘积之和就是握手的总次数。因此答案是C(25,2)=25*24/2=300，与分组方法无关。
+&lt;/solution&gt;
+</description>
+<pubDate>Tue, 27 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/27/what-is-maximum-possible-sum.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/27/what-is-maximum-possible-sum.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151026 - How Many Distinct Midpoints Are There?  *</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月26日
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;problem&gt;
+&lt;p&gt;	
+一条直线上取390个不同的点。在以这些点为端点的所有线段上，至少有多少个不同的中点？
+&lt;/p&gt;
+&lt;p&gt;
+
+Select 390 distinct points on the same line. Among all the line segments using the selected points as endpoints, at least how many distinct midpoints are there?
+&lt;/p&gt;
+
+&lt;/problem&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+777
+
+&lt;/solution&gt;
+</description>
+<pubDate>Mon, 26 Oct 2015 13:42:27 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/26/how-many-distinct-midpoints.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/26/how-many-distinct-midpoints.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151002 - Count How Many Zeros</title>
+<description>&lt;h4 id=&quot;areteem-2015102&quot;&gt;Areteem魔法学园每日一题 2015年10月2日&lt;/h4&gt;
+
+&lt;p&gt;How many zeros are in all the numbers from 1 to 1000000?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+&lt;ol&gt;
+&lt;li&gt;First, take 1,000,000 out of the question. Just remember to add six zeros at the end. We are left with one through 999,999. Doing this problem by casework, there are five cases. The case number corresponds to the number of zeros that numbers in that case counts.&lt;/li&gt;&lt;br /&gt;
+
+&lt;li&gt; &lt;strong&gt;Case one are all the numbers with one zero.&lt;/strong&gt; The zero can go in five places. Take note that zeros can never go in the first place value of any number. The other place values each has nine choices, one through nine. So it&#39;s 1(Number of zeros in the case)*5(Number of ways the zeros can be put)*$9^5$(Number of ways the other numbers can be put in.)+4*$9^4$(5 digit numbers)+3*$9^3$+2*$9^2$+9.&lt;/li&gt;&lt;br /&gt;
+
+&lt;li&gt;&lt;strong&gt;Case two is with two zeros.&lt;/strong&gt; So it&#39;s 2($\binom{5}{2}$(10)*$9^4$+$\binom{4}{2}$(6)*$9^3$+$\binom{3}{2}$(3)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
+
+&lt;li&gt;&lt;strong&gt;Case three is with three zeros.&lt;/strong&gt; So it&#39;s  3($\binom{5}{3}$(10)*$9^3$+$\binom{4}{3}$(4)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
+  
+&lt;li&gt;&lt;strong&gt;Case four are numbers with four zeros.&lt;/strong&gt; So it&#39;s 4($\binom{5}{4}$(5)*$9^2$+9).&lt;/li&gt;&lt;br /&gt;
+  
+&lt;li&gt;&lt;strong&gt;Case five is with five zeros.&lt;/strong&gt; So it&#39;s 5*9.&lt;/li&gt;&lt;br /&gt;
+
+&lt;li&gt;Add all of them up plus the six from 1,000,000, you get &lt;strong&gt;488,895.&lt;/strong&gt;&lt;/li&gt;&lt;br /&gt;
+
+&lt;/ol&gt;
+
+&lt;/solution&gt;
+</description>
+<pubDate>Fri, 02 Oct 2015 09:37:35 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/02/count-how-many-zeros.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/02/count-how-many-zeros.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20151001 - How Many Squares With Positive Integer Side Lengths</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年10月1日&lt;/p&gt;
+
+&lt;p&gt;Areteem Institute of Witchcraft and Wizardry
+Daily Magic Spells October 1, 2015&lt;/p&gt;
+
+&lt;p&gt;在 8x8 的均匀点阵中，相邻点的距离为1。问：以点阵中的点为顶点且边长为正整数的正方形共有多少个？&lt;/p&gt;
+
+&lt;p&gt;In an 8x8 array of evenly spaced points, the distance between adjacent points is 1. Find the number of squares with positive integer side lengths and all vertices belonging to the array.
+&lt;br /&gt;&lt;/p&gt;
+&lt;svg width=&quot;250&quot; height=&quot;250&quot;&gt; 
+  &lt;g fill=&quot;none&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot;&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 10 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 40 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 70 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 100 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 130 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 160 l215 0&quot;&gt;&lt;/path&gt;
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 190 l215 0&quot;&gt;&lt;/path&gt;      
+    &lt;path stroke-dasharray=&quot;5,25&quot; d=&quot;M5 220 l215 0&quot;&gt;&lt;/path&gt;          
+  &lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+49+36+25+16+9+4+1+2 = 142
+&lt;br /&gt;
+The extra 2 are slant with side = 5. See below:
+&lt;br /&gt;
+&lt;script&gt;var svg = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;svg&#39;);
+svg.setAttribute(&#39;width&#39;, 300)
+svg.setAttribute(&#39;height&#39;, 300)
+//svg.style.background = &quot;PaleGreen&quot;;
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(svg);
+var g = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;g&#39;);
+g.setAttribute(&#39;transform&#39;, &#39;translate(32,32)&#39;);
+svg.appendChild(g);
+
+var output = document.createElement(&#39;h1&#39;);
+output.style.fontSize = &quot;24px&quot;;
+output.style.margin = &#39;0.5em&#39;;
+document.getElementsByTagName(&quot;solution&quot;)[0].appendChild(output);
+
+function point(x, y) {
+  var c = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;circle&#39;);
+  c.setAttribute(&#39;cx&#39;, x * 32);
+  c.setAttribute(&#39;cy&#39;, y * 32);
+  c.setAttribute(&#39;r&#39;, 3)
+  g.appendChild(c);
+}
+
+var count = 1;
+var delay = 0;
+
+function polygon(pArray, color) {
+  var p = document.createElementNS(&#39;http://www.w3.org/2000/svg&#39;, &#39;polygon&#39;);
+  var points = &#39;&#39;;
+  for (var i = 0; i &lt; pArray.length; i++) {
+    points += pArray[i][0] * 32 + &#39;, &#39; + pArray[i][1] * 32 + &#39; &#39;;
+  }
+  p.setAttribute(&#39;points&#39;, points);
+  p.setAttribute(&#39;fill&#39;, &#39;none&#39;);
+  p.setAttribute(&#39;stroke&#39;, &#39;red&#39;)
+  p.setAttribute(&#39;stroke-width&#39;, 4);
+  delay += 200;
+  setTimeout(function() {
+    g.appendChild(p);
+    output.innerHTML = count++;
+    setTimeout(function() {
+      p.setAttribute(&#39;stroke&#39;, &#39;blue&#39;);
+      p.setAttribute(&#39;stroke-width&#39;, 1);
+    }, 200)
+  }, delay);
+}
+
+for (var i = 0; i &lt; 8; i++) {
+  for (var j = 0; j &lt; 8; j++) {
+    point(i, j);
+  }
+}
+
+var p0, p1, p2, p3;
+for (var k = 1; k &lt; 8; k++) {
+  for (var i = 0; i &lt; 8 - k; i++) {
+    for (var j = 0; j &lt; 8 - k; j++) {
+      p0 = [i, j];
+      p1 = [i + k, j];
+      p2 = [i + k, j + k];
+      p3 = [i, j + k];
+      polygon([p0, p1, p2, p3]);
+    }
+  }
+}
+
+p0 = [3, 0];
+p1 = [7, 3];
+p2 = [4, 7];
+p3 = [0, 4];
+polygon([p0, p1, p2, p3]);
+
+p0 = [0, 3];
+p1 = [3, 7];
+p2 = [7, 4];
+p3 = [4, 0];
+polygon([p0, p1, p2, p3]);&lt;/script&gt;
+&lt;/solution&gt;
+</description>
+<pubDate>Thu, 01 Oct 2015 14:52:55 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/numbertheory/2015/10/01/count-squares-with-integer-sides.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/numbertheory/2015/10/01/count-squares-with-integer-sides.html</guid>
+
+
+<category>NumberTheory</category>
+
+</item>
+
+<item>
+<title>20150930 - Who is Taller</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月30日&lt;/p&gt;
+
+&lt;p&gt;Areteem Institute of Witchcraft and Wizardry
+Daily Magic Spells September 30, 2015&lt;/p&gt;
+
+&lt;p&gt;100名学生身高各不相同。他们排成了一个10x10的方阵。从每行中挑出最高的学生，再从这10个各行最高的学生中选最矮的，称其为甲。然后从每列中挑出最矮的学生，再从这10个每列最矮的学生中选最高的，称其为乙。甲和乙谁高？&lt;/p&gt;
+
+&lt;p&gt;100 students, all with distinct heights, stand in a 10x10 array. From each row, choose the tallest student, and among these 10 tallest in their rows, assume student A is the shortest one. Next, from each column, choose the shortest student, and among these 10 shortest in their columns, assume student B is the tallest one. Between A and B, who is taller?&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+
+There are 4 possibilities of A and B in the array.
+&lt;br /&gt;&lt;br /&gt;
+1. They are on the same row.
+&lt;br /&gt;
+In this case, A &amp;gt; B because A is supposed to be the tallest in the same row.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+2. They are on the same column.
+&lt;br /&gt;
+In this case, A &amp;gt; B because B is supposed to be the shortest in the same column.
+&lt;br /&gt;
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;70&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;60&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+3. They are on different rows and different columns:
+&lt;br /&gt;
+In this case, C is on the same row as A, so A &amp;gt; C. C is on the same column as B, so C &amp;gt; B. Therefore A &amp;gt; C.&lt;br /&gt;
+
+&lt;svg width=&quot;300&quot; height=&quot;300&quot;&gt;
+  &lt;rect width=&quot;300&quot; height=&quot;300&quot; style=&quot;fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; /&gt;
+  &lt;line x1=&quot;30&quot; y1=&quot;0&quot; x2=&quot;30&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;60&quot; y1=&quot;0&quot; x2=&quot;60&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;90&quot; y1=&quot;0&quot; x2=&quot;90&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;120&quot; y1=&quot;0&quot; x2=&quot;120&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;150&quot; y1=&quot;0&quot; x2=&quot;150&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;180&quot; y1=&quot;0&quot; x2=&quot;180&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;210&quot; y1=&quot;0&quot; x2=&quot;210&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;240&quot; y1=&quot;0&quot; x2=&quot;240&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;270&quot; y1=&quot;0&quot; x2=&quot;270&quot; y2=&quot;300&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;  
+  &lt;line x1=&quot;0&quot; y1=&quot;30&quot; x2=&quot;300&quot; y2=&quot;30&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;60&quot; x2=&quot;300&quot; y2=&quot;60&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;90&quot; x2=&quot;300&quot; y2=&quot;90&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;120&quot; x2=&quot;300&quot; y2=&quot;120&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;150&quot; x2=&quot;300&quot; y2=&quot;150&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;180&quot; x2=&quot;300&quot; y2=&quot;180&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;210&quot; x2=&quot;300&quot; y2=&quot;210&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;240&quot; x2=&quot;300&quot; y2=&quot;240&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;line x1=&quot;0&quot; y1=&quot;270&quot; x2=&quot;300&quot; y2=&quot;270&quot; style=&quot;stroke:rgb(0,0,0);stroke-width:2&quot; /&gt;
+  &lt;text x=&quot;70&quot; y=&quot;80&quot; fill=&quot;red&quot;&gt;A&lt;/text&gt;
+  &lt;text x=&quot;220&quot; y=&quot;170&quot; fill=&quot;blue&quot;&gt;B&lt;/text&gt;
+  &lt;rect x=&quot;0&quot; y=&quot;60&quot; width=&quot;300&quot; height=&quot;30&quot; style=&quot;fill:rgb(25,25,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+  &lt;rect x=&quot;210&quot; y=&quot;0&quot; width=&quot;30&quot; height=&quot;300&quot; style=&quot;fill:rgb(25,255,255);stroke-width:3;stroke:rgb(0,0,0)&quot; fill-opacity=&quot;0.2&quot; /&gt;
+  &lt;text x=&quot;220&quot; y=&quot;80&quot; fill=&quot;green&quot;&gt;C&lt;/text&gt;
+&lt;/svg&gt;
+&lt;br /&gt;&lt;br /&gt;
+In the above cases A is the taller one.
+&lt;br /&gt;&lt;br /&gt;
+4. A and B are actually the same person.
+&lt;br /&gt;
+
+
+&lt;/solution&gt;
+</description>
+<pubDate>Wed, 30 Sep 2015 14:52:55 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/logic/2015/09/30/who-is-taller.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/logic/2015/09/30/who-is-taller.html</guid>
+
+
+<category>Logic</category>
+
+</item>
+
+<item>
+<title>20150929 - Find the Length of Square</title>
+<description>&lt;p&gt;Areteem魔法学园每日一题2015年9月29日&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;在正方形ABCD中，E、F、G分别是BC、AE、DF的中点。已知三角形BDG的面积为1，求AB的长度。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In square ABCD, points E, F, and G are the midpoints of BC, AE, and DF respectively. Given that the area of triangle BDG is 1, find the length of AB.&lt;/p&gt;
+
+&lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
+   &lt;g transform=&quot;translate(20, 20) scale(0.5,0.5)&quot;&gt;
+      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
+      &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;400&quot; x2=&quot;400&quot; y2=&quot;200&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;200&quot; y2=&quot;300&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;100&quot; y1=&quot;150&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;D&lt;/text&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;A&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;B&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;C&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;E&lt;/text&gt;
+      &lt;text x=&quot;200&quot; y=&quot;320&quot; font-size=&quot;24&quot;&gt;F&lt;/text&gt;
+      &lt;text x=&quot;80&quot; y=&quot;170&quot; font-size=&quot;24&quot;&gt;G&lt;/text&gt;
+    &lt;/g&gt;
+  &lt;/svg&gt;
+
+&lt;h3 id=&quot;solution-buttonshow--hidebutton&quot;&gt;Solution &lt;button&gt;Show / Hide&lt;/button&gt;&lt;/h3&gt;
+
+&lt;solution&gt;
+         AH=HD , so area:   $\triangle$AHB = $\triangle$HDB &lt;br /&gt;
+         HF=FB , so area:   $\triangle$HDF = $\triangle$DFB &lt;br /&gt;
+         DG=GF , so area:   $\triangle$DGB = $\triangle$GFB &lt;br /&gt;
+         So, area: $\triangle$ADB = 8 * $\triangle$DBG = 8 &lt;br /&gt;    
+
+         AB=4
+&lt;br /&gt;&lt;br /&gt;
+&lt;svg width=&quot;600&quot; height=&quot;600&quot;&gt;
+   &lt;g transform=&quot;translate(20, 20) scale(0.5,0.5)&quot;&gt;
+      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;4&quot; fill=&quot;none&quot; /&gt;
+      &lt;polygon points=&quot;0,0 100, 150 400, 400&quot; fill=&quot;cyan&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;400&quot; x2=&quot;400&quot; y2=&quot;200&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;200&quot; y2=&quot;300&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;100&quot; y1=&quot;150&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;black&quot; stroke-width=&quot;2&quot; /&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;200&quot; x2=&quot;400&quot; y2=&quot;400&quot; stroke=&quot;red&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;10, 6&quot; /&gt;
+
+      &lt;text x=&quot;-30&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;D&lt;/text&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;A&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;420&quot; font-size=&quot;24&quot;&gt;B&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;-10&quot; font-size=&quot;24&quot;&gt;C&lt;/text&gt;
+      &lt;text x=&quot;410&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;E&lt;/text&gt;
+      &lt;text x=&quot;190&quot; y=&quot;330&quot; font-size=&quot;24&quot;&gt;F&lt;/text&gt;
+      &lt;text x=&quot;80&quot; y=&quot;170&quot; font-size=&quot;24&quot;&gt;G&lt;/text&gt;
+      &lt;text x=&quot;-30&quot; y=&quot;210&quot; font-size=&quot;24&quot;&gt;H&lt;/text&gt;
+
+    &lt;/g&gt;
+    &lt;defs&gt;
+    &lt;style type=&quot;text/css&quot;&gt;&lt;![CDATA[
+      svg {
+        margin: 2em;
+        margin-bottom:-300px;
+        transform-origin: 0% 0%;
+
+      }
+    ]]&gt;&lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;/svg&gt;
+&lt;/solution&gt;
+
+</description>
+<pubDate>Tue, 29 Sep 2015 11:30:55 -0400</pubDate>
+<link>http://leiw2000.github.io//Math123/geometry/2015/09/29/find-length-of-square.html</link>
+<guid isPermaLink="true">http://leiw2000.github.io//Math123/geometry/2015/09/29/find-length-of-square.html</guid>
+
+
+<category>Geometry</category>
+
+</item>
+
+</channel>
+</rss>

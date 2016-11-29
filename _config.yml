@@ -1,17 +1,17 @@
 # Site settings
 title: Daily Magic Spells 
-#subtitle: by Areteem Institute of Witchcraft and Wizardry
-# email: ev3commander@outlook.com
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mathmaven.github.io" 
+subtitle: by Areteem Institute of Witchcraft and Wizardry
 
-github_username: MathMaven
+baseurl: /Math123 # the subpath of your site, e.g. /blog/
+highlighter: rouge
+
+url: "http://leiw2000.github.io/"
+github_username: Leiw2000
 description: These are problems by Areteem Institute of Witchcraft and Wizardry
 # Build settings
 markdown: kramdown
-paginate: 20
-paginate_path: "/blog/page:num/"
+
 collections:
   questions:
     output: true
-   
+

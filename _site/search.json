@@ -4,7 +4,7 @@
       "title"    : "20151103 - Find the Area of the Hexagon   **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/11/03/find-the-area-of-the-hexagon.html",
+      "url"      : "/Math123/geometry/2015/11/03/find-the-area-of-the-hexagon.html",
       "date"     : "2015-11-03 10:30:55 -0500"
     } ,
   
@@ -12,15 +12,23 @@
       "title"    : "20151030 - How Many Such Pairs Are There?  **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/10/30/how-many-such-pairs.html",
+      "url"      : "/Math123/numbertheory/2015/10/30/how-many-such-pairs.html",
       "date"     : "2015-10-30 13:42:27 -0400"
+    } ,
+  
+    {
+      "title"    : "20151028 - What is the Maximum Possible Sum? *** ",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/Math123/numbertheory/2015/10/28/what-is-maximun-possible-sum.html",
+      "date"     : "2015-10-28 13:42:27 -0400"
     } ,
   
     {
       "title"    : "20151028 - Find BC:CD   **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/10/28/find-ratio-bc-cd.html",
+      "url"      : "/Math123/geometry/2015/10/28/find-ratio-bc-cd.html",
       "date"     : "2015-10-28 11:30:55 -0400"
     } ,
   
@@ -28,7 +36,7 @@
       "title"    : "20151027 - What is the Maximum Possible Sum?  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/10/27/what-is-maximum-possible-sum.html",
+      "url"      : "/Math123/numbertheory/2015/10/27/what-is-maximum-possible-sum.html",
       "date"     : "2015-10-27 13:42:27 -0400"
     } ,
   
@@ -36,7 +44,7 @@
       "title"    : "20151026 - How Many Distinct Midpoints Are There?  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/10/26/how-many-distinct-midpoints.html",
+      "url"      : "/Math123/numbertheory/2015/10/26/how-many-distinct-midpoints.html",
       "date"     : "2015-10-26 13:42:27 -0400"
     } ,
   
@@ -44,7 +52,7 @@
       "title"    : "20151002 - Count How Many Zeros",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/10/02/count-how-many-zeros.html",
+      "url"      : "/Math123/numbertheory/2015/10/02/count-how-many-zeros.html",
       "date"     : "2015-10-02 09:37:35 -0400"
     } ,
   
@@ -52,7 +60,7 @@
       "title"    : "20151001 - How Many Squares With Positive Integer Side Lengths",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/10/01/count-squares-with-integer-sides.html",
+      "url"      : "/Math123/numbertheory/2015/10/01/count-squares-with-integer-sides.html",
       "date"     : "2015-10-01 14:52:55 -0400"
     } ,
   
@@ -60,7 +68,7 @@
       "title"    : "20150930 - Who is Taller",
       "category" : "",
       "tags"     : "",
-      "url"      : "/logic/2015/09/30/who-is-taller.html",
+      "url"      : "/Math123/logic/2015/09/30/who-is-taller.html",
       "date"     : "2015-09-30 14:52:55 -0400"
     } ,
   
@@ -68,7 +76,7 @@
       "title"    : "20150929 - Find the Length of Square",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/29/find-length-of-square.html",
+      "url"      : "/Math123/geometry/2015/09/29/find-length-of-square.html",
       "date"     : "2015-09-29 11:30:55 -0400"
     } ,
   
@@ -76,7 +84,7 @@
       "title"    : "20150925 - ABC+DEF+GHI=NNN",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/algebra/2015/09/25/abc-def-ghi--nnn.html",
+      "url"      : "/Math123/numbertheory/algebra/2015/09/25/abc-def-ghi-nnn.html",
       "date"     : "2015-09-25 13:42:27 -0400"
     } ,
   
@@ -84,7 +92,7 @@
       "title"    : "20150924 - Throwing Coconuts",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/09/24/throwing-coconuts.html",
+      "url"      : "/Math123/numbertheory/2015/09/24/throwing-coconuts.html",
       "date"     : "2015-09-24 14:52:55 -0400"
     } ,
   
@@ -92,7 +100,7 @@
       "title"    : "20150923 - Cut the Cake",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/23/cut-the-cake.html",
+      "url"      : "/Math123/geometry/2015/09/23/cut-the-cake.html",
       "date"     : "2015-09-23 14:52:55 -0400"
     } ,
   
@@ -100,7 +108,7 @@
       "title"    : "20150922 - Reverse 2x2 Squares on Chess Board **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/misc/2015/09/22/reverse-2-by-2-on-chess-board.html",
+      "url"      : "/Math123/misc/2015/09/22/reverse-2-by-2-on-chess-board.html",
       "date"     : "2015-09-22 14:52:55 -0400"
     } ,
   
@@ -108,7 +116,7 @@
       "title"    : "20150918 - Find How Many Apples",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/algebra/2015/09/18/find-apples.html",
+      "url"      : "/Math123/numbertheory/algebra/2015/09/18/find-apples.html",
       "date"     : "2015-09-18 13:42:27 -0400"
     } ,
   
@@ -116,7 +124,7 @@
       "title"    : "20150917 - How Do You Plant 9 Trees",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/17/plant-trees.html",
+      "url"      : "/Math123/geometry/2015/09/17/plant-trees.html",
       "date"     : "2015-09-17 06:50:51 -0400"
     } ,
   
@@ -124,7 +132,7 @@
       "title"    : "20150916 - Find the Total Area of the Shaded Regions",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/16/find-area-of-shaded-regions.html",
+      "url"      : "/Math123/geometry/2015/09/16/find-area-of-shaded-regions.html",
       "date"     : "2015-09-16 06:50:51 -0400"
     } ,
   
@@ -132,7 +140,7 @@
       "title"    : "20150915 - Find All Ways to Write 126 as the Sum of Two Primes.",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/09/15/find-all-ways-126-sum-two-primes.html",
+      "url"      : "/Math123/numbertheory/2015/09/15/find-all-ways-126-sum-two-primes.html",
       "date"     : "2015-09-15 07:52:55 -0400"
     } ,
   
@@ -140,7 +148,7 @@
       "title"    : "20150914 - Reassemble the Pieces Into a Regular Hexagon",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/14/reassemble-pieces-into-regular-hexagon.html",
+      "url"      : "/Math123/geometry/2015/09/14/reassemble-pieces-into-regular-hexagon.html",
       "date"     : "2015-09-14 07:52:55 -0400"
     } ,
   
@@ -148,7 +156,7 @@
       "title"    : "20150911 - Which One Holds More Water?",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/11/which-one-holds-more-water.html",
+      "url"      : "/Math123/geometry/2015/09/11/which-one-holds-more-water.html",
       "date"     : "2015-09-11 07:52:55 -0400"
     } ,
   
@@ -156,7 +164,7 @@
       "title"    : "20150910 - Find Term",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/09/10/find-term.html",
+      "url"      : "/Math123/numbertheory/2015/09/10/find-term.html",
       "date"     : "2015-09-10 13:42:27 -0400"
     } ,
   
@@ -164,7 +172,7 @@
       "title"    : "20150909 - Whose Digits Are All Distinct  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/09/09/whose-digits-all-distinct.html",
+      "url"      : "/Math123/numbertheory/2015/09/09/whose-digits-all-distinct.html",
       "date"     : "2015-09-09 07:52:55 -0400"
     } ,
   
@@ -172,7 +180,7 @@
       "title"    : "20150908 - Find the Area of the Octagon",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/09/08/find-area-of-octagon.html",
+      "url"      : "/Math123/geometry/2015/09/08/find-area-of-octagon.html",
       "date"     : "2015-09-08 07:52:55 -0400"
     } ,
   
@@ -180,7 +188,7 @@
       "title"    : "20150907 - How Many Pages Does the Book Have?  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/09/07/how-many-pages-book.html",
+      "url"      : "/Math123/numbertheory/2015/09/07/how-many-pages-book.html",
       "date"     : "2015-09-07 07:52:55 -0400"
     } ,
   
@@ -188,7 +196,7 @@
       "title"    : "20150905 - Are the 7 Boys Necessarily All Brothers?  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/logic/2015/09/05/are-they-all-brothers.html",
+      "url"      : "/Math123/logic/2015/09/05/are-they-all-brothers.html",
       "date"     : "2015-09-05 07:52:55 -0400"
     } ,
   
@@ -196,7 +204,7 @@
       "title"    : "20150902 - How Many Games Are Needed to Determine the Champion",
       "category" : "",
       "tags"     : "",
-      "url"      : "/logic/2015/09/02/how-many-games-determine-champion.html",
+      "url"      : "/Math123/logic/2015/09/02/how-many-games-determine-champion.html",
       "date"     : "2015-09-02 07:52:55 -0400"
     } ,
   
@@ -204,7 +212,7 @@
       "title"    : "20150901 - How Many Different Results  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/09/01/how-many-different-results.html",
+      "url"      : "/Math123/numbertheory/2015/09/01/how-many-different-results.html",
       "date"     : "2015-09-01 07:52:55 -0400"
     } ,
   
@@ -212,7 +220,7 @@
       "title"    : "20150831 - Find Another Two Digit Number ",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/31/find-another-two-digit-number.html",
+      "url"      : "/Math123/numbertheory/2015/08/31/find-another-two-digit-number.html",
       "date"     : "2015-08-31 14:52:55 -0400"
     } ,
   
@@ -220,7 +228,7 @@
       "title"    : "20150828 - Can a Five-digit Number Consisting of 5 Distinct Even Digits be a Perfect Square? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/28/five-digit-number-perfect-square.html",
+      "url"      : "/Math123/numbertheory/2015/08/28/five-digit-number-perfect-square.html",
       "date"     : "2015-08-28 13:42:27 -0400"
     } ,
   
@@ -228,7 +236,7 @@
       "title"    : "20150826 - Find the Prime Factorization of 1000027 *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/26/find-prime-factorization.html",
+      "url"      : "/Math123/numbertheory/2015/08/26/find-prime-factorization.html",
       "date"     : "2015-08-26 13:42:27 -0400"
     } ,
   
@@ -236,7 +244,7 @@
       "title"    : "20150825 - Find the Ratio of the Areas",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/08/25/find-ratio-areas.html",
+      "url"      : "/Math123/geometry/2015/08/25/find-ratio-areas.html",
       "date"     : "2015-08-25 07:52:55 -0400"
     } ,
   
@@ -244,7 +252,7 @@
       "title"    : "20150824 - Find How Many Sides of Polygons **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/08/24/find-sides-of-polygons.html",
+      "url"      : "/Math123/geometry/2015/08/24/find-sides-of-polygons.html",
       "date"     : "2015-08-24 07:52:55 -0400"
     } ,
   
@@ -252,7 +260,7 @@
       "title"    : "20150821 - Find x and y",
       "category" : "",
       "tags"     : "",
-      "url"      : "/algebra/2015/08/21/find-x-y.html",
+      "url"      : "/Math123/algebra/2015/08/21/find-x-y.html",
       "date"     : "2015-08-21 14:52:55 -0400"
     } ,
   
@@ -260,7 +268,7 @@
       "title"    : "20150818 - Cut Into 8 Congruent Regions",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/08/18/cut-into-8-pieces.html",
+      "url"      : "/Math123/geometry/2015/08/18/cut-into-8-pieces.html",
       "date"     : "2015-08-18 14:52:55 -0400"
     } ,
   
@@ -268,7 +276,7 @@
       "title"    : "20150817 - Find the Sum of Shades",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/08/17/find-the-sum-of-shades.html",
+      "url"      : "/Math123/geometry/2015/08/17/find-the-sum-of-shades.html",
       "date"     : "2015-08-17 14:52:55 -0400"
     } ,
   
@@ -276,7 +284,7 @@
       "title"    : "20150814 - What is The One-Digit Number **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/14/find-the-last-digit.html",
+      "url"      : "/Math123/numbertheory/2015/08/14/find-the-last-digit.html",
       "date"     : "2015-08-14 14:52:55 -0400"
     } ,
   
@@ -284,7 +292,7 @@
       "title"    : "20150813 - How Many Ways to Put Coins Into Cups",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/13/ways-to-put-coins-into-cups.html",
+      "url"      : "/Math123/numbertheory/2015/08/13/ways-to-put-coins-into-cups.html",
       "date"     : "2015-08-13 14:52:55 -0400"
     } ,
   
@@ -292,7 +300,7 @@
       "title"    : "20150812 - Find the Original Number ",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/12/find-the-original-number-after-move.html",
+      "url"      : "/Math123/numbertheory/2015/08/12/find-the-original-number-after-move.html",
       "date"     : "2015-08-12 14:52:55 -0400"
     } ,
   
@@ -300,7 +308,7 @@
       "title"    : "20150811 - Find the Missing Number ",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/11/find-the-missing-number.html",
+      "url"      : "/Math123/numbertheory/2015/08/11/find-the-missing-number.html",
       "date"     : "2015-08-11 14:52:55 -0400"
     } ,
   
@@ -308,7 +316,7 @@
       "title"    : "20150810 - Wooden Block Calendar",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/10/block-calendar.html",
+      "url"      : "/Math123/numbertheory/2015/08/10/block-calendar.html",
       "date"     : "2015-08-10 14:52:55 -0400"
     } ,
   
@@ -316,7 +324,7 @@
       "title"    : "20150807- Magic Square With Sum equals 2015",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/07/magic-square-2015.html",
+      "url"      : "/Math123/numbertheory/2015/08/07/magic-square-2015.html",
       "date"     : "2015-08-07 14:52:55 -0400"
     } ,
   
@@ -324,7 +332,7 @@
       "title"    : "20150806- Find All the Possible Last Weights",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/06/alternating-scale.html",
+      "url"      : "/Math123/numbertheory/2015/08/06/alternating-scale.html",
       "date"     : "2015-08-06 14:52:55 -0400"
     } ,
   
@@ -332,7 +340,7 @@
       "title"    : "20150805- Find How Many 9-digit Numbers",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/05/count-9-digit-number-from-1-2-3.html",
+      "url"      : "/Math123/numbertheory/2015/08/05/count-9-digit-number-from-1-2-3.html",
       "date"     : "2015-08-05 14:52:55 -0400"
     } ,
   
@@ -340,7 +348,7 @@
       "title"    : "20150804- Find All Integer Solutions for Equations",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/04/find-integer-x-y-z.html",
+      "url"      : "/Math123/numbertheory/2015/08/04/find-integer-x-y-z.html",
       "date"     : "2015-08-04 14:52:55 -0400"
     } ,
   
@@ -348,7 +356,7 @@
       "title"    : "20150803 - 4 Dimensional Hypercube **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/08/03/four-dimensional-hypercube.html",
+      "url"      : "/Math123/numbertheory/2015/08/03/four-dimensional-hypercube.html",
       "date"     : "2015-08-03 14:52:55 -0400"
     } ,
   
@@ -356,7 +364,7 @@
       "title"    : "20150731- Find Degree of Angle in Semicircle",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html",
+      "url"      : "/Math123/geometry/circle/2015/07/31/find-degree-of-angle-in-semicircle.html",
       "date"     : "2015-07-31 14:52:55 -0400"
     } ,
   
@@ -364,7 +372,7 @@
       "title"    : "20150730- Number Number on a Star",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/30/number-number-on-the-star.html",
+      "url"      : "/Math123/numbertheory/2015/07/30/number-number-on-the-star.html",
       "date"     : "2015-07-30 14:52:55 -0400"
     } ,
   
@@ -372,7 +380,7 @@
       "title"    : "20150729 - How Many Matches to Move",
       "category" : "",
       "tags"     : "",
-      "url"      : "/brainteaser/2015/07/29/move-n-match.html",
+      "url"      : "/Math123/brainteaser/2015/07/29/move-n-match.html",
       "date"     : "2015-07-29 14:52:55 -0400"
     } ,
   
@@ -380,7 +388,7 @@
       "title"    : "20150728 - Find Degree of Angle in a Square",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/trigonometry/2015/07/28/find-angle.html",
+      "url"      : "/Math123/geometry/trigonometry/2015/07/28/find-angle.html",
       "date"     : "2015-07-28 14:52:55 -0400"
     } ,
   
@@ -388,7 +396,7 @@
       "title"    : "20150727 - Find Sum of Angles in Squares",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/trigonometry/2015/07/27/find-sum-of-angles.html",
+      "url"      : "/Math123/geometry/trigonometry/2015/07/27/find-sum-of-angles.html",
       "date"     : "2015-07-27 14:52:55 -0400"
     } ,
   
@@ -396,7 +404,7 @@
       "title"    : "20150724 - Line Cross Chess Board",
       "category" : "",
       "tags"     : "",
-      "url"      : "/misc/2015/07/24/line-cross-chess-board.html",
+      "url"      : "/Math123/misc/2015/07/24/line-cross-chess-board.html",
       "date"     : "2015-07-24 14:52:55 -0400"
     } ,
   
@@ -404,7 +412,7 @@
       "title"    : "20150723 - The Magic Wand *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/brainteaser/2015/07/23/magic-wand.html",
+      "url"      : "/Math123/brainteaser/2015/07/23/magic-wand.html",
       "date"     : "2015-07-23 13:42:27 -0400"
     } ,
   
@@ -412,7 +420,7 @@
       "title"    : "20150722 - What Are the Prices of The Four Items? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/22/what-are-the-prices.html",
+      "url"      : "/Math123/numbertheory/2015/07/22/what-are-the-prices.html",
       "date"     : "2015-07-22 13:42:27 -0400"
     } ,
   
@@ -420,7 +428,7 @@
       "title"    : "20150721 - Find the Area of The Whole Trapezoid **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/07/21/find-the-area-of-trapezoid.html",
+      "url"      : "/Math123/geometry/2015/07/21/find-the-area-of-trapezoid.html",
       "date"     : "2015-07-21 13:42:27 -0400"
     } ,
   
@@ -428,7 +436,7 @@
       "title"    : "20150720 - Find the Sum a+b+c+d+e *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/20/find-the-sum-abcde.html",
+      "url"      : "/Math123/numbertheory/2015/07/20/find-the-sum-abcde.html",
       "date"     : "2015-07-20 13:42:27 -0400"
     } ,
   
@@ -436,7 +444,7 @@
       "title"    : "20150717 - Is It Possible to Make All 9 Numbers in the Grid Equal? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/17/make-all-9-numbers-grid-equal.html",
+      "url"      : "/Math123/numbertheory/2015/07/17/make-all-9-numbers-grid-equal.html",
       "date"     : "2015-07-17 13:42:27 -0400"
     } ,
   
@@ -444,7 +452,7 @@
       "title"    : "20150716 - Find Another Fraction That Can be Simplified *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/16/find-another-fraction.html",
+      "url"      : "/Math123/numbertheory/2015/07/16/find-another-fraction.html",
       "date"     : "2015-07-16 13:42:27 -0400"
     } ,
   
@@ -452,7 +460,7 @@
       "title"    : "20150715 - Which of These Statements Are True, And Which Are False?",
       "category" : "",
       "tags"     : "",
-      "url"      : "/logic/2015/07/15/which-statements-true-false.html",
+      "url"      : "/Math123/logic/2015/07/15/which-statements-true-false.html",
       "date"     : "2015-07-15 13:42:27 -0400"
     } ,
   
@@ -460,7 +468,7 @@
       "title"    : "20150714 - How many Intersection Points do These Segments Have in ABC? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/07/14/how-many-intersection-points.html",
+      "url"      : "/Math123/geometry/2015/07/14/how-many-intersection-points.html",
       "date"     : "2015-07-14 13:42:27 -0400"
     } ,
   
@@ -468,7 +476,7 @@
       "title"    : "20150713 - Find All Such Triples of Prime Numbers *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/13/find-all-triples-of-prime-numbers.html",
+      "url"      : "/Math123/numbertheory/2015/07/13/find-all-triples-of-prime-numbers.html",
       "date"     : "2015-07-13 13:42:27 -0400"
     } ,
   
@@ -476,7 +484,7 @@
       "title"    : "20150710 - Find All the Area of Triangle ABC **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/07/10/find-area-of-triangle.html",
+      "url"      : "/Math123/geometry/2015/07/10/find-area-of-triangle.html",
       "date"     : "2015-07-10 13:42:27 -0400"
     } ,
   
@@ -484,7 +492,7 @@
       "title"    : "20150709 - What is the Original 4-Digit Number? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/09/what-is-original-4-digit-number.html",
+      "url"      : "/Math123/numbertheory/2015/07/09/what-is-original-4-digit-number.html",
       "date"     : "2015-07-09 13:42:27 -0400"
     } ,
   
@@ -492,7 +500,7 @@
       "title"    : "20150708 - What is the Original 4-Digit Number? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/07/08/what-is-length-of-remaining-altitude.html",
+      "url"      : "/Math123/geometry/2015/07/08/what-is-length-of-remaining-altitude.html",
       "date"     : "2015-07-08 13:42:27 -0400"
     } ,
   
@@ -500,7 +508,7 @@
       "title"    : "20150707 - In How Many Ways Can 100 be so Expressed? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/07/how-many-ways-can-100-expressed.html",
+      "url"      : "/Math123/numbertheory/2015/07/07/how-many-ways-can-100-expressed.html",
       "date"     : "2015-07-07 13:42:27 -0400"
     } ,
   
@@ -508,7 +516,7 @@
       "title"    : "20150706 - Move only one digit *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/brainteaser/2015/07/06/move-only-one-digit.html",
+      "url"      : "/Math123/brainteaser/2015/07/06/move-only-one-digit.html",
       "date"     : "2015-07-06 13:42:27 -0400"
     } ,
   
@@ -516,7 +524,7 @@
       "title"    : "20150703 - Find the Length of PD **",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/07/03/find-length-of-PD.html",
+      "url"      : "/Math123/geometry/2015/07/03/find-length-of-PD.html",
       "date"     : "2015-07-03 13:42:27 -0400"
     } ,
   
@@ -524,7 +532,7 @@
       "title"    : "20150702 - Which Box Has the Answer? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/brainteaser/2015/07/02/which-box-has-answer.html",
+      "url"      : "/Math123/brainteaser/2015/07/02/which-box-has-answer.html",
       "date"     : "2015-07-02 13:42:27 -0400"
     } ,
   
@@ -532,7 +540,7 @@
       "title"    : "20150701 - What is the 2015th Digit of This Number? *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/numbertheory/2015/07/01/what-is-2015th-digit-of-the-number.html",
+      "url"      : "/Math123/numbertheory/2015/07/01/what-is-2015th-digit-of-the-number.html",
       "date"     : "2015-07-01 13:42:27 -0400"
     } ,
   
@@ -540,7 +548,7 @@
       "title"    : "20150630 - Is it Possible for it to Pass Through Each of These Points Exactly Once  *",
       "category" : "",
       "tags"     : "",
-      "url"      : "/geometry/2015/06/30/is-it-possible-pass-through-each-points.html",
+      "url"      : "/Math123/geometry/2015/06/30/is-it-possible-pass-through-each-points.html",
       "date"     : "2015-06-30 13:42:27 -0400"
     } 
   
